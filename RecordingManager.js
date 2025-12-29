@@ -8,8 +8,9 @@ const ProcessingQueue = require('./ProcessingQueue')
 
 console.log(ProcessingQueue)
 class RecordingManager {
-  constructor(roomId, options = {}) {
+  constructor(roomId, socketId, options = {}) {
     this.roomId = roomId;
+    this.socketId = socketId
     this.recordingId = null;
     this.recordings = new Map(); // Map<recordingId, recording>
     this.activeRecording = null;
@@ -26,6 +27,9 @@ class RecordingManager {
     this.initializeStorage();
   }
 
+  getSocketId(){
+    return this.socketId
+  }
   initializeStorage() {
     const roomStorage = path.join(this.storagePath, 'rooms', this.roomId);
     fs.ensureDirSync(path.join(roomStorage, 'temp'));

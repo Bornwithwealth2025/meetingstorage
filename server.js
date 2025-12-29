@@ -173,7 +173,7 @@ io.on('connection', (socket) => {
     socket.join(roomId);
     console.log(`Client ${socket.id} joined recording room ${roomId}`);
     
-    const manager = getRoomManager(roomId);
+    const manager = getRoomManager(roomId, socket.id);
     const status = manager.getStatus();
     
     if (status) {
@@ -452,6 +452,10 @@ io.on('connection', (socket) => {
 
   socket.on('disconnect', () => {
     console.log('Client disconnected:', socket.id);
+    // process.emit('SIGINT')
+      for (const [roomId, manager] of roomManagers.entries()) {
+     // await manager.cleanup();
+    }
   });
 });
 
