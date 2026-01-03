@@ -61,9 +61,9 @@ const checkFFmpeg = () => {
 };
 
 // Get or create room manager
-function getRoomManager(roomId) {
+function getRoomManager(roomId, socketId='') {
   if (!roomManagers.has(roomId)) {
-    const manager = new RecordingManager(roomId, {
+    const manager = new RecordingManager(roomId, socketId, {
       isFFmpegAvailable,
       storagePath: recordingsDir
     });
@@ -450,11 +450,13 @@ io.on('connection', (socket) => {
     }
   });
 
-  socket.on('disconnect', () => {
+  socket.on('disconnect', async() => {
     console.log('Client disconnected:', socket.id);
     // process.emit('SIGINT')
       for (const [roomId, manager] of roomManagers.entries()) {
-     // await manager.cleanup();
+        console.log(manager.getSocketId() === socket.id, "FPUND")
+        if (manager.getSocketId() === socket.id) await manager.cleanup();
+     // 
     }
   });
 });

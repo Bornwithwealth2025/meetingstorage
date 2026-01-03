@@ -19,8 +19,8 @@ class RecordingManager {
     
     // Room-specific queue
     this.queue = new ProcessingQueue({
-      processingDelay: options.processingDelay || 100,
-      maxConcurrent: options.maxConcurrent || 1,
+      processingDelay: options.processingDelay || 10,
+      maxConcurrent: options.maxConcurrent || 3,
       onError: (error) => this.handleQueueError(error)
     });
     
@@ -142,54 +142,73 @@ class RecordingManager {
    * 3. pass the buffer to sharp
    * 4. sharp convert the buffer to jpg image and save it 
    */
-  async processFrame(recording, frameData, timestamp, metadata) {
-    recording.stats.framesReceived++;
-    
-    try {
-      let buffer;
-      if (typeof frameData === 'string') {
-        const base64Data = frameData.replace(/^data:image\/\w+;base64,/, '');
-        buffer = Buffer.from(base64Data, 'base64');
-      } else if (Buffer.isBuffer(frameData)) {
-        buffer = frameData;
-      } else {
-        throw new Error('Invalid frame data format');
-      }
+ // 4. Improved processFrame method with verification:
+// 4. Improved processFrame method with verification:
+async processFrame(recording, frameData, timestamp, metadata) {
+  recording.stats.framesReceived++;
 
-      const processedBuffer = await sharp(buffer)
-        .resize(recording.options.width, recording.options.height, {
-          fit: 'contain',
-          background: { r: 0, g: 0, b: 0, alpha: 1 }
-        })
-        .jpeg({ 
-          quality: 85, 
-          mozjpeg: true,
-          chromaSubsampling: '4:2:0'
-        })
-        .toBuffer();
-
-      const frameNumber = recording.stats.framesProcessed++;
-      const frameFilename = `frame_${frameNumber.toString().padStart(8, '0')}.jpg`;
-      const framePath = path.join(recording.framesDir, frameFilename);
-      
-      await fs.writeFile(framePath, processedBuffer);
-      recording.frameFiles.push(framePath);
-      recording.stats.framesWritten++;
-
-      // Calculate FPS
-      const elapsedTime = Date.now() - recording.stats.startTime;
-      recording.stats.averageFPS = (recording.stats.framesWritten / (elapsedTime / 1000)).toFixed(2);
-      recording.stats.lastFrameTime = timestamp || Date.now();
-
-      const expectedFrames = Math.floor(elapsedTime / 1000 * recording.options.fps);
-      recording.stats.droppedFrames = Math.max(0, expectedFrames - recording.stats.framesWritten);
-
-    } catch (error) {
-      console.error('Frame processing error:', error);
-      recording.stats.droppedFrames++;
-      throw error;
+  try {
+    let buffer;
+    if (typeof frameData === 'string') {
+      const base64Data = frameData.replace(/^data:image\/\w+;base64,/, '');
+      buffer = Buffer.from(base64Data, 'base64');
+    } else if (Buffer.isBuffer(frameData)) {
+      buffer = frameData;
+    } else {
+      throw new Error('Invalid frame data format');
     }
+
+    // Process with sharp
+    const processedBuffer = await sharp(buffer)
+      .resize(recording.options.width, recording.options.height, {
+        fit: 'contain',
+        background: { r: 0, g: 0, b: 0, alpha: 1 }
+      })
+      .jpeg({
+        quality: 85,
+        mozjpeg: true,
+        chromaSubsampling: '4:2:0'
+      })
+      .toBuffer();
+
+    const frameNumber = recording.stats.framesProcessed++;
+    const frameFilename = `frame_${frameNumber.toString().padStart(8, '0')}.jpg`;
+    const framePath = path.join(recording.framesDir, frameFilename);
+
+    // Write file and verify
+    await fs.writeFile(framePath, processedBuffer);
+    
+    // Verify file was written
+    const exists = await fs.pathExists(framePath);
+    if (!exists) {
+      throw new Error(`Frame file was not written: ${framePath}`);
+    }
+
+    recording.frameFiles.push(framePath);
+    recording.stats.framesWritten++;
+
+    // Calculate FPS
+    const elapsedTime = Date.now() - recording.stats.startTime;
+    recording.stats.averageFPS = (recording.stats.framesWritten / (elapsedTime / 1000)).toFixed(2);
+    recording.stats.lastFrameTime = timestamp || Date.now();
+
+    // Log progress every 30 frames
+    if (recording.stats.framesWritten % 30 === 0) {
+      console.log(`📊 Progress: ${recording.stats.framesWritten} frames written, ${recording.stats.averageFPS} fps`);
+    }
+
+  } catch (error) {
+    console.error('Frame processing error:', error.message);
+    recording.stats.droppedFrames++;
+    throw error;
   }
+}
+
+
+
+
+
+
 
   async pauseRecording() {
     if (!this.activeRecording || this.activeRecording.status !== 'recording') {
@@ -215,7 +234,13 @@ class RecordingManager {
     return this.activeRecording;
   }
 
- async stopRecording() {
+
+
+
+
+
+  // 2. Replace the stopRecording method completely:
+async stopRecording() {
   if (!this.activeRecording) {
     throw new Error('No active recording');
   }
@@ -224,59 +249,63 @@ class RecordingManager {
   this.activeRecording.status = 'stopping';
 
   try {
-    // Wait for queue to finish processing all pending frames
-    console.log(`⏳ Waiting for frame queue to finish... (${this.queue.getStats().queueLength} pending)`);
-    
-    let attempts = 0;
-    const maxAttempts = 10; // 10 seconds max wait
-    
-    while (this.queue.getStats().queueLength > 0 && attempts < maxAttempts) {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      attempts++;
-      console.log(`⏳ Waiting for frames... Attempt ${attempts}/${maxAttempts}`);
-    }
-    
-    // Additional wait to ensure all frames are written to disk
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    // Double-check if we have any frames written
-    if (this.activeRecording.stats.framesWritten === 0) {
-      // Try to read from the frames directory
-      try {
-        const files = await fs.readdir(this.activeRecording.framesDir);
-        if (files.length > 0) {
-          this.activeRecording.stats.framesWritten = files.length;
-          this.activeRecording.frameFiles = files.map(f => 
-            path.join(this.activeRecording.framesDir, f)
-          );
-          console.log(`📁 Found ${files.length} frame files in directory`);
-        }
-      } catch (dirError) {
-        console.warn('Could not read frames directory:', dirError.message);
-      }
-    }
-    
-    if (this.activeRecording.stats.framesWritten === 0) {
-      throw new Error('No frames recorded');
+    // CRITICAL: Wait for queue to completely finish
+    console.log(`⏳ Waiting for frame queue to finish...`);
+    console.log(`Queue stats: ${JSON.stringify(this.queue.getStats())}`);
+
+    // Use the waitForCompletion method
+    await this.queue.waitForCompletion();
+
+    // Additional safety wait to ensure disk writes complete
+    console.log('⏳ Waiting for disk writes to complete...');
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    // Verify frames directory exists
+    const framesExist = await fs.pathExists(this.activeRecording.framesDir);
+    if (!framesExist) {
+      throw new Error(`Frames directory does not exist: ${this.activeRecording.framesDir}`);
     }
 
-    console.log(`📊 Encoding ${this.activeRecording.stats.framesWritten} frames to video...`);
-    
+    // Read actual frame files from disk
+    const frameFiles = await fs.readdir(this.activeRecording.framesDir);
+    const jpgFiles = frameFiles
+      .filter(f => f.endsWith('.jpg'))
+      .sort(); // Sort to ensure correct order
+
+    console.log(`📁 Found ${jpgFiles.length} frame files in directory`);
+    console.log(`First few frames: ${jpgFiles.slice(0, 5).join(', ')}`);
+
+    if (jpgFiles.length === 0) {
+      throw new Error('No frames were written to disk');
+    }
+
+    // Update recording with actual files
+    this.activeRecording.frameFiles = jpgFiles.map(f => 
+      path.join(this.activeRecording.framesDir, f)
+    );
+    this.activeRecording.stats.framesWritten = jpgFiles.length;
+
+    console.log(`📊 Encoding ${jpgFiles.length} frames to video...`);
+
+    // Encode video
     await this.encodeFramesToVideo(this.activeRecording);
+    
+    // Generate thumbnail
     await this.generateThumbnail(this.activeRecording);
 
+    // Update status
     this.activeRecording.status = 'completed';
     this.activeRecording.completedAt = new Date();
 
     const completedRecording = { ...this.activeRecording };
-    
-    // Calculate final duration
+
+    // Calculate duration
     const duration = (this.activeRecording.completedAt - this.activeRecording.startedAt) / 1000;
     this.activeRecording.stats.duration = Math.round(duration);
-    
-    // Cleanup
+
+    // Cleanup temp files
     await this.cleanupTempFiles(this.activeRecording);
-    
+
     // Reset active recording
     const oldId = this.activeRecording.id;
     this.activeRecording = null;
@@ -286,22 +315,24 @@ class RecordingManager {
     return completedRecording;
 
   } catch (error) {
-    console.error('Error stopping recording:', error);
-    
+    console.error('❌ Error stopping recording:', error);
+    console.error('Stack:', error.stack);
+
     if (this.activeRecording) {
       this.activeRecording.status = 'failed';
       this.activeRecording.error = error.message;
-      
-      // Save failed recording info
       this.recordings.set(this.activeRecording.id, { ...this.activeRecording });
-      
-      // Don't reset active recording on failure, allow retry
-      console.log(`❌ Recording failed but kept in state for debugging: ${this.activeRecording.id}`);
     }
-    
+
     throw error;
   }
 }
+
+
+
+
+
+
 
 
 async getFrameCount() {
@@ -321,58 +352,139 @@ async getFrameCount() {
    * use ffmpeg to convert the the frmae to video 
    */
 
-  async encodeFramesToVideo(recording) {
-    const roomStorage = path.join(this.storagePath, 'rooms', this.roomId);
-    const outputPath = path.join(roomStorage, 'completed', recording.filename);
-    
-    return new Promise((resolve, reject) => {
-      try {
-        const frameListPath = path.join(recording.tempDir, 'frames.txt');
-        const frameListContent = recording.frameFiles
-          .map(file => `file '${file.replace(/'/g, "'\\''")}'\nduration 0.03333`)
-          .join('\n');
-        
-        fs.writeFileSync(frameListPath, frameListContent);
+ // 3. Replace the encodeFramesToVideo method:
+async encodeFramesToVideo(recording) {
+  const roomStorage = path.join(this.storagePath, 'rooms', this.roomId);
+  const outputPath = path.join(roomStorage, 'completed', recording.filename);
 
-        const command = ffmpeg()
-          .input(frameListPath)
-          .inputOptions(['-f concat', '-safe 0'])
-          .inputFPS(recording.options.fps)
-          .videoCodec('libx264')
-          .outputOptions([
-            '-preset medium',
-            `-crf ${recording.options.quality}`,
-            '-pix_fmt yuv420p',
-            '-movflags +faststart',
-            '-g 60',
-            '-bf 2',
-            '-refs 3',
-            '-y'
-          ])
-          .size(`${recording.options.width}x${recording.options.height}`)
-          .output(outputPath);
+  // Ensure output directory exists
+  await fs.ensureDir(path.join(roomStorage, 'completed'));
 
-        command
-          .on('start', (commandLine) => {
-            console.log(`🚀 FFmpeg encoding started for ${recording.id} in room ${this.roomId}`);
-          })
-          .on('end', () => {
-            console.log(`✅ FFmpeg encoding completed: ${recording.id}`);
-            recording.fileUrl = `/recordings/rooms/${this.roomId}/completed/${recording.filename}`;
-            resolve();
-          })
-          .on('error', (err) => {
-            console.error(`❌ FFmpeg error for ${recording.id}:`, err);
-            reject(new Error(`FFmpeg encoding failed: ${err.message}`));
-          })
-          .run();
-
-      } catch (error) {
-        console.error('Encoding setup error:', error);
-        reject(error);
+  return new Promise((resolve, reject) => {
+    try {
+      // Verify all frame files exist
+      console.log(`📝 Verifying ${recording.frameFiles.length} frame files...`);
+      const missingFiles = [];
+      for (const file of recording.frameFiles) {
+        if (!fs.existsSync(file)) {
+          missingFiles.push(file);
+        }
       }
-    });
-  }
+      
+      if (missingFiles.length > 0) {
+        throw new Error(`Missing ${missingFiles.length} frame files. First missing: ${missingFiles[0]}`);
+      }
+
+      // Create frame list file - CRITICAL FORMAT FIX
+      const frameListPath = path.join(recording.tempDir, 'frames.txt');
+      
+      // Build frame list with LAST frame needing no duration
+      const frameDuration = 1 / recording.options.fps;
+      const frameListLines = [];
+      
+      for (let i = 0; i < recording.frameFiles.length; i++) {
+        const file = recording.frameFiles[i];
+        const absolutePath = path.resolve(file);
+        const escapedPath = absolutePath.replace(/\\/g, '/').replace(/'/g, "'\\''");
+        
+        frameListLines.push(`file '${escapedPath}'`);
+        
+        // CRITICAL: Add duration for ALL frames except the last one
+        if (i < recording.frameFiles.length - 1) {
+          frameListLines.push(`duration ${frameDuration.toFixed(5)}`);
+        }
+      }
+      
+      const frameListContent = frameListLines.join('\n');
+
+      // Write frame list
+      fs.writeFileSync(frameListPath, frameListContent);
+      console.log(`📝 Frame list written to: ${frameListPath}`);
+      console.log(`📝 Total lines: ${frameListLines.length}`);
+      console.log(`📝 First few lines:\n${frameListContent.split('\n').slice(0, 10).join('\n')}`);
+      console.log(`📝 Last few lines:\n${frameListContent.split('\n').slice(-6).join('\n')}`);
+
+      // Verify frame list exists
+      if (!fs.existsSync(frameListPath)) {
+        throw new Error('Frame list file was not created');
+      }
+
+      // Verify frame list content
+      const frameListSize = fs.statSync(frameListPath).size;
+      console.log(`📝 Frame list size: ${frameListSize} bytes`);
+
+      const command = ffmpeg()
+        .input(frameListPath)
+        .inputOptions([
+          '-f concat',
+          '-safe 0'
+        ])
+        .videoCodec('libx264')
+        .fps(recording.options.fps) // Set output FPS
+        .outputOptions([
+          '-preset ultrafast',
+          `-crf ${recording.options.quality}`,
+          '-pix_fmt yuv420p',
+          '-movflags +faststart',
+          '-y'
+        ])
+        .size(`${recording.options.width}x${recording.options.height}`)
+        .output(outputPath);
+
+      command
+        .on('start', (commandLine) => {
+          console.log(`🚀 FFmpeg command: ${commandLine}`);
+        })
+        .on('progress', (progress) => {
+          if (progress.percent) {
+            console.log(`⏳ Encoding progress: ${Math.round(progress.percent)}%`);
+          }
+        })
+        .on('end', () => {
+          console.log(`✅ FFmpeg encoding completed: ${recording.id}`);
+          console.log(`✅ Video file: ${outputPath}`);
+          
+          // Verify output file exists
+          if (fs.existsSync(outputPath)) {
+            const stats = fs.statSync(outputPath);
+            console.log(`✅ Video size: ${(stats.size / 1024 / 1024).toFixed(2)} MB`);
+          }
+          
+          recording.fileUrl = `/recordings/rooms/${this.roomId}/completed/${recording.filename}`;
+          resolve();
+        })
+        .on('error', (err, stdout, stderr) => {
+          console.error(`❌ FFmpeg error for ${recording.id}:`, err.message);
+          console.error(`FFmpeg stderr:`, stderr);
+          console.error(`Frame list path: ${frameListPath}`);
+          console.error(`Frame list exists: ${fs.existsSync(frameListPath)}`);
+          
+          // Print frame list content for debugging
+          try {
+            const content = fs.readFileSync(frameListPath, 'utf8');
+            console.error(`Frame list content (first 500 chars):\n${content.substring(0, 500)}`);
+          } catch (e) {
+            console.error('Could not read frame list for debugging');
+          }
+          
+          reject(new Error(`FFmpeg encoding failed: ${err.message}`));
+        })
+        .run();
+
+    } catch (error) {
+      console.error('Encoding setup error:', error);
+      reject(error);
+    }
+  });
+}
+
+
+
+
+
+
+
+
 
   async generateThumbnail(recording) {
     try {
