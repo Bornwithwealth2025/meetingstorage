@@ -1,4 +1,4 @@
-// server.js
+// server.js (Updated)
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
@@ -88,7 +88,7 @@ function cleanupInactiveRooms() {
 }
 
 // Set interval to clean up inactive rooms
-setInterval(cleanupInactiveRooms, 30 * 60 * 1000); // Every 30 minutes
+setInterval(cleanupInactiveRooms, 30 * 60 * 1000);
 
 // Serve static files
 app.use('/recordings', express.static(recordingsDir));
@@ -259,52 +259,49 @@ io.on('connection', (socket) => {
     }
   });
 
-  // Bulk Frames Upload
+  // Bulk Frames Upload (for batch processing)
   socket.on('bulk-frames', async (data, callback) => {
     try {
-      const { roomId, frames } = data;
+      const { roomId, frames, recordingId } = data;
       
       if (!roomId || !frames || !Array.isArray(frames)) {
-        throw new Error('roomId and frames array are required');
+        throw new Error('roomId, recordingId and frames array are required');
       }
 
       const manager = getRoomManager(roomId);
-      const results = [];
-      let processed = 0;
-      let failed = 0;
-
-      for (const frame of frames) {
-        try {
-          await manager.addUIFrame(
-            frame.data,
-            frame.timestamp,
-            frame.metadata
-          );
-          processed++;
-          results.push({ success: true });
-        } catch (frameError) {
-          failed++;
-          results.push({ success: false, error: frameError.message });
-        }
-      }
-
-      socket.to(roomId).emit('frames-processed', {
-        roomId,
-        processed,
-        failed,
-        total: frames.length
-      });
-
+      const results = await manager.addBulkFrames(recordingId, frames);
+      
       if (callback) {
         callback({
           success: true,
-          processed,
-          failed,
-          results
+          ...results
         });
       }
     } catch (error) {
       console.error('Bulk frames error:', error);
+      if (callback) {
+        callback({ success: false, error: error.message });
+      }
+    }
+  });
+
+  // Audio chunks
+  socket.on('audio-chunk', async (data, callback) => {
+    try {
+      const { roomId, recordingId, audioData, timestamp, index } = data;
+      
+      if (!roomId || !recordingId || !audioData) {
+        throw new Error('roomId, recordingId and audioData are required');
+      }
+
+      const manager = getRoomManager(roomId);
+      await manager.addAudioChunk(recordingId, audioData, timestamp, index);
+      
+      if (callback) {
+        callback({ success: true });
+      }
+    } catch (error) {
+      console.error('Audio chunk error:', error);
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -384,14 +381,14 @@ io.on('connection', (socket) => {
   // Stop Recording
   socket.on('stop-recording', async (data, callback) => {
     try {
-      const { roomId } = data;
+      const { roomId, withAudio = true } = data;
       
       if (!roomId) {
         throw new Error('roomId is required');
       }
 
       const manager = getRoomManager(roomId);
-      const recording = await manager.stopRecording();
+      const recording = await manager.stopRecording(withAudio);
       
       socket.to(roomId).emit('recording-stopped', {
         recordingId: recording.id,
@@ -450,13 +447,17 @@ io.on('connection', (socket) => {
     }
   });
 
-  socket.on('disconnect', async() => {
+  socket.on('disconnect', async () => {
     console.log('Client disconnected:', socket.id);
-    // process.emit('SIGINT')
-      for (const [roomId, manager] of roomManagers.entries()) {
-        console.log(manager.getSocketId() === socket.id, "FPUND")
-        if (manager.getSocketId() === socket.id) await manager.cleanup();
-     // 
+    
+    for (const [roomId, manager] of roomManagers.entries()) {
+      if (manager.getSocketId() === socket.id) {
+        try {
+          await manager.cleanup();
+        } catch (error) {
+          console.error('Cleanup error on disconnect:', error);
+        }
+      }
     }
   });
 });
