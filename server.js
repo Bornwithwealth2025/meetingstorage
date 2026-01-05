@@ -133,7 +133,8 @@ app.get('/api/v1/rooms', (req, res) => {
         status: status.status,
         startedAt: status.startedAt,
         duration: status.duration,
-        framesWritten: status.framesWritten
+        framesWritten: status.framesWritten,
+        audioChunksReceived: status.audioChunksReceived
       });
     }
   }
@@ -295,6 +296,9 @@ io.on('connection', (socket) => {
       }
 
       const manager = getRoomManager(roomId);
+      const size = Buffer.from(audioData, 'base64').length;
+      console.log(`🎤 Audio chunk #${index} received: ${Math.round(size / 1024)}KB at ${new Date(timestamp).toISOString()}`);
+      
       await manager.addAudioChunk(recordingId, audioData, timestamp, index);
       
       if (callback) {

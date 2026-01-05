@@ -68,7 +68,7 @@ class RecordingManager {
       framesDir: path.join(roomStorage, 'temp', recordingId, 'frames'),
       audioDir: path.join(roomStorage, 'temp', recordingId, 'audio'),
       options: {
-        fps: options.fps || 10,
+        fps: options.fps || 30,
         width: options.width || 1280,
         height: options.height || 720,
         quality: options.quality || 23,
@@ -105,7 +105,7 @@ class RecordingManager {
     this.frameTimestamps.clear();
     
     console.log(`🎥 UI Recording started in room ${this.roomId}: ${recordingId}`);
-    console.log(`📊 Target FPS: ${recording.options.fps}`);
+    console.log(`📊 Target FPS: ${recording.options.fps}, Audio: ${recording.options.withAudio}`);
     return recording;
   }
 
@@ -183,6 +183,7 @@ class RecordingManager {
     const recording = this.recordings.get(recordingId) || this.activeRecording;
     
     if (!recording) {
+      console.error(`No recording found for ID: ${recordingId}`);
       throw new Error('No recording found');
     }
 
@@ -191,7 +192,8 @@ class RecordingManager {
     }
 
     try {
-      const audioFilename = `audio_${index}_${timestamp}.webm`;
+      // Pad index for proper sorting
+      const audioFilename = `audio_${String(index).padStart(6, '0')}_${timestamp}.webm`;
       const audioPath = path.join(recording.audioDir, audioFilename);
       
       const buffer = Buffer.from(audioData, 'base64');
@@ -204,8 +206,10 @@ class RecordingManager {
       });
       
       recording.stats.audioChunksReceived++;
+      console.log(`🎤 Audio chunk ${index} saved (${Math.round(buffer.length / 1024)}KB) - Total: ${recording.stats.audioChunksReceived}`);
     } catch (error) {
       console.error('Audio chunk save error:', error);
+      throw error;
     }
   }
 
@@ -328,6 +332,7 @@ class RecordingManager {
       }
 
       console.log(`📁 Found ${jpgFiles.length} frame files`);
+      console.log(`🎤 Found ${this.activeRecording.audioFiles.length} audio chunks`);
 
       // Sort files numerically
       const sortedFiles = jpgFiles.sort((a, b) => {
@@ -378,7 +383,7 @@ class RecordingManager {
       this.activeRecording.stats.duration = Math.round(duration);
 
       console.log(`✅ Recording completed in room ${this.roomId}`);
-      console.log(`📊 Stats: ${validFrameInfos.length} frames, ${duration}s duration`);
+      console.log(`📊 Stats: ${validFrameInfos.length} frames, ${this.activeRecording.stats.audioChunksReceived} audio chunks, ${duration}s duration`);
       
       return completedRecording;
 
@@ -401,18 +406,31 @@ class RecordingManager {
 
     await fs.ensureDir(path.join(roomStorage, 'completed'));
 
-    return new Promise((resolve, reject) => {
+    return new Promise(async(resolve, reject) => {
       try {
+        // Calculate actual FPS from timestamps
+        let actualFPS = recording.options.fps;
+        if (recording.frameFiles.length > 1 && recording.stats.firstFrameTime && recording.stats.lastFrameTime) {
+          const duration = (recording.stats.lastFrameTime - recording.stats.firstFrameTime) / 1000;
+          if (duration > 0) {
+            actualFPS = Math.round(recording.frameFiles.length / duration);
+            console.log(`📊 Calculated actual FPS: ${actualFPS} (from ${recording.frameFiles.length} frames over ${duration.toFixed(2)}s)`);
+          }
+        }
+        
+        // Use calculated FPS for encoding
+        const encodeFPS = actualFPS;
+        
         // Method 1: Using glob pattern (most reliable for sequential frames)
         const framePattern = path.join(recording.framesDir, 'frame_%06d.jpg');
         
         console.log(`🎬 Starting encoding with pattern: ${framePattern}`);
-        console.log(`📊 FPS: ${recording.options.fps}, Frames: ${frameInfos.length}`);
+        console.log(`📊 Encoding FPS: ${encodeFPS}, Frames: ${frameInfos.length}`);
         
         const command = ffmpeg()
           .input(framePattern)
           .inputOptions([
-            '-framerate', recording.options.fps.toString(),
+            '-framerate', encodeFPS.toString(),
             '-pattern_type', 'sequence'
           ])
           .videoCodec('libx264')
@@ -420,7 +438,7 @@ class RecordingManager {
             '-preset', 'ultrafast',
             '-crf', recording.options.quality.toString(),
             '-pix_fmt', 'yuv420p',
-            '-r', recording.options.fps.toString(), // Output framerate
+            '-r', encodeFPS.toString(), // Output framerate
             '-movflags', '+faststart',
             '-y'
           ])
@@ -428,14 +446,63 @@ class RecordingManager {
         
         // Add audio if available
         if (withAudio && recording.options.withAudio && recording.audioFiles.length > 0) {
-          const audioFile = recording.audioFiles[0]?.path;
-          if (audioFile && fs.existsSync(audioFile)) {
-            command.input(audioFile);
-            command.outputOptions([
-              '-c:a', 'aac',
-              '-b:a', '128k',
-              '-shortest' // Match video duration
-            ]);
+          console.log(`🎤 Processing ${recording.audioFiles.length} audio chunks...`);
+          
+          // Sort audio files by index
+          const sortedAudioFiles = recording.audioFiles.sort((a, b) => a.index - b.index);
+          
+          // Create concatenation list for audio
+          const concatListPath = path.join(recording.tempDir, 'audio-concat.txt');
+          const audioLines = sortedAudioFiles.map(af => `file '${af.path}'`).join('\n');
+          fs.writeFileSync(concatListPath, audioLines);
+          
+          const mergedAudioPath = path.join(recording.tempDir, 'merged-audio.webm');
+          
+          // Merge audio chunks first
+          try {
+            await new Promise((resolveAudio, rejectAudio) => {
+              ffmpeg()
+                .input(concatListPath)
+                .inputOptions(['-f', 'concat', '-safe', '0'])
+                .audioCodec('copy')
+                .output(mergedAudioPath)
+                .on('start', (cmd) => {
+                  console.log(`🎤 Merging audio: ${cmd}`);
+                })
+                .on('end', () => {
+                  console.log('✅ Audio merged successfully');
+                  resolveAudio();
+                })
+                .on('error', (err) => {
+                  console.error('❌ Audio merge error:', err.message);
+                  rejectAudio(err);
+                })
+                .run();
+            });
+            
+            // Check if merged audio exists and add to video
+            if (fs.existsSync(mergedAudioPath)) {
+              const audioStats = fs.statSync(mergedAudioPath);
+              console.log(`🎤 Merged audio file: ${Math.round(audioStats.size / 1024)}KB`);
+              
+              // Add audio as second input
+              command.input(mergedAudioPath);
+              // Map both streams explicitly
+              command.outputOptions([
+                '-map', '0:v',  // First input (video)
+                '-map', '1:a',  // Second input (audio)
+                '-c:a', 'aac',
+                '-b:a', '128k',
+                '-ar', '44100', // Audio sample rate
+                '-ac', '2',     // Stereo audio
+                '-shortest'     // Match video duration
+              ]);
+              console.log('✅ Audio track will be added to video');
+            } else {
+              console.warn('⚠️ Merged audio file not found, proceeding without audio');
+            }
+          } catch (audioError) {
+            console.warn('Failed to merge audio, continuing without audio:', audioError.message);
           }
         }
         
@@ -458,7 +525,21 @@ class RecordingManager {
               if (err) {
                 console.error('❌ Output file verification failed:', err);
               } else {
-                console.log(`📁 Output file: ${stats.size} bytes`);
+                const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
+                console.log(`📁 Output file: ${sizeMB}MB`);
+                
+                // Check if video has audio using ffprobe
+                const ffprobe = require('fluent-ffmpeg');
+                ffprobe.ffprobe(outputPath, (err, metadata) => {
+                  if (!err && metadata && metadata.streams) {
+                    const audioStream = metadata.streams.find(s => s.codec_type === 'audio');
+                    if (audioStream) {
+                      console.log(`✅ Audio track confirmed: ${audioStream.codec_name}, ${audioStream.sample_rate}Hz`);
+                    } else {
+                      console.warn('⚠️ No audio track found in output video');
+                    }
+                  }
+                });
               }
               resolve();
             });
@@ -623,6 +704,7 @@ async createThumbnailFromFrame(recording, thumbnailPath) {
       framesReceived: recording.stats.framesReceived,
       framesWritten: recording.stats.framesWritten,
       droppedFrames: recording.stats.droppedFrames,
+      audioChunksReceived: recording.stats.audioChunksReceived,
       averageFPS: recording.stats.averageFPS,
       fileUrl: recording.fileUrl,
       thumbnailUrl: recording.thumbnailUrl,
