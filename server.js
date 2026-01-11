@@ -50,10 +50,10 @@ const checkFFmpeg = () => {
   return new Promise((resolve) => {
     ffmpeg.getAvailableFormats((err) => {
       if (err) {
-        console.error('❌ FFmpeg not found or not accessible:', err.message);
+        
         resolve(false);
       } else {
-        console.log('✅ FFmpeg is available');
+        
         resolve(true);
       }
     });
@@ -68,9 +68,17 @@ function getRoomManager(roomId, socketId='') {
       storagePath: recordingsDir
     });
     roomManagers.set(roomId, manager);
-    console.log(`📁 Created recording manager for room ${roomId}`);
+    
+    return manager;
   }
-  return roomManagers.get(roomId);
+  const manager = roomManagers.get(roomId);
+  // Keep the manager bound to the latest socket for this room
+  if (socketId) {
+    try {
+      manager.setSocketId(socketId);
+    } catch {}
+  }
+  return manager;
 }
 
 // Clean up inactive room managers
@@ -82,7 +90,7 @@ function cleanupInactiveRooms() {
     if (!status || (status.completedAt && status.completedAt.getTime() < oneHourAgo)) {
       manager.cleanup();
       roomManagers.delete(roomId);
-      console.log(`🧹 Removed inactive room manager for room ${roomId}`);
+      
     }
   }
 }
@@ -90,7 +98,38 @@ function cleanupInactiveRooms() {
 // Set interval to clean up inactive rooms
 setInterval(cleanupInactiveRooms, 30 * 60 * 1000);
 
-// Serve static files
+// Serve static files with roomId decoding/mapping
+app.use('/recordings/rooms/:encodedRoomId/:folder/:file', (req, res) => {
+  try {
+    const encodedRoomId = req.params.encodedRoomId;
+    const folder = req.params.folder; // 'completed' or 'thumbnails'
+    const file = req.params.file;
+    
+    // Decode the roomId (it was URL encoded, e.g., atstQ1WlLUo3mvL8ANj_PLqO)
+    const decodedRoomId = decodeURIComponent(encodedRoomId);
+    
+    // Reconstruct path using sanitized roomId
+    const filePath = path.resolve(recordingsDir, 'rooms', decodedRoomId, folder, file);
+    
+    // Verify file exists and is within recordings directory (security check)
+    const absPath = path.resolve(filePath);
+    const absRecordingsDir = path.resolve(recordingsDir);
+    if (!absPath.startsWith(absRecordingsDir)) {
+      return res.status(403).json({ error: 'Access denied' });
+    }
+    
+    if (!fs.existsSync(absPath)) {
+      return res.status(404).json({ error: 'File not found' });
+    }
+    
+    res.download(absPath);
+  } catch (error) {
+    
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Fallback static serve for other paths
 app.use('/recordings', express.static(recordingsDir));
 
 // Health endpoint
@@ -168,13 +207,15 @@ app.get('/api/v1/rooms/:roomId/recording/download', async (req, res) => {
 
 // Socket.IO handlers
 io.on('connection', (socket) => {
-  console.log('🔌 Client connected:', socket.id);
+  
 
   socket.on('join-recording-room', (roomId) => {
     socket.join(roomId);
-    console.log(`Client ${socket.id} joined recording room ${roomId}`);
+    
     
     const manager = getRoomManager(roomId, socket.id);
+    // Ensure manager is bound to the latest socket
+    manager.setSocketId(socket.id);
     const status = manager.getStatus();
     
     if (status) {
@@ -184,7 +225,7 @@ io.on('connection', (socket) => {
 
   socket.on('leave-recording-room', (roomId) => {
     socket.leave(roomId);
-    console.log(`Client ${socket.id} left recording room ${roomId}`);
+    
   });
 
   // Start UI Recording
@@ -214,9 +255,9 @@ io.on('connection', (socket) => {
         });
       }
 
-      console.log(`🎥 UI Recording ${recording.id} started in room ${roomId}`);
+      
     } catch (error) {
-      console.error('Start recording error:', error);
+      
       if (callback) {
         callback({
           success: false,
@@ -230,18 +271,22 @@ io.on('connection', (socket) => {
     }
   });
 
-  // Send UI Frame
+  // Send UI Frame - NOW BINARY WEBP
   socket.on('ui-frame', async (data, callback) => {
     try {
-      const { roomId, frameData, timestamp, metadata = {} } = data;
+      const { roomId, recordingId, frameBlob, timestamp, metadata = {} } = data;
       
-      if (!roomId || !frameData) {
-        throw new Error('roomId and frameData are required');
+      if (!roomId || !recordingId || !frameBlob) {
+        throw new Error('roomId, recordingId and frameBlob are required');
       }
 
       const manager = getRoomManager(roomId);
+      
+      // frameBlob is a binary Buffer sent from browser
+      const frameBuffer = Buffer.isBuffer(frameBlob) ? frameBlob : Buffer.from(frameBlob);
+      
       const result = await manager.addUIFrame(
-        frameData,
+        frameBuffer,
         timestamp || Date.now(),
         metadata
       );
@@ -250,7 +295,7 @@ io.on('connection', (socket) => {
         callback({ success: true, ...result });
       }
     } catch (error) {
-      console.error('UI frame error:', error);
+      
       if (callback) {
         callback({ 
           success: false, 
@@ -279,7 +324,7 @@ io.on('connection', (socket) => {
         });
       }
     } catch (error) {
-      console.error('Bulk frames error:', error);
+      
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -297,7 +342,7 @@ io.on('connection', (socket) => {
 
       const manager = getRoomManager(roomId);
       const size = Buffer.from(audioData, 'base64').length;
-      console.log(`🎤 Audio chunk #${index} received: ${Math.round(size / 1024)}KB at ${new Date(timestamp).toISOString()}`);
+      
       
       await manager.addAudioChunk(recordingId, audioData, timestamp, index);
       
@@ -305,7 +350,7 @@ io.on('connection', (socket) => {
         callback({ success: true });
       }
     } catch (error) {
-      console.error('Audio chunk error:', error);
+      
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -334,9 +379,9 @@ io.on('connection', (socket) => {
         callback({ success: true, recordingId: recording.id });
       }
 
-      console.log(`⏸️ Recording paused in room ${roomId}`);
+      
     } catch (error) {
-      console.error('Pause recording error:', error);
+      
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -369,9 +414,9 @@ io.on('connection', (socket) => {
         callback({ success: true, recordingId: recording.id });
       }
 
-      console.log(`▶️ Recording resumed in room ${roomId}`);
+      
     } catch (error) {
-      console.error('Resume recording error:', error);
+      
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -401,19 +446,21 @@ io.on('connection', (socket) => {
         thumbnailUrl: recording.thumbnailUrl,
         timestamp: new Date().toISOString()
       });
-
+     consol.lig("Resuult",recording)
       if (callback) {
-        callback({
+        const response = {
           success: true,
           recordingId: recording.id,
           fileUrl: recording.fileUrl,
           thumbnailUrl: recording.thumbnailUrl
-        });
+        };
+      
+        callback(response);
       }
 
-      console.log(`🛑 Recording stopped in room ${roomId}, file: ${recording.fileUrl}`);
+     
     } catch (error) {
-      console.error('Stop recording error:', error);
+     
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -444,7 +491,7 @@ io.on('connection', (socket) => {
         }
       }
     } catch (error) {
-      console.error('Get status error:', error);
+     
       if (callback) {
         callback({ success: false, error: error.message });
       }
@@ -452,14 +499,14 @@ io.on('connection', (socket) => {
   });
 
   socket.on('disconnect', async () => {
-    console.log('Client disconnected:', socket.id);
+    
     
     for (const [roomId, manager] of roomManagers.entries()) {
       if (manager.getSocketId() === socket.id) {
         try {
           await manager.cleanup();
         } catch (error) {
-          console.error('Cleanup error on disconnect:', error);
+          
         }
       }
     }
@@ -471,18 +518,17 @@ checkFFmpeg().then((available) => {
   isFFmpegAvailable = available;
   
   server.listen(PORT, () => {
-    console.log(`✅ UI Recording Server running on port ${PORT}`);
-    console.log(`📁 Recordings stored in: ${recordingsDir}`);
-    console.log(`🔗 Socket.IO endpoint: ws://localhost:${PORT}`);
-    console.log(`🌐 HTTP API endpoint: http://localhost:${PORT}`);
-    console.log(`📊 Health check: http://localhost:${PORT}/health`);
-    console.log(`🎥 FFmpeg available: ${isFFmpegAvailable}`);
+    
+    
+    
+    
+    
+    
   });
 });
 
 // Cleanup on exit
 process.on('SIGINT', async () => {
-  console.log('\n🛑 Shutting down UI Recording Server...');
   
   try {
     for (const [roomId, manager] of roomManagers.entries()) {
@@ -492,10 +538,10 @@ process.on('SIGINT', async () => {
     io.close();
     server.close();
     
-    console.log('✅ Server shutdown complete');
+    
     process.exit(0);
   } catch (error) {
-    console.error('❌ Shutdown error:', error);
+    
     process.exit(1);
   }
 });
