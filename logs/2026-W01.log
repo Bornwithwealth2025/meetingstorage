@@ -1,0 +1,736 @@
+2026-01-13T11:00:57.678Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:00:57.680Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:00:57.681Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:04:59.404Z----🎥 UI Recording started in room yL2qCsf5Om5EGZbowqwNYb11: 25597a05-7c29-4e87-ad5c-c47b5cc2f016
+2026-01-13T11:04:59.406Z----📊 Target FPS: 30, Audio: true
+2026-01-13T11:05:03.954Z----🎤 Audio chunk 0 saved (16KB) - Total: 1
+2026-01-13T11:05:09.106Z----🎤 Audio chunk 1 saved (16KB) - Total: 2
+2026-01-13T11:05:11.677Z----🎤 Audio chunk 2 saved (16KB) - Total: 3
+2026-01-13T11:05:13.957Z----🎤 Audio chunk 3 saved (16KB) - Total: 4
+2026-01-13T11:05:15.995Z----🎤 Audio chunk 4 saved (16KB) - Total: 5
+2026-01-13T11:05:17.469Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 30 frames, 50.6KB avg, FPS: 40.27
+2026-01-13T11:05:17.871Z----🎤 Audio chunk 5 saved (16KB) - Total: 6
+2026-01-13T11:05:19.605Z----🎤 Audio chunk 6 saved (16KB) - Total: 7
+2026-01-13T11:05:22.048Z----🎤 Audio chunk 7 saved (16KB) - Total: 8
+2026-01-13T11:05:24.075Z----🎤 Audio chunk 8 saved (16KB) - Total: 9
+2026-01-13T11:05:25.981Z----🎤 Audio chunk 9 saved (16KB) - Total: 10
+2026-01-13T11:05:27.723Z----🎤 Audio chunk 10 saved (16KB) - Total: 11
+2026-01-13T11:05:28.289Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 60 frames, 50.6KB avg, FPS: 46.84
+2026-01-13T11:05:29.924Z----🎤 Audio chunk 11 saved (16KB) - Total: 12
+2026-01-13T11:05:31.771Z----🎤 Audio chunk 12 saved (16KB) - Total: 13
+2026-01-13T11:05:33.638Z----🎤 Audio chunk 13 saved (16KB) - Total: 14
+2026-01-13T11:05:35.404Z----🎤 Audio chunk 14 saved (16KB) - Total: 15
+2026-01-13T11:05:37.236Z----🎤 Audio chunk 15 saved (16KB) - Total: 16
+2026-01-13T11:05:38.265Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 90 frames, 50.6KB avg, FPS: 48.78
+2026-01-13T11:05:39.391Z----🎤 Audio chunk 16 saved (16KB) - Total: 17
+2026-01-13T11:05:41.302Z----🎤 Audio chunk 17 saved (16KB) - Total: 18
+2026-01-13T11:05:43.714Z----🎤 Audio chunk 18 saved (16KB) - Total: 19
+2026-01-13T11:05:45.657Z----🎤 Audio chunk 19 saved (16KB) - Total: 20
+2026-01-13T11:05:47.412Z----🎤 Audio chunk 20 saved (16KB) - Total: 21
+2026-01-13T11:05:49.012Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 120 frames, 50.8KB avg, FPS: 48.70
+2026-01-13T11:05:49.500Z----🎤 Audio chunk 21 saved (16KB) - Total: 22
+2026-01-13T11:05:51.535Z----🎤 Audio chunk 22 saved (16KB) - Total: 23
+2026-01-13T11:05:53.106Z----🎤 Audio chunk 23 saved (16KB) - Total: 24
+2026-01-13T11:05:55.958Z----🎤 Audio chunk 24 saved (16KB) - Total: 25
+2026-01-13T11:05:57.752Z----🎤 Audio chunk 25 saved (16KB) - Total: 26
+2026-01-13T11:05:59.319Z----🎤 Audio chunk 26 saved (16KB) - Total: 27
+2026-01-13T11:05:59.520Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 150 frames, 50.8KB avg, FPS: 48.28
+2026-01-13T11:06:01.244Z----🎤 Audio chunk 27 saved (16KB) - Total: 28
+2026-01-13T11:06:03.918Z----🎤 Audio chunk 28 saved (16KB) - Total: 29
+2026-01-13T11:06:06.461Z----🎤 Audio chunk 29 saved (16KB) - Total: 30
+2026-01-13T11:06:09.486Z----🎤 Audio chunk 30 saved (16KB) - Total: 31
+2026-01-13T11:06:13.073Z----🎤 Audio chunk 31 saved (16KB) - Total: 32
+2026-01-13T11:06:13.744Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 180 frames, 50.7KB avg, FPS: 46.64
+2026-01-13T11:06:15.606Z----🎤 Audio chunk 32 saved (16KB) - Total: 33
+2026-01-13T11:06:18.102Z----🎤 Audio chunk 33 saved (16KB) - Total: 34
+2026-01-13T11:06:20.330Z----🎤 Audio chunk 34 saved (16KB) - Total: 35
+2026-01-13T11:06:23.010Z----🎤 Audio chunk 35 saved (16KB) - Total: 36
+2026-01-13T11:06:25.422Z----🎤 Audio chunk 36 saved (16KB) - Total: 37
+2026-01-13T11:06:26.717Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 210 frames, 50.8KB avg, FPS: 48.21
+2026-01-13T11:06:27.163Z----🎤 Audio chunk 37 saved (16KB) - Total: 38
+2026-01-13T11:06:29.367Z----🎤 Audio chunk 38 saved (16KB) - Total: 39
+2026-01-13T11:06:32.031Z----🎤 Audio chunk 39 saved (16KB) - Total: 40
+2026-01-13T11:06:34.235Z----🎤 Audio chunk 40 saved (16KB) - Total: 41
+2026-01-13T11:06:35.804Z----🎤 Audio chunk 41 saved (16KB) - Total: 42
+2026-01-13T11:06:37.683Z----🎤 Audio chunk 42 saved (16KB) - Total: 43
+2026-01-13T11:06:37.958Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 240 frames, 51.7KB avg, FPS: 48.12
+2026-01-13T11:06:39.219Z----🎤 Audio chunk 43 saved (16KB) - Total: 44
+2026-01-13T11:06:41.225Z----🎤 Audio chunk 44 saved (16KB) - Total: 45
+2026-01-13T11:06:43.399Z----🎤 Audio chunk 45 saved (16KB) - Total: 46
+2026-01-13T11:06:45.720Z----🎤 Audio chunk 46 saved (16KB) - Total: 47
+2026-01-13T11:06:47.789Z----🎤 Audio chunk 47 saved (16KB) - Total: 48
+2026-01-13T11:06:49.668Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 270 frames, 51.7KB avg, FPS: 48.57
+2026-01-13T11:06:50.989Z----🎤 Audio chunk 48 saved (16KB) - Total: 49
+2026-01-13T11:06:55.404Z----🎤 Audio chunk 49 saved (16KB) - Total: 50
+2026-01-13T11:06:58.145Z----🎤 Audio chunk 50 saved (16KB) - Total: 51
+2026-01-13T11:07:01.884Z----🎤 Audio chunk 51 saved (16KB) - Total: 52
+2026-01-13T11:07:03.572Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:07:03.574Z----🛑 Stopping recording in room yL2qCsf5Om5EGZbowqwNYb11: 25597a05-7c29-4e87-ad5c-c47b5cc2f016
+2026-01-13T11:07:03.574Z----⚠️ Override: enabling audio because 52 chunks are present
+2026-01-13T11:07:09.539Z----
+✅ Video encoding complete
+2026-01-13T11:07:09.542Z----📁 Output: 0.10MB at /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4
+2026-01-13T11:07:09.542Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4
+2026-01-13T11:07:09.557Z----🎵 Concatenating 52 WebM audio chunks
+2026-01-13T11:07:09.752Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-01-13T11:07:09.753Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T11:07:09.758Z----FFmpeg stderr: Input #0, concat, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/audio_webm_concat.txt':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp
+
+2026-01-13T11:07:09.761Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> aac (native))
+Press [q] to stop, [?] for help
+
+2026-01-13T11:07:09.767Z----FFmpeg stderr: Output #0, ipod, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/audio.m4a':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+size=       0kB time=N/A bitrate=N/A speed=N/A    
+2026-01-13T11:07:09.869Z----FFmpeg stderr: [matroska,webm @ 0x55a41beed240] Format matroska,webm detected only with low score of 1, misdetection possible!
+[matroska,webm @ 0x55a41beed240] Found unknown-length element with ID 0x1F43B675 at pos. 0x0 for which no syntax for parsing is available.
+[matroska,webm @ 0x55a41beed240] EBML header parsing failed
+[concat @ 0x55a41beddf00] Impossible to open '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/audio/audio_000001_1768302301396.webm'
+[in#0/concat @ 0x55a41bedde00] Error during demuxing: Invalid data found when processing input
+[in#0/concat @ 0x55a41bedde00] Error retrieving a packet from demuxer: Invalid data found when processing input
+
+2026-01-13T11:07:09.870Z----FFmpeg stderr: [ipod @ 0x55a41bf29180] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-01-13T11:07:09.872Z----FFmpeg stderr: [out#0/ipod @ 0x55a41beef980] video:0kB audio:16kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 6.184227%
+size=      17kB time=00:00:00.98 bitrate= 138.8kbits/s speed=8.97x    
+[aac @ 0x55a41bf29a80] Qavg: 299.866
+
+2026-01-13T11:07:09.887Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/audio.m4a
+2026-01-13T11:07:09.890Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/audio.m4a
+2026-01-13T11:07:09.892Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4
+2026-01-13T11:07:10.045Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+
+2026-01-13T11:07:10.051Z----FFmpeg stderr:   libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T11:07:10.066Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:07.24, start: 0.000000, bitrate: 116 kb/s
+
+2026-01-13T11:07:10.068Z----FFmpeg stderr:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 113 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-13T11:07:10.071Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/25597a05-7c29-4e87-ad5c-c47b5cc2f016/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: 
+2026-01-13T11:07:10.071Z----FFmpeg stderr: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:01.00, start: 0.000000, bitrate: 137 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-13T11:07:10.071Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 113 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-13T11:07:10.071Z----FFmpeg stderr:   Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-13T11:07:10.071Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-13T11:07:10.074Z----FFmpeg stderr: size=       0kB time=-00:00:00.08 bitrate=  -0.0kbits/s speed=N/A    
+2026-01-13T11:07:10.075Z----FFmpeg stderr: [out#0/mp4 @ 0x65215aae8a00] video:64kB audio:16kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.694361%
+size=      82kB time=00:00:01.12 bitrate= 598.9kbits/s speed= 304x    
+
+2026-01-13T11:07:10.089Z----✅ Muxing complete: 0.08MB
+2026-01-13T11:07:10.090Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4
+2026-01-13T11:07:11.117Z----✅ Thumbnail generated
+2026-01-13T11:07:11.121Z----✅ Recording completed in room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:07:11.121Z----📊 Stats: 290 frames, 52 audio chunks, 131.721s duration
+2026-01-13T11:07:11.123Z----📁 File URL: /recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-04-59-399Z.mp4 [object Object]
+2026-01-13T11:07:11.123Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:15:43.197Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:15:43.198Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:20:56.705Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:20:56.706Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:27:18.209Z----🎥 UI Recording started in room yL2qCsf5Om5EGZbowqwNYb11: 1458fa51-f68b-478a-8a2f-80e41132d8cc
+2026-01-13T11:27:18.210Z----📊 Target FPS: 30, Audio: true
+2026-01-13T11:27:21.970Z----🎤 Audio chunk 0 saved (17KB) - Total: 1
+2026-01-13T11:27:25.274Z----🎤 Audio chunk 1 saved (16KB) - Total: 2
+2026-01-13T11:27:28.261Z----🎤 Audio chunk 2 saved (16KB) - Total: 3
+2026-01-13T11:27:29.993Z----🎤 Audio chunk 3 saved (16KB) - Total: 4
+2026-01-13T11:27:32.585Z----🎤 Audio chunk 4 saved (16KB) - Total: 5
+2026-01-13T11:27:34.059Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 30 frames, 48.5KB avg, FPS: 40.05
+2026-01-13T11:27:34.264Z----🎤 Audio chunk 5 saved (16KB) - Total: 6
+2026-01-13T11:27:36.340Z----🎤 Audio chunk 6 saved (16KB) - Total: 7
+2026-01-13T11:27:38.341Z----🎤 Audio chunk 7 saved (16KB) - Total: 8
+2026-01-13T11:27:40.602Z----🎤 Audio chunk 8 saved (16KB) - Total: 9
+2026-01-13T11:27:43.185Z----🎤 Audio chunk 9 saved (16KB) - Total: 10
+2026-01-13T11:27:44.664Z----🎤 Audio chunk 10 saved (16KB) - Total: 11
+2026-01-13T11:27:45.894Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 60 frames, 48.4KB avg, FPS: 47.43
+2026-01-13T11:27:46.348Z----🎤 Audio chunk 11 saved (16KB) - Total: 12
+2026-01-13T11:27:47.853Z----🎤 Audio chunk 12 saved (16KB) - Total: 13
+2026-01-13T11:27:49.571Z----🎤 Audio chunk 13 saved (16KB) - Total: 14
+2026-01-13T11:27:51.753Z----🎤 Audio chunk 14 saved (16KB) - Total: 15
+2026-01-13T11:27:54.091Z----🎤 Audio chunk 15 saved (16KB) - Total: 16
+2026-01-13T11:27:56.268Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 90 frames, 48.5KB avg, FPS: 47.29
+2026-01-13T11:27:56.418Z----🎤 Audio chunk 16 saved (16KB) - Total: 17
+2026-01-13T11:27:58.235Z----🎤 Audio chunk 17 saved (15KB) - Total: 18
+2026-01-13T11:28:00.713Z----🎤 Audio chunk 18 saved (16KB) - Total: 19
+2026-01-13T11:28:03.573Z----🎤 Audio chunk 19 saved (16KB) - Total: 20
+2026-01-13T11:28:05.349Z----🎤 Audio chunk 20 saved (16KB) - Total: 21
+2026-01-13T11:28:08.765Z----🎤 Audio chunk 21 saved (16KB) - Total: 22
+2026-01-13T11:28:10.299Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 120 frames, 49.1KB avg, FPS: 48.47
+2026-01-13T11:28:12.003Z----🎤 Audio chunk 22 saved (16KB) - Total: 23
+2026-01-13T11:28:14.244Z----🎤 Audio chunk 23 saved (16KB) - Total: 24
+2026-01-13T11:28:18.159Z----🎤 Audio chunk 24 saved (16KB) - Total: 25
+2026-01-13T11:28:22.861Z----🎤 Audio chunk 25 saved (16KB) - Total: 26
+2026-01-13T11:28:27.349Z----🎤 Audio chunk 26 saved (16KB) - Total: 27
+2026-01-13T11:28:29.550Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 150 frames, 49.2KB avg, FPS: 48.97
+2026-01-13T11:28:30.111Z----🎤 Audio chunk 27 saved (16KB) - Total: 28
+2026-01-13T11:28:33.068Z----🎤 Audio chunk 28 saved (16KB) - Total: 29
+2026-01-13T11:28:35.174Z----🎤 Audio chunk 29 saved (13KB) - Total: 30
+2026-01-13T11:28:37.512Z----🎤 Audio chunk 30 saved (16KB) - Total: 31
+2026-01-13T11:28:39.397Z----🎤 Audio chunk 31 saved (12KB) - Total: 32
+2026-01-13T11:28:41.212Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 180 frames, 49.3KB avg, FPS: 49.46
+2026-01-13T11:28:41.286Z----🎤 Audio chunk 32 saved (8KB) - Total: 33
+2026-01-13T11:28:44.160Z----🎤 Audio chunk 33 saved (10KB) - Total: 34
+2026-01-13T11:28:48.163Z----🎤 Audio chunk 34 saved (16KB) - Total: 35
+2026-01-13T11:28:50.520Z----🎤 Audio chunk 35 saved (10KB) - Total: 36
+2026-01-13T11:28:53.250Z----🎤 Audio chunk 36 saved (13KB) - Total: 37
+2026-01-13T11:28:56.365Z----🎤 Audio chunk 37 saved (15KB) - Total: 38
+2026-01-13T11:28:56.876Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 210 frames, 49.2KB avg, FPS: 50.47
+2026-01-13T11:28:59.133Z----🎤 Audio chunk 38 saved (16KB) - Total: 39
+2026-01-13T11:29:02.511Z----🎤 Audio chunk 39 saved (16KB) - Total: 40
+2026-01-13T11:29:06.373Z----🎤 Audio chunk 40 saved (16KB) - Total: 41
+2026-01-13T11:29:08.626Z----🎤 Audio chunk 41 saved (16KB) - Total: 42
+2026-01-13T11:29:11.443Z----🎤 Audio chunk 42 saved (16KB) - Total: 43
+2026-01-13T11:29:12.859Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 240 frames, 49.2KB avg, FPS: 49.98
+2026-01-13T11:29:13.973Z----🎤 Audio chunk 43 saved (16KB) - Total: 44
+2026-01-13T11:29:16.184Z----🎤 Audio chunk 44 saved (16KB) - Total: 45
+2026-01-13T11:29:18.649Z----🎤 Audio chunk 45 saved (16KB) - Total: 46
+2026-01-13T11:29:22.056Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:29:22.057Z----🛑 Stopping recording in room yL2qCsf5Om5EGZbowqwNYb11: 1458fa51-f68b-478a-8a2f-80e41132d8cc
+2026-01-13T11:29:22.057Z----⚠️ Override: enabling audio because 46 chunks are present
+2026-01-13T11:29:27.582Z----
+✅ Video encoding complete
+2026-01-13T11:29:27.585Z----📁 Output: 0.09MB at /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4
+2026-01-13T11:29:27.585Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4
+2026-01-13T11:29:27.588Z----🎵 Concatenating 46 WebM audio chunks
+2026-01-13T11:29:27.825Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-01-13T11:29:27.826Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T11:29:27.829Z----FFmpeg stderr: Input #0, concat, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/audio_webm_concat.txt':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+
+2026-01-13T11:29:27.830Z----FFmpeg stderr:   Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp
+
+2026-01-13T11:29:27.832Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> aac (native))
+Press [q] to stop, [?] for help
+
+2026-01-13T11:29:27.861Z----FFmpeg stderr: Output #0, ipod, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/audio.m4a':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+size=       0kB time=N/A bitrate=N/A speed=N/A    
+2026-01-13T11:29:27.987Z----FFmpeg stderr: [concat @ 0x557efdf7ef00] 
+2026-01-13T11:29:27.988Z----FFmpeg stderr: Impossible to open '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/audio/audio_000001_1768303640220.webm'
+[in#0/concat @ 0x557efdf7ee00] Error during demuxing: Invalid data found when processing input
+
+2026-01-13T11:29:27.990Z----FFmpeg stderr: [in#0/concat @ 0x557efdf7ee00] Error retrieving a packet from demuxer: Invalid data found when processing input
+
+2026-01-13T11:29:27.999Z----FFmpeg stderr: [ipod @ 0x557efdfc9880] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-01-13T11:29:28.000Z----FFmpeg stderr: [out#0/ipod @ 0x557efdf90080] video:0kB audio:15kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 6.360627%
+size=      16kB time=00:00:00.98 bitrate= 135.2kbits/s speed=5.93x    
+
+2026-01-13T11:29:28.000Z----FFmpeg stderr: [aac @ 0x557efdfca180] Qavg: 173.692
+
+2026-01-13T11:29:28.011Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/audio.m4a
+2026-01-13T11:29:28.015Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/audio.m4a
+2026-01-13T11:29:28.016Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4
+2026-01-13T11:29:28.186Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-01-13T11:29:28.187Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T11:29:28.213Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:06.52, start: 0.000000, bitrate: 122 kb/s
+
+2026-01-13T11:29:28.214Z----FFmpeg stderr:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 118 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-13T11:29:28.221Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/1458fa51-f68b-478a-8a2f-80e41132d8cc/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:01.00, start: 0.000000, bitrate: 133 kb/s
+
+2026-01-13T11:29:28.222Z----FFmpeg stderr:   Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 123 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 118 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 123 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+
+2026-01-13T11:29:28.223Z----FFmpeg stderr:   Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-13T11:29:28.227Z----FFmpeg stderr: size=       0kB time=-00:00:00.08 bitrate=  -0.0kbits/s speed=N/A    
+2026-01-13T11:29:28.233Z----FFmpeg stderr: [out#0/mp4 @ 0x5a9c0e19c100] video:68kB audio:15kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.583494%
+size=      85kB time=00:00:02.48 bitrate= 281.8kbits/s speed= 232x    
+
+2026-01-13T11:29:28.249Z----✅ Muxing complete: 0.08MB
+2026-01-13T11:29:28.249Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4
+2026-01-13T11:29:29.058Z----✅ Thumbnail generated
+2026-01-13T11:29:29.059Z----✅ Recording completed in room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:29:29.059Z----📊 Stats: 259 frames, 46 audio chunks, 130.856s duration
+2026-01-13T11:29:29.059Z----📁 File URL: /recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-27-18-202Z.mp4 [object Object]
+2026-01-13T11:29:29.060Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:39:20.355Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:39:20.356Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:43:46.697Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T11:43:46.699Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:44:37.104Z----🎥 UI Recording started in room yL2qCsf5Om5EGZbowqwNYb11: 832ff842-d001-4eed-887b-75e2b5c737bd
+2026-01-13T11:44:37.104Z----📊 Target FPS: 30, Audio: true
+2026-01-13T11:44:40.378Z----🎤 Audio chunk 0 saved (16KB) - Total: 1
+2026-01-13T11:44:41.260Z----🎤 Audio chunk 1 saved (16KB) - Total: 2
+2026-01-13T11:44:42.058Z----🎤 Audio chunk 2 saved (16KB) - Total: 3
+2026-01-13T11:44:42.858Z----🎤 Audio chunk 3 saved (16KB) - Total: 4
+2026-01-13T11:44:43.490Z----🎤 Audio chunk 4 saved (16KB) - Total: 5
+2026-01-13T11:44:43.977Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 30 frames, 48.1KB avg, FPS: 38.71
+2026-01-13T11:44:44.107Z----🎤 Audio chunk 5 saved (16KB) - Total: 6
+2026-01-13T11:44:45.222Z----🎤 Audio chunk 6 saved (16KB) - Total: 7
+2026-01-13T11:44:46.155Z----🎤 Audio chunk 7 saved (16KB) - Total: 8
+2026-01-13T11:44:47.041Z----🎤 Audio chunk 8 saved (16KB) - Total: 9
+2026-01-13T11:44:48.481Z----🎤 Audio chunk 9 saved (16KB) - Total: 10
+2026-01-13T11:44:50.688Z----🎤 Audio chunk 10 saved (16KB) - Total: 11
+2026-01-13T11:44:51.391Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 60 frames, 48.1KB avg, FPS: 45.45
+2026-01-13T11:44:51.957Z----🎤 Audio chunk 11 saved (16KB) - Total: 12
+2026-01-13T11:44:53.190Z----🎤 Audio chunk 12 saved (16KB) - Total: 13
+2026-01-13T11:44:54.083Z----🎤 Audio chunk 13 saved (16KB) - Total: 14
+2026-01-13T11:44:54.456Z----🎤 Audio chunk 14 saved (16KB) - Total: 15
+2026-01-13T11:44:55.302Z----🎤 Audio chunk 15 saved (16KB) - Total: 16
+2026-01-13T11:44:55.970Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 90 frames, 48.1KB avg, FPS: 48.67
+2026-01-13T11:44:56.142Z----🎤 Audio chunk 16 saved (16KB) - Total: 17
+2026-01-13T11:44:57.009Z----🎤 Audio chunk 17 saved (16KB) - Total: 18
+2026-01-13T11:44:57.782Z----🎤 Audio chunk 18 saved (16KB) - Total: 19
+2026-01-13T11:44:58.512Z----🎤 Audio chunk 19 saved (16KB) - Total: 20
+2026-01-13T11:44:59.309Z----🎤 Audio chunk 20 saved (16KB) - Total: 21
+2026-01-13T11:44:59.820Z----🎤 Audio chunk 21 saved (16KB) - Total: 22
+2026-01-13T11:44:59.922Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 120 frames, 48.2KB avg, FPS: 48.50
+2026-01-13T11:45:01.172Z----🎤 Audio chunk 22 saved (16KB) - Total: 23
+2026-01-13T11:45:01.906Z----🎤 Audio chunk 23 saved (16KB) - Total: 24
+2026-01-13T11:45:02.644Z----🎤 Audio chunk 24 saved (16KB) - Total: 25
+2026-01-13T11:45:05.099Z----🎤 Audio chunk 25 saved (13KB) - Total: 26
+2026-01-13T11:45:06.488Z----🎤 Audio chunk 26 saved (16KB) - Total: 27
+2026-01-13T11:45:07.459Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 150 frames, 48.5KB avg, FPS: 48.97
+2026-01-13T11:45:08.504Z----🎤 Audio chunk 27 saved (16KB) - Total: 28
+2026-01-13T11:45:10.555Z----🎤 Audio chunk 28 saved (16KB) - Total: 29
+2026-01-13T11:45:12.610Z----🎤 Audio chunk 29 saved (16KB) - Total: 30
+2026-01-13T11:45:15.239Z----🎤 Audio chunk 30 saved (16KB) - Total: 31
+2026-01-13T11:45:17.561Z----🎤 Audio chunk 31 saved (16KB) - Total: 32
+2026-01-13T11:45:18.391Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 180 frames, 48.5KB avg, FPS: 49.38
+2026-01-13T11:45:19.144Z----🎤 Audio chunk 32 saved (16KB) - Total: 33
+2026-01-13T11:45:21.053Z----🎤 Audio chunk 33 saved (16KB) - Total: 34
+2026-01-13T11:45:22.671Z----🎤 Audio chunk 34 saved (16KB) - Total: 35
+2026-01-13T11:45:24.461Z----🎤 Audio chunk 35 saved (16KB) - Total: 36
+2026-01-13T11:45:26.878Z----🎤 Audio chunk 36 saved (16KB) - Total: 37
+2026-01-13T11:45:28.159Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 210 frames, 48.4KB avg, FPS: 50.44
+2026-01-13T11:45:28.849Z----🎤 Audio chunk 37 saved (16KB) - Total: 38
+2026-01-13T11:45:30.830Z----🎤 Audio chunk 38 saved (16KB) - Total: 39
+2026-01-13T11:45:32.942Z----🎤 Audio chunk 39 saved (16KB) - Total: 40
+2026-01-13T11:45:34.999Z----🎤 Audio chunk 40 saved (16KB) - Total: 41
+2026-01-13T11:45:36.864Z----🎤 Audio chunk 41 saved (16KB) - Total: 42
+2026-01-13T11:45:38.035Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 240 frames, 48.4KB avg, FPS: 50.24
+2026-01-13T11:45:38.478Z----🎤 Audio chunk 42 saved (16KB) - Total: 43
+2026-01-13T11:45:40.345Z----🎤 Audio chunk 43 saved (16KB) - Total: 44
+2026-01-13T11:45:42.356Z----🎤 Audio chunk 44 saved (16KB) - Total: 45
+2026-01-13T11:45:43.746Z----🎤 Audio chunk 45 saved (16KB) - Total: 46
+2026-01-13T11:45:44.955Z----🎤 Audio chunk 46 saved (16KB) - Total: 47
+2026-01-13T11:45:45.973Z----🎤 Audio chunk 47 saved (16KB) - Total: 48
+2026-01-13T11:45:46.594Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 270 frames, 40.5KB avg, FPS: 49.81
+2026-01-13T11:45:46.941Z----🎤 Audio chunk 48 saved (16KB) - Total: 49
+2026-01-13T11:45:48.591Z----🎤 Audio chunk 49 saved (16KB) - Total: 50
+2026-01-13T11:45:50.404Z----🎤 Audio chunk 50 saved (16KB) - Total: 51
+2026-01-13T11:45:51.248Z----🎤 Audio chunk 51 saved (16KB) - Total: 52
+2026-01-13T11:45:52.806Z----🎤 Audio chunk 52 saved (16KB) - Total: 53
+2026-01-13T11:45:53.881Z----🎤 Audio chunk 53 saved (16KB) - Total: 54
+2026-01-13T11:45:54.090Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 300 frames, 40.4KB avg, FPS: 49.08
+2026-01-13T11:45:54.934Z----🎤 Audio chunk 54 saved (16KB) - Total: 55
+2026-01-13T11:45:56.331Z----🎤 Audio chunk 55 saved (16KB) - Total: 56
+2026-01-13T11:45:57.424Z----🎤 Audio chunk 56 saved (16KB) - Total: 57
+2026-01-13T11:45:58.500Z----🎤 Audio chunk 57 saved (16KB) - Total: 58
+2026-01-13T11:45:59.797Z----🎤 Audio chunk 58 saved (16KB) - Total: 59
+2026-01-13T11:46:00.569Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 330 frames, 40.2KB avg, FPS: 49.00
+2026-01-13T11:46:01.150Z----🎤 Audio chunk 59 saved (13KB) - Total: 60
+2026-01-13T11:46:02.305Z----🎤 Audio chunk 60 saved (16KB) - Total: 61
+2026-01-13T11:46:03.242Z----🎤 Audio chunk 61 saved (16KB) - Total: 62
+2026-01-13T11:46:04.091Z----🎤 Audio chunk 62 saved (16KB) - Total: 63
+2026-01-13T11:46:05.018Z----🎤 Audio chunk 63 saved (16KB) - Total: 64
+2026-01-13T11:46:06.137Z----🛑 Stopping recording in room yL2qCsf5Om5EGZbowqwNYb11: 832ff842-d001-4eed-887b-75e2b5c737bd
+2026-01-13T11:46:06.139Z----🎤 Audio chunk 64 saved (11KB) - Total: 65
+2026-01-13T11:46:13.558Z----
+✅ Video encoding complete
+2026-01-13T11:46:13.559Z----📁 Output: 0.35MB at /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4
+2026-01-13T11:46:13.560Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4
+2026-01-13T11:46:13.564Z----🎵 Concatenating 65 WebM audio chunks
+2026-01-13T11:46:13.786Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-01-13T11:46:13.786Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T11:46:13.794Z----FFmpeg stderr: Input #0, concat, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/audio_webm_concat.txt':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+  Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp
+
+2026-01-13T11:46:13.798Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> aac (native))
+Press [q] to stop, [?] for help
+
+2026-01-13T11:46:13.806Z----FFmpeg stderr: Output #0, ipod, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/audio.m4a':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+size=       0kB time=N/A bitrate=N/A speed=N/A    
+2026-01-13T11:46:13.942Z----FFmpeg stderr: [matroska,webm @ 0x5f963c15e800] Format matroska,webm detected only with low score of 1, misdetection possible!
+[matroska,webm @ 0x5f963c15e800] Found unknown-length element with ID 0x1F43B675 at pos. 0x0 for which no syntax for parsing is available.
+[matroska,webm @ 0x5f963c15e800] EBML header parsing failed
+[concat @ 0x5f963c151f00] Impossible to open '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/audio/audio_000001_1768304679118.webm'
+[in#0/concat @ 0x5f963c151e00] Error during demuxing: Invalid data found when processing input
+
+2026-01-13T11:46:13.943Z----FFmpeg stderr: [in#0/concat @ 0x5f963c151e00] Error retrieving a packet from demuxer: Invalid data found when processing input
+
+2026-01-13T11:46:13.951Z----FFmpeg stderr: [ipod @ 0x5f963c1a2dc0] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-01-13T11:46:13.953Z----FFmpeg stderr: [out#0/ipod @ 0x5f963c166880] video:0kB audio:16kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 6.190742%
+size=      17kB time=00:00:00.98 bitrate= 138.7kbits/s speed=6.46x    
+[aac @ 0x5f963c19f5c0] Qavg: 206.374
+
+2026-01-13T11:46:13.965Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/audio.m4a
+2026-01-13T11:46:13.969Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/audio.m4a
+2026-01-13T11:46:13.971Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4
+2026-01-13T11:46:14.149Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T11:46:14.170Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:09.04, start: 0.000000, bitrate: 322 kb/s
+
+2026-01-13T11:46:14.170Z----FFmpeg stderr:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 319 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-13T11:46:14.175Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/832ff842-d001-4eed-887b-75e2b5c737bd/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:01.00, start: 0.000000, bitrate: 137 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-13T11:46:14.177Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 319 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-13T11:46:14.178Z----FFmpeg stderr: size=       0kB time=-00:00:00.08 bitrate=  -0.0kbits/s speed=N/A    
+2026-01-13T11:46:14.183Z----FFmpeg stderr: [out#0/mp4 @ 0x636b1af5fd00] video:70kB audio:16kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.509926%
+size=      88kB time=00:00:01.28 bitrate= 561.6kbits/s speed= 219x    
+
+2026-01-13T11:46:14.194Z----✅ Muxing complete: 0.09MB
+2026-01-13T11:46:14.194Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4
+2026-01-13T11:46:15.028Z----✅ Thumbnail generated
+2026-01-13T11:46:15.029Z----✅ Recording completed in room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T11:46:15.029Z----📊 Stats: 353 frames, 65 audio chunks, 97.93s duration
+2026-01-13T11:46:15.029Z----📁 File URL: /recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T11-44-37-098Z.mp4 [object Object]
+2026-01-13T13:12:14.664Z----🎥 UI Recording started in room yL2qCsf5Om5EGZbowqwNYb11: f78b7ff4-2618-4ef3-9b66-7bdc0648e325
+2026-01-13T13:12:14.665Z----📊 Target FPS: 30, Audio: true
+2026-01-13T13:12:18.655Z----🎤 Audio chunk 0 saved (17KB) - Total: 1
+2026-01-13T13:12:23.568Z----🎤 Audio chunk 1 saved (16KB) - Total: 2
+2026-01-13T13:12:26.748Z----🎤 Audio chunk 2 saved (16KB) - Total: 3
+2026-01-13T13:12:30.636Z----🎤 Audio chunk 3 saved (16KB) - Total: 4
+2026-01-13T13:12:33.666Z----🎤 Audio chunk 4 saved (16KB) - Total: 5
+2026-01-13T13:12:35.564Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 30 frames, 48.7KB avg, FPS: 37.74
+2026-01-13T13:12:37.235Z----🎤 Audio chunk 5 saved (16KB) - Total: 6
+2026-01-13T13:12:41.132Z----🎤 Audio chunk 6 saved (16KB) - Total: 7
+2026-01-13T13:12:44.187Z----🎤 Audio chunk 7 saved (16KB) - Total: 8
+2026-01-13T13:12:47.947Z----🎤 Audio chunk 8 saved (16KB) - Total: 9
+2026-01-13T13:12:51.987Z----🎤 Audio chunk 9 saved (16KB) - Total: 10
+2026-01-13T13:12:53.852Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 60 frames, 49.2KB avg, FPS: 39.27
+2026-01-13T13:12:54.651Z----🎤 Audio chunk 10 saved (16KB) - Total: 11
+2026-01-13T13:12:59.216Z----🎤 Audio chunk 11 saved (16KB) - Total: 12
+2026-01-13T13:13:04.463Z----🎤 Audio chunk 12 saved (16KB) - Total: 13
+2026-01-13T13:13:09.280Z----🎤 Audio chunk 13 saved (16KB) - Total: 14
+2026-01-13T13:13:13.868Z----🎤 Audio chunk 14 saved (16KB) - Total: 15
+2026-01-13T13:13:17.219Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 90 frames, 49.3KB avg, FPS: 44.20
+2026-01-13T13:13:18.209Z----🎤 Audio chunk 15 saved (15KB) - Total: 16
+2026-01-13T13:13:22.298Z----🎤 Audio chunk 16 saved (16KB) - Total: 17
+2026-01-13T13:13:27.175Z----🎤 Audio chunk 17 saved (16KB) - Total: 18
+2026-01-13T13:13:32.530Z----🎤 Audio chunk 18 saved (16KB) - Total: 19
+2026-01-13T13:13:38.431Z----🎤 Audio chunk 19 saved (16KB) - Total: 20
+2026-01-13T13:13:42.932Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 120 frames, 49.4KB avg, FPS: 46.99
+2026-01-13T13:13:43.692Z----🎤 Audio chunk 20 saved (16KB) - Total: 21
+2026-01-13T13:13:49.002Z----🎤 Audio chunk 21 saved (16KB) - Total: 22
+2026-01-13T13:13:53.468Z----🎤 Audio chunk 22 saved (16KB) - Total: 23
+2026-01-13T13:13:59.315Z----🎤 Audio chunk 23 saved (16KB) - Total: 24
+2026-01-13T13:14:06.020Z----🎤 Audio chunk 24 saved (16KB) - Total: 25
+2026-01-13T13:14:13.357Z----📊 Room yL2qCsf5Om5EGZbowqwNYb11: 150 frames, 49.4KB avg, FPS: 48.88
+2026-01-13T13:14:16.126Z----🎤 Audio chunk 25 saved (16KB) - Total: 26
+2026-01-13T13:14:38.719Z----🎤 Audio chunk 26 saved (16KB) - Total: 27
+2026-01-13T13:14:41.590Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T13:14:41.592Z----🛑 Stopping recording in room yL2qCsf5Om5EGZbowqwNYb11: f78b7ff4-2618-4ef3-9b66-7bdc0648e325
+2026-01-13T13:14:41.592Z----⚠️ Override: enabling audio because 27 chunks are present
+2026-01-13T13:14:45.149Z----
+✅ Video encoding complete
+2026-01-13T13:14:45.155Z----📁 Output: 0.09MB at /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4
+2026-01-13T13:14:45.155Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4
+2026-01-13T13:14:45.160Z----🎵 Concatenating 27 WebM audio chunks
+2026-01-13T13:14:45.338Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T13:14:45.343Z----FFmpeg stderr: Input #0, concat, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/audio_webm_concat.txt':
+  Duration: N/A, start: 0.000000, bitrate: N/A
+
+2026-01-13T13:14:45.343Z----FFmpeg stderr:   Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp
+
+2026-01-13T13:14:45.344Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> aac (native))
+Press [q] to stop, [?] for help
+
+2026-01-13T13:14:45.348Z----FFmpeg stderr: Output #0, ipod, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/audio.m4a':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s
+    Metadata:
+      encoder         : Lavc60.31.102 aac
+size=       0kB time=N/A bitrate=N/A speed=N/A    
+2026-01-13T13:14:45.456Z----FFmpeg stderr: [matroska,webm @ 0x63510bb3cf00] Format matroska,webm detected only with low score of 1, misdetection possible!
+[matroska,webm @ 0x63510bb3cf00] Found unknown-length element with ID 0x1F43B675 at pos. 0x0 for which no syntax for parsing is available.
+[matroska,webm @ 0x63510bb3cf00] EBML header parsing failed
+[concat @ 0x63510bb30f00] Impossible to open '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/audio/audio_000001_1768309936530.webm'
+[in#0/concat @ 0x63510bb30e00] Error during demuxing: Invalid data found when processing input
+
+2026-01-13T13:14:45.456Z----FFmpeg stderr: [in#0/concat @ 0x63510bb30e00] 
+2026-01-13T13:14:45.458Z----FFmpeg stderr: Error retrieving a packet from demuxer: Invalid data found when processing input
+
+2026-01-13T13:14:45.471Z----FFmpeg stderr: [ipod @ 0x63510bb78f00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/ipod @ 0x63510bb3f700] video:0kB audio:15kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 6.370767%
+size=      16kB time=00:00:00.98 bitrate= 135.0kbits/s speed=7.83x    
+
+2026-01-13T13:14:45.471Z----FFmpeg stderr: [aac @ 0x63510bb79800] Qavg: 198.593
+
+2026-01-13T13:14:45.483Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/audio.m4a
+2026-01-13T13:14:45.487Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/audio.m4a
+2026-01-13T13:14:45.488Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4
+2026-01-13T13:14:45.686Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5
+2026-01-13T13:14:45.688Z----FFmpeg stderr:  Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-13T13:14:45.708Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4':
+
+2026-01-13T13:14:45.710Z----FFmpeg stderr:   Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:04.20, start: 0.000000, bitrate: 189 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 185 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-13T13:14:45.716Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/temp/f78b7ff4-2618-4ef3-9b66-7bdc0648e325/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:01.00, start: 0.000000, bitrate: 133 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 123 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 185 kb/s, 25 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 123 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-13T13:14:45.717Z----FFmpeg stderr: Stream mapping:
+
+2026-01-13T13:14:45.717Z----FFmpeg stderr:   Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-13T13:14:45.718Z----FFmpeg stderr: size=       0kB time=-00:00:00.08 bitrate=N/A speed=N/A    
+2026-01-13T13:14:45.723Z----FFmpeg stderr: [out#0/mp4 @ 0x5825dcef06c0] 
+2026-01-13T13:14:45.725Z----FFmpeg stderr: video:95kB audio:15kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.825304%
+size=     113kB time=00:00:04.08 bitrate= 227.8kbits/s speed= 690x    
+
+2026-01-13T13:14:45.734Z----✅ Muxing complete: 0.11MB
+2026-01-13T13:14:45.735Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4
+2026-01-13T13:14:46.484Z----✅ Thumbnail generated
+2026-01-13T13:14:46.486Z----✅ Recording completed in room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T13:14:46.486Z----📊 Stats: 160 frames, 27 audio chunks, 151.827s duration
+2026-01-13T13:14:46.486Z----📁 File URL: /recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4 [object Object]
+2026-01-13T13:14:46.486Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11

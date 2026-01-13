@@ -238,6 +238,7 @@ io.on('connection', (socket) => {
       }
 
       const manager = getRoomManager(roomId);
+      ///console.log("Manager in start-ui-recording:", manager, options);
       const recording = await manager.startUIRecording(userId, options);
       
       socket.to(roomId).emit('recording-started', {
@@ -309,12 +310,13 @@ io.on('connection', (socket) => {
   socket.on('bulk-frames', async (data, callback) => {
     try {
       const { roomId, frames, recordingId } = data;
-      
+      //console.log("Bulk frames received:", data);
       if (!roomId || !frames || !Array.isArray(frames)) {
         throw new Error('roomId, recordingId and frames array are required');
       }
 
       const manager = getRoomManager(roomId);
+  
       const results = await manager.addBulkFrames(recordingId, frames);
       
       if (callback) {
@@ -335,7 +337,7 @@ io.on('connection', (socket) => {
   socket.on('audio-chunk', async (data, callback) => {
     try {
       const { roomId, recordingId, audioData, timestamp, index } = data;
-      
+    
       if (!roomId || !recordingId || !audioData) {
         throw new Error('roomId, recordingId and audioData are required');
       }
@@ -438,15 +440,15 @@ io.on('connection', (socket) => {
 
       const manager = getRoomManager(roomId);
       const recording = await manager.stopRecording(withAudio);
-      
-      socket.to(roomId).emit('recording-stopped', {
+     // console.log("Recording stopped:", recording);
+      socket.to(roomId).emit('recording-stopped', {  
         recordingId: recording.id,
         roomId,
         fileUrl: recording.fileUrl,
         thumbnailUrl: recording.thumbnailUrl,
         timestamp: new Date().toISOString()
       });
-     consol.lig("Resuult",recording)
+    
       if (callback) {
         const response = {
           success: true,
@@ -519,11 +521,7 @@ checkFFmpeg().then((available) => {
   
   server.listen(PORT, () => {
     
-    
-    
-    
-    
-    
+
   });
 });
 

@@ -29,6 +29,15 @@ interface FrameData {
   };
 }
 
+interface IResponseObject{
+   success: boolean;
+    recordingId?: string;
+    error?: string;
+    fileUrl?: string;
+    thumbnailUrl?: string;
+
+}
+
 const MeetingUIRecorder: React.FC<Props> = ({ 
   roomId = 'demo-room', 
   userId = 'user-123', 
@@ -77,9 +86,9 @@ const MeetingUIRecorder: React.FC<Props> = ({
   const healthCheckRef = useRef<NodeJS.Timeout | null>(null);
   const statusPollRef = useRef<NodeJS.Timeout | null>(null);
 
-  const TARGET_FPS = 30;
+  const TARGET_FPS = 30; // Target 30 FPS
   const FRAME_INTERVAL = 1000 / TARGET_FPS;
-  const MAX_QUEUE_SIZE = 100;
+  const MAX_QUEUE_SIZE = 300; // Increased to 10 seconds buffer at 30fps
 
   const addLog = useCallback((message: string) => {
     const timestamp = new Date().toLocaleTimeString();
@@ -118,7 +127,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
       setIsConnected(false);
     });
 
-    socket.on('recording-started', (data: any) => {
+    socket.on('recording-started', (data: IResponseObject) => {
       addLog(`🎬 Recording started: ${data.recordingId}`);
     });
 
@@ -130,7 +139,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
       addLog('▶️ Recording resumed (server)');
     });
 
-    socket.on('recording-stopped', (data: any) => {
+    socket.on('recording-stopped', (data: IResponseObject) => {
       addLog('🛑 Recording stopped (server)');
       addLog(`📁 Recording URL: ${data.fileUrl}`);
       setIsRecording(false);
@@ -140,7 +149,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
       stopStreams();
     });
 
-    socket.on('recording-error', (error: any) => {
+    socket.on('recording-error', (error: IResponseObject) => {
       addLog(`❌ Recording error: ${error.error}`);
     });
 
@@ -172,6 +181,52 @@ const MeetingUIRecorder: React.FC<Props> = ({
     };
   }, [isRecording, isPaused]);
 
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      addLog('🧹 Component unmounting - cleaning up...');
+      
+      // Stop everything
+      isRecordingRef.current = false;
+      isPausedRef.current = false;
+      
+      // Cancel animation frame
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+      }
+      
+      // Clear all intervals
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+      }
+      if (healthCheckRef.current) {
+        clearInterval(healthCheckRef.current);
+      }
+      if (statusPollRef.current) {
+        clearInterval(statusPollRef.current);
+      }
+      if (processingTimeout) {
+        clearTimeout(processingTimeout);
+      }
+      
+      // Stop media recorder
+      if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+        try {
+          mediaRecorderRef.current.stop();
+        } catch (e) {
+          // Ignore
+        }
+      }
+      
+      // Stop all tracks
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach(track => track.stop());
+      }
+      if (audioStreamRef.current) {
+        audioStreamRef.current.getTracks().forEach(track => track.stop());
+      }
+    };
+  }, []);
 
   /**
    * Request screen capture with audio
@@ -185,8 +240,8 @@ const MeetingUIRecorder: React.FC<Props> = ({
           frameRate: { ideal: TARGET_FPS, max: TARGET_FPS },
           width: { ideal: 1280, max: 1280 },
           height: { ideal: 720, max: 720 },
-          cursor: 'always'
-        } as any,
+         // cursor: 'always'
+        } ,
         audio: true
       };
 
@@ -233,8 +288,10 @@ const MeetingUIRecorder: React.FC<Props> = ({
           addLog('✅ Microphone audio added');
           hasAudio = true;
         }
-      } catch (micError: any) {
+      } catch (micError: unknown) {
+        if (micError instanceof Error) {
         addLog(`ℹ️ No microphone: ${micError.message}`);
+        }
         
         // Fallback to screen audio if available
         if (audioTracks.length > 0) {
@@ -259,9 +316,12 @@ const MeetingUIRecorder: React.FC<Props> = ({
         hasAudio: microphoneStream !== null || audioTracks.length > 0
       };
 
-    } catch (error: any) {
-      addLog(`Capture error: ${error.message}`);
-      return { success: false, error: error.message };
+    } catch (error: unknown) {
+      if( error instanceof Error ){
+          addLog(`Capture error: ${error.message}`);
+         return { success: false, error: error.message }; 
+      }
+
     }
   };
 
@@ -313,7 +373,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
                 audioData: base64Data,
                 timestamp: Date.now(),
                 index: audioIndexRef.current++
-              }, (response: any) => {
+              }, (response: IResponseObject) => {
                 if (response?.success) {
                   setStats(prev => ({
                     ...prev,
@@ -338,8 +398,10 @@ const MeetingUIRecorder: React.FC<Props> = ({
       mediaRecorder.start(1000); // 1 second chunks for better sync
       addLog('🎤 Audio recording started (synced with video)');
       return mediaRecorder;
-    } catch (error: any) {
-      addLog(`❌ Audio recording error: ${error.message}`);
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        addLog(`❌ Audio recording error: ${error.message}`);
+      }
       return null;
     }
   };
@@ -349,7 +411,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
    * Start frame capture loop - FIXED VERSION
    */
   /**
- * Start frame capture loop - FIXED VERSION
+ * Start frame capture loop - OPTIMIZED VERSION
  */
 const startFrameCapture = (
   video: HTMLVideoElement, 
@@ -357,19 +419,17 @@ const startFrameCapture = (
   ctx: CanvasRenderingContext2D
 ) => {
   const captureFrame = () => {
-    if (isRecordingRef.current) {
-      animationFrameRef.current = requestAnimationFrame(captureFrame);
-    } else {
+    if (!isRecordingRef.current) {
       addLog('🛑 Frame capture loop ended');
       return;
     }
 
-    if (!isPausedRef.current) {
+    if (!isPausedRef.current && socketRef.current?.connected && video.readyState >= video.HAVE_CURRENT_DATA) {
       try {
         const now = Date.now();
         const elapsed = now - lastFrameSentRef.current;
         
-        if (elapsed >= FRAME_INTERVAL && socketRef.current?.connected && video.readyState >= video.HAVE_CURRENT_DATA) {
+        if (elapsed >= FRAME_INTERVAL) {
           // Draw frame to canvas
           ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
           
@@ -389,33 +449,61 @@ const startFrameCapture = (
                   }
                 };
 
-                // Manage queue backpressure
+                // Manage queue backpressure - drop oldest frames
                 if (frameQueueRef.current.length >= MAX_QUEUE_SIZE) {
-                  frameQueueRef.current.shift();
-                  setStats(prev => ({ ...prev, droppedFrames: prev.droppedFrames + 1 }));
+                  const dropped = frameQueueRef.current.splice(0, 30); // Drop 30 oldest frames
+                  setStats(prev => ({ ...prev, droppedFrames: prev.droppedFrames + dropped.length }));
+                  addLog(`⚠️ Queue full! Dropped ${dropped.length} old frames`);
                 }
                 
                 frameQueueRef.current.push(frame);
                 setQueueSize(frameQueueRef.current.length);
                 
-                setStats(prev => ({
-                  ...prev,
-                  framesSent: prev.framesSent + 1,
-                  lastFrameSize: Math.round(blob.size / 1024)
-                }));
+                // Track FPS
+                fpsCounterRef.current.push(now);
+                if (fpsCounterRef.current.length > 30) {
+                  fpsCounterRef.current.shift();
+                }
+                
+                // Calculate actual FPS from timestamps
+                if (fpsCounterRef.current.length > 1) {
+                  const firstTime = fpsCounterRef.current[0];
+                  const lastTime = fpsCounterRef.current[fpsCounterRef.current.length - 1];
+                  const duration = (lastTime - firstTime) / 1000;
+                  if (duration > 0) {
+                    const currentFPS = (fpsCounterRef.current.length - 1) / duration;
+                    setStats(prev => ({
+                      ...prev,
+                      framesSent: prev.framesSent + 1,
+                      lastFrameSize: Math.round(blob.size / 1024),
+                      averageFPS: Math.round(currentFPS * 10) / 10
+                    }));
+                  }
+                } else {
+                  setStats(prev => ({
+                    ...prev,
+                    framesSent: prev.framesSent + 1,
+                    lastFrameSize: Math.round(blob.size / 1024)
+                  }));
+                }
 
-                // Trigger async processing
+                // Trigger async processing immediately
                 processFrameQueue();
                 lastFrameSentRef.current = now;
               }
             },
             'image/webp',
-            0.75  // WebP quality: good balance
+            0.70  // Slightly lower quality for better performance
           );
         }
-      } catch (error: any) {
-        addLog(`Frame error: ${error.message}`);
+      } catch (error: unknown) {
+        if (error instanceof Error) addLog(`Frame error: ${error.message}`);
       }
+    }
+    
+    // Continue capture loop
+    if (isRecordingRef.current) {
+      animationFrameRef.current = requestAnimationFrame(captureFrame);
     }
   };
 
@@ -448,7 +536,7 @@ const startFrameCapture = (
   // Start the capture loop
   captureFrame();
 };
-  // Process frame queue - NON-BLOCKING fire-and-forget
+  // Process frame queue - OPTIMIZED for throughput
   const processFrameQueue = useCallback(async () => {
     const currentRecId = recordingIdRef.current || recordingId;
     if (isProcessingRef.current || frameQueueRef.current.length === 0 || !currentRecId || !socketRef.current?.connected) {
@@ -458,34 +546,42 @@ const startFrameCapture = (
     isProcessingRef.current = true;
 
     try {
-      // Send frames in batches (fire-and-forget)
-      const framesToSend = frameQueueRef.current.splice(0, Math.min(3, frameQueueRef.current.length));
-      setQueueSize(frameQueueRef.current.length);
+      // Send more frames per batch for better throughput
+      const batchSize = Math.min(10, frameQueueRef.current.length);
+      const framesToSend = frameQueueRef.current.splice(0, batchSize);
       
-      for (const frame of framesToSend) {
-        // Convert Blob to ArrayBuffer for proper binary transmission
-        const arrayBuffer = await frame.data.arrayBuffer();
-        socketRef.current?.emit('ui-frame', {
-          roomId,
-          recordingId: currentRecId,
-          frameBlob: arrayBuffer, // ArrayBuffer for binary transmission
-          timestamp: frame.timestamp,
-          metadata: frame.metadata
-        });
-      }
-
-      if (fpsCounterRef.current.length > 10) {
-        const recentFPS = fpsCounterRef.current.slice(-10);
-        const avgFPS = recentFPS.reduce((a, b) => a + b, 0) / recentFPS.length;
-        setStats(prev => ({ ...prev, averageFPS: Math.round(avgFPS * 10) / 10 }));
-      }
-    } catch (error: any) {
-      addLog(`Queue error: ${error.message}`);
+      // Update queue size immediately
+      const newQueueSize = frameQueueRef.current.length;
+      setQueueSize(newQueueSize);
+      
+      // Send frames without delay for maximum throughput
+      const sendPromises = framesToSend.map(async (frame) => {
+        try {
+          // Convert Blob to ArrayBuffer for proper binary transmission
+          const arrayBuffer = await frame.data.arrayBuffer();
+          socketRef.current?.emit('ui-frame', {
+            roomId,
+            recordingId: currentRecId,
+            frameBlob: arrayBuffer,
+            timestamp: frame.timestamp,
+            metadata: frame.metadata
+          });
+        } catch (err) {
+          // Silently fail individual frames
+        }
+      });
+      
+      // Wait for all frames in batch to be sent
+      await Promise.all(sendPromises);
+    } catch (error: unknown) {
+      if (error instanceof Error) addLog(`Queue error: ${error.message}`);
     } finally {
       isProcessingRef.current = false;
       
+      // Immediately process more frames if queue is not empty
       if (frameQueueRef.current.length > 0 && isRecordingRef.current) {
-        setTimeout(processFrameQueue, 10);
+        // Reduce delay significantly - process as fast as possible
+        setTimeout(processFrameQueue, 5);
       }
     }
   }, [recordingId, roomId, addLog]);
@@ -539,7 +635,7 @@ const startFrameCapture = (
           quality: 23,
           withAudio: hasAudio
         }
-      }, async (response: any) => {
+      }, async (response:IResponseObject) => {
         if (response.success && response.recordingId) {
           const recId = response.recordingId;
           setRecordingId(recId);
@@ -585,9 +681,13 @@ const startFrameCapture = (
             // Start frame capture
             startFrameCapture(video, canvas, ctx);
             
-          } catch (playError: any) {
+          } catch (playError: unknown) {
             // Even if play() fails, start capture anyway - video might auto-play
-            addLog(`⚠️ Video play() failed: ${playError?.message || 'unknown'}`);
+            if (playError instanceof Error) {
+              addLog(`⚠️ Video play() failed: ${playError.message}`);
+            } else {
+              addLog(`⚠️ Video play() failed: unknown error`);
+            }
             addLog(`Starting capture anyway - video may auto-play`);
             
             // Start audio recording
@@ -620,8 +720,10 @@ const startFrameCapture = (
         }
       });
 
-    } catch (error: any) {
-      addLog(`Start error: ${error.message}`);
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        addLog(`Start error: ${error.message}`);
+      }
       stopStreams();
     }
   };
@@ -629,16 +731,31 @@ const startFrameCapture = (
   const stopStreams = () => {
     addLog('Stopping streams...');
     
+    // Stop all refs and flags first
+    isRecordingRef.current = false;
+    isPausedRef.current = false;
+    isProcessingRef.current = false;
+    
+    // Cancel animation frame
     if (animationFrameRef.current) {
       cancelAnimationFrame(animationFrameRef.current);
       animationFrameRef.current = null;
     }
     
-    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-      mediaRecorderRef.current.stop();
+    // Stop audio recording
+    if (mediaRecorderRef.current) {
+      try {
+        if (mediaRecorderRef.current.state !== 'inactive') {
+          mediaRecorderRef.current.stop();
+          addLog('🎤 MediaRecorder stopped');
+        }
+      } catch (e) {
+        // Ignore errors
+      }
       mediaRecorderRef.current = null;
     }
     
+    // Stop all tracks in main stream
     if (streamRef.current) {
       streamRef.current.getTracks().forEach(track => {
         track.stop();
@@ -647,26 +764,57 @@ const startFrameCapture = (
       streamRef.current = null;
     }
     
+    // Stop audio stream tracks
     if (audioStreamRef.current) {
-      audioStreamRef.current.getTracks().forEach(track => track.stop());
+      audioStreamRef.current.getTracks().forEach(track => {
+        track.stop();
+        addLog(`Stopped audio track: ${track.kind}`);
+      });
       audioStreamRef.current = null;
     }
     
+    // Clear video element
     if (videoRef.current) {
       videoRef.current.srcObject = null;
+      videoRef.current.pause();
     }
     
+    // Clear health check interval
+    if (healthCheckRef.current) {
+      clearInterval(healthCheckRef.current);
+      healthCheckRef.current = null;
+    }
+    
+    // Clear status polling
+    if (statusPollRef.current) {
+      clearInterval(statusPollRef.current);
+      statusPollRef.current = null;
+    }
+    
+    // Clear processing timeout
+    if (processingTimeout) {
+      clearTimeout(processingTimeout);
+      setProcessingTimeout(null);
+    }
+    
+    // Clear all queues and counters
     frameQueueRef.current = [];
-    setQueueSize(0); // Reset queue size
     audioChunksRef.current = [];
-    isProcessingRef.current = false;
+    fpsCounterRef.current = [];
+    setQueueSize(0);
+    
+    // Reset refs
+    recordingIdRef.current = null;
+    frameNumberRef.current = 0;
+    audioIndexRef.current = 0;
+    lastFrameSentRef.current = 0;
   };
 
   const pauseRecording = () => {
     if (isRecording && !isPaused && recordingId) {
       socketRef.current?.emit('pause-recording', { 
         roomId 
-      }, (response: any) => {
+      }, (response: IResponseObject) => {
         if (response?.success) {
           isPausedRef.current = true;
           setIsPaused(true);
@@ -687,7 +835,7 @@ const startFrameCapture = (
     if (isRecording && isPaused && recordingId) {
       socketRef.current?.emit('resume-recording', { 
         roomId 
-      }, (response: any) => {
+      }, (response: IResponseObject) => {
         if (response?.success) {
           isPausedRef.current = false;
           setIsPaused(false);
@@ -711,38 +859,47 @@ const startFrameCapture = (
     if (!isRecording || !(recordingIdRef.current || recordingId)) return;
   
   addLog('🛑 Stopping recording...');
-  setIsProcessingVideo(true); // Show processing indicator
-  setDownloadError(false); // Reset error state
+  setIsProcessingVideo(true);
+  setDownloadError(false);
   
   // Set timeout to stop processing indicator after 2 minutes
   const timeout = setTimeout(() => {
     addLog('⚠️ Processing timeout - video may still be encoding');
     setIsProcessingVideo(false);
-    setProcessingFailed(true); // Show retry stop button
-  }, 120000); // 2 minutes
+    setProcessingFailed(true);
+  }, 120000);
   
   setProcessingTimeout(timeout);
   
-  // Stop capturing new frames and timer immediately
+  // IMMEDIATELY stop all capturing, timers, and refs
   isRecordingRef.current = false;
-  setIsRecording(false); // Stop timer immediately
+  isPausedRef.current = false;
+  setIsRecording(false);
+  setIsPaused(false);
   
+  // Cancel frame capture loop
   if (animationFrameRef.current) {
     cancelAnimationFrame(animationFrameRef.current);
     animationFrameRef.current = null;
   }
   
-  // Stop audio recording immediately
-  if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
-    mediaRecorderRef.current.stop();
-    addLog('🎤 Audio recording stopped');
+  // Stop audio recording IMMEDIATELY
+  if (mediaRecorderRef.current) {
+    try {
+      if (mediaRecorderRef.current.state !== 'inactive') {
+        mediaRecorderRef.current.stop();
+        addLog('🎤 Audio recording stopped');
+      }
+    } catch (e) {
+      addLog('⚠️ Audio already stopped');
+    }
   }
   
   // Clear health check interval
   if (healthCheckRef.current) {
     clearInterval(healthCheckRef.current);
+    healthCheckRef.current = null;
   }
-  healthCheckRef.current = null;
     
     // Send remaining frames
     const remainingFrames = frameQueueRef.current.length;
@@ -772,7 +929,7 @@ const startFrameCapture = (
     socketRef.current?.emit('stop-recording', { 
       roomId,
       withAudio: true
-    }, (response: any) => {
+    }, (response: IResponseObject) => {
       // Clear timeout
       if (processingTimeout) {
         clearTimeout(processingTimeout);
@@ -787,7 +944,7 @@ const startFrameCapture = (
         addLog('✅ Recording stopped successfully');
         
         // Handle fileUrl from response or nested in recording object
-        const fileUrl = response.fileUrl || response.recording?.fileUrl;
+        const fileUrl = response.fileUrl
         
         if (fileUrl) {
           addLog(`📁 Download URL: ${fileUrl}`);
@@ -832,8 +989,10 @@ const startFrameCapture = (
             }
           }
         }
-      } catch (e: any) {
-        addLog(`ℹ️ Status poll error: ${e.message}`);
+      } catch (e: unknown) {
+        if (e instanceof Error) {
+          addLog(`ℹ️ Status poll error: ${e.message}`);
+        }
       }
     };
     statusPollRef.current = setInterval(poll, 2000);
@@ -849,8 +1008,10 @@ const startFrameCapture = (
       try {
         window.open(fullUrl, '_blank');
         setDownloadError(false);
-      } catch (error: any) {
-        addLog(`❌ Download failed: ${error.message}`);
+      } catch (error: unknown) {
+        if (error instanceof Error) {
+          addLog(`❌ Download failed: ${error.message}`);
+        }
         setDownloadError(true);
       }
     } else {
