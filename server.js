@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors({
   //origin: process.env.CLIENT_URL_LOCAL || '*',
   origin: process.env.CLIENT_URL,
-  credentials: tru//e
+  credentials: true
 }));
 
 app.use(express.json({ limit: '100mb' }));
