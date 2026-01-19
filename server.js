@@ -343,16 +343,35 @@ io.on('connection', (socket) => {
       }
 
       const manager = getRoomManager(roomId);
-      const size = Buffer.from(audioData, 'base64').length;
       
+      // audioData comes from frontend as ArrayBuffer via Socket.io
+      // Socket.io will convert it to a Buffer automatically
+      // No need to convert from base64 here
+      let buffer;
+      if (Buffer.isBuffer(audioData)) {
+        buffer = audioData;
+      } else if (typeof audioData === 'string') {
+        buffer = Buffer.from(audioData, 'base64');
+      } else if (audioData instanceof ArrayBuffer) {
+        buffer = Buffer.from(audioData);
+      } else {
+        throw new Error(`Invalid audioData format: ${typeof audioData}`);
+      }
       
-      await manager.addAudioChunk(recordingId, audioData, timestamp, index);
+      if (buffer.length === 0) {
+        throw new Error('Audio chunk is empty');
+      }
+      
+      const sizeMB = (buffer.length / (1024 * 1024)).toFixed(3);
+      console.log(`[Audio] Chunk ${index}: ${sizeMB}MB (timestamp: ${timestamp})`);
+      
+      await manager.addAudioChunk(recordingId, buffer, timestamp, index);
       
       if (callback) {
         callback({ success: true });
       }
     } catch (error) {
-      
+      console.error(`[Audio Error]`, error.message);
       if (callback) {
         callback({ success: false, error: error.message });
       }

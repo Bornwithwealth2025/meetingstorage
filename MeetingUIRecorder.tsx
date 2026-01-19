@@ -73,6 +73,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
   const audioStreamRef = useRef<MediaStream | null>(null);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const animationFrameRef = useRef<number | null>(null);
+  const captureIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const frameQueueRef = useRef<FrameData[]>([]);
   const audioChunksRef = useRef<Blob[]>([]);
   const isProcessingRef = useRef(false);
@@ -85,6 +86,8 @@ const MeetingUIRecorder: React.FC<Props> = ({
   const frameNumberRef = useRef(0);
   const healthCheckRef = useRef<NodeJS.Timeout | null>(null);
   const statusPollRef = useRef<NodeJS.Timeout | null>(null);
+  //  NEW: Shared recording start timestamp (monotonic)
+  const recordingStartTimeRef = useRef<number>(0);
 
   const TARGET_FPS = 30; // Target 30 FPS
   const FRAME_INTERVAL = 1000 / TARGET_FPS;
@@ -205,6 +208,10 @@ const MeetingUIRecorder: React.FC<Props> = ({
       if (statusPollRef.current) {
         clearInterval(statusPollRef.current);
       }
+      if (captureIntervalRef.current) {
+        clearInterval(captureIntervalRef.current);
+        captureIntervalRef.current = null;
+      }
       if (processingTimeout) {
         clearTimeout(processingTimeout);
       }
@@ -227,6 +234,11 @@ const MeetingUIRecorder: React.FC<Props> = ({
       }
     };
   }, []);
+
+
+
+
+
 
   /**
    * Request screen capture with audio
@@ -252,6 +264,7 @@ const MeetingUIRecorder: React.FC<Props> = ({
       const settings = videoTrack.getSettings();
       
       addLog(`Screen captured: ${settings.width}x${settings.height}`);
+     
       if (audioTracks.length > 0) {
         addLog(`Audio tracks: ${audioTracks.length}`);
       }
@@ -268,15 +281,21 @@ const MeetingUIRecorder: React.FC<Props> = ({
       let hasAudio = false;
       let microphoneStream: MediaStream | null = null;
       
+
+
       // Try to get microphone first (better quality)
       try {
         microphoneStream = await navigator.mediaDevices.getUserMedia({
           audio: {
-            echoCancellation: true,
-            noiseSuppression: true,
-            autoGainControl: true,
-            sampleRate: 44100,
-            channelCount: 2
+            echoCancellation: false,// alway make it false to avoid issues
+            noiseSuppression: false,
+            autoGainControl: false,
+            //////////////////////
+            sampleRate: 48000,
+            sampleSize: 24,
+            ///////////////
+            channelCount: 2,
+            
           },
           video: false
         });
@@ -362,16 +381,18 @@ const MeetingUIRecorder: React.FC<Props> = ({
       mediaRecorder.ondataavailable = (event) => {
         if (event.data.size > 0) {
           audioChunksRef.current.push(event.data);
-          
+
           if (recId && socketRef.current?.connected) {
-            const reader = new FileReader();
-            reader.onloadend = () => {
-              const base64Data = (reader.result as string).split(',')[1];
+            // Calculate precise timestamp relative to recording start
+            const relativeTimestamp = performance.now() - recordingStartTimeRef.current;
+            
+            // Send audio chunk DIRECTLY as binary data
+            event.data.arrayBuffer().then(arrayBuffer => {
               socketRef.current?.emit('audio-chunk', {
                 roomId,
                 recordingId: recId,
-                audioData: base64Data,
-                timestamp: Date.now(),
+                audioData: arrayBuffer,
+                timestamp: relativeTimestamp,
                 index: audioIndexRef.current++
               }, (response: IResponseObject) => {
                 if (response?.success) {
@@ -379,10 +400,13 @@ const MeetingUIRecorder: React.FC<Props> = ({
                     ...prev,
                     audioChunksSent: prev.audioChunksSent + 1
                   }));
+                } else {
+                  addLog(`⚠️ Audio chunk failed to send: ${response?.error}`);
                 }
               });
-            };
-            reader.readAsDataURL(event.data);
+            }).catch(err => {
+              addLog(`❌ Error converting audio chunk: ${err.message}`);
+            });
           }
         }
       };
@@ -394,8 +418,9 @@ const MeetingUIRecorder: React.FC<Props> = ({
       mediaRecorder.onstop = () => {
         addLog('🎤 Audio recording stopped');
       };
-
-      mediaRecorder.start(1000); // 1 second chunks for better sync
+     
+      //CRITICAL: Smaller chunks (250ms) for better sync
+      mediaRecorder.start(250); // 1 second chunks for better sync
       addLog('🎤 Audio recording started (synced with video)');
       return mediaRecorder;
     } catch (error: unknown) {
@@ -413,130 +438,126 @@ const MeetingUIRecorder: React.FC<Props> = ({
   /**
  * Start frame capture loop - OPTIMIZED VERSION
  */
-const startFrameCapture = (
-  video: HTMLVideoElement, 
-  canvas: HTMLCanvasElement, 
-  ctx: CanvasRenderingContext2D
-) => {
-  const captureFrame = () => {
-    if (!isRecordingRef.current) {
-      addLog('🛑 Frame capture loop ended');
-      return;
-    }
+  const startFrameCapture = (
+    video: HTMLVideoElement,
+    canvas: HTMLCanvasElement,
+    ctx: CanvasRenderingContext2D
+  ) => {
+    const captureFrame = () => {
+      if (!isRecordingRef.current || isPausedRef.current) {
+        return;
+      }
 
-    if (!isPausedRef.current && socketRef.current?.connected && video.readyState >= video.HAVE_CURRENT_DATA) {
+      if (!socketRef.current?.connected || video.readyState < video.HAVE_CURRENT_DATA) {
+        return;
+      }
+
       try {
-        const now = Date.now();
+        const now = performance.now();
         const elapsed = now - lastFrameSentRef.current;
-        
-        if (elapsed >= FRAME_INTERVAL) {
-          // Draw frame to canvas
-          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-          
-          // Convert to WebP binary (not base64) for 50% bandwidth savings
-          canvas.toBlob(
-            (blob) => {
-              if (blob && recordingIdRef.current && isRecordingRef.current) {
-                frameNumberRef.current++;
-                
-                const frame: FrameData = {
-                  data: blob, // Blob object (will be sent as binary)
-                  timestamp: now,
-                  metadata: {
-                    width: canvas.width,
-                    height: canvas.height,
-                    frameNumber: frameNumberRef.current
-                  }
-                };
 
-                // Manage queue backpressure - drop oldest frames
-                if (frameQueueRef.current.length >= MAX_QUEUE_SIZE) {
-                  const dropped = frameQueueRef.current.splice(0, 30); // Drop 30 oldest frames
-                  setStats(prev => ({ ...prev, droppedFrames: prev.droppedFrames + dropped.length }));
-                  addLog(`⚠️ Queue full! Dropped ${dropped.length} old frames`);
+        if (elapsed < FRAME_INTERVAL) {
+          return;
+        }
+
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        canvas.toBlob(
+          (blob) => {
+            if (blob && recordingIdRef.current && isRecordingRef.current) {
+              frameNumberRef.current++;
+              const relativeTimestamp = now - recordingStartTimeRef.current;
+
+              const frame: FrameData = {
+                data: blob,
+                timestamp: relativeTimestamp,
+                metadata: {
+                  width: canvas.width,
+                  height: canvas.height,
+                  frameNumber: frameNumberRef.current
                 }
-                
-                frameQueueRef.current.push(frame);
-                setQueueSize(frameQueueRef.current.length);
-                
-                // Track FPS
-                fpsCounterRef.current.push(now);
-                if (fpsCounterRef.current.length > 30) {
-                  fpsCounterRef.current.shift();
-                }
-                
-                // Calculate actual FPS from timestamps
-                if (fpsCounterRef.current.length > 1) {
-                  const firstTime = fpsCounterRef.current[0];
-                  const lastTime = fpsCounterRef.current[fpsCounterRef.current.length - 1];
-                  const duration = (lastTime - firstTime) / 1000;
-                  if (duration > 0) {
-                    const currentFPS = (fpsCounterRef.current.length - 1) / duration;
-                    setStats(prev => ({
-                      ...prev,
-                      framesSent: prev.framesSent + 1,
-                      lastFrameSize: Math.round(blob.size / 1024),
-                      averageFPS: Math.round(currentFPS * 10) / 10
-                    }));
-                  }
-                } else {
+              };
+
+              if (frameQueueRef.current.length >= MAX_QUEUE_SIZE) {
+                const dropped = frameQueueRef.current.splice(0, 30);
+                setStats(prev => ({ ...prev, droppedFrames: prev.droppedFrames + dropped.length }));
+                addLog(`⚠️ Queue full! Dropped ${dropped.length} old frames`);
+              }
+
+              frameQueueRef.current.push(frame);
+              setQueueSize(frameQueueRef.current.length);
+
+              fpsCounterRef.current.push(now);
+              if (fpsCounterRef.current.length > 30) {
+                fpsCounterRef.current.shift();
+              }
+
+              if (fpsCounterRef.current.length > 1) {
+                const firstTime = fpsCounterRef.current[0];
+                const lastTime = fpsCounterRef.current[fpsCounterRef.current.length - 1];
+                const duration = (lastTime - firstTime) / 1000;
+                if (duration > 0) {
+                  const currentFPS = (fpsCounterRef.current.length - 1) / duration;
                   setStats(prev => ({
                     ...prev,
                     framesSent: prev.framesSent + 1,
-                    lastFrameSize: Math.round(blob.size / 1024)
+                    lastFrameSize: Math.round(blob.size / 1024),
+                    averageFPS: Math.round(currentFPS * 10) / 10
                   }));
                 }
-
-                // Trigger async processing immediately
-                processFrameQueue();
-                lastFrameSentRef.current = now;
+              } else {
+                setStats(prev => ({
+                  ...prev,
+                  framesSent: prev.framesSent + 1,
+                  lastFrameSize: Math.round(blob.size / 1024)
+                }));
               }
-            },
-            'image/webp',
-            0.70  // Slightly lower quality for better performance
-          );
-        }
+
+              processFrameQueue();
+              lastFrameSentRef.current = now;
+            }
+          },
+          'image/webp',
+          0.70
+        );
       } catch (error: unknown) {
         if (error instanceof Error) addLog(`Frame error: ${error.message}`);
       }
+    };
+
+    addLog('🎬 Starting frame capture loop');
+    lastFrameSentRef.current = performance.now() - FRAME_INTERVAL;
+
+    if (captureIntervalRef.current) {
+      clearInterval(captureIntervalRef.current);
     }
-    
-    // Continue capture loop
-    if (isRecordingRef.current) {
-      animationFrameRef.current = requestAnimationFrame(captureFrame);
-    }
+
+    captureIntervalRef.current = setInterval(captureFrame, FRAME_INTERVAL);
+
+    let lastFrameCount = 0;
+    const healthCheck = setInterval(() => {
+      if (!isRecordingRef.current) {
+        clearInterval(healthCheck);
+        return;
+      }
+      const currentCount = frameNumberRef.current;
+      if (currentCount === lastFrameCount && !isPausedRef.current) {
+        addLog(`⚠️ WARNING: No frames captured in last second! Count: ${currentCount}`);
+        addLog(`  - isRecordingRef: ${isRecordingRef.current}`);
+        addLog(`  - isPausedRef: ${isPausedRef.current}`);
+        addLog(`  - video.readyState: ${video?.readyState}`);
+        addLog(`  - socketConnected: ${socketRef.current?.connected}`);
+      }
+      lastFrameCount = currentCount;
+    }, 1000);
+
+    healthCheckRef.current = healthCheck;
   };
 
-  // Start capture immediately
-  addLog('🎬 Starting frame capture loop');
-  lastFrameSentRef.current = Date.now() - FRAME_INTERVAL; // Force immediate capture
-  
-  // Add diagnostics to monitor frame capture health
-  let lastFrameCount = 0;
-  const healthCheck = setInterval(() => {
-    if (!isRecordingRef.current) {
-      clearInterval(healthCheck);
-      return;
-    }
-    const currentCount = frameNumberRef.current;
-    if (currentCount === lastFrameCount && !isPausedRef.current) {
-      addLog(`⚠️ WARNING: No frames captured in last second! Count: ${currentCount}`);
-      addLog(`  - isRecordingRef: ${isRecordingRef.current}`);
-      addLog(`  - isPausedRef: ${isPausedRef.current}`);
-      addLog(`  - video.readyState: ${video?.readyState}`);
-      addLog(`  - socketConnected: ${socketRef.current?.connected}`);
-    }
-    lastFrameCount = currentCount;
-  }, 1000);
-  
-  // Store the health check interval ID to clear it later
- 
-  healthCheckRef.current = healthCheck;
-  
-  // Start the capture loop
-  captureFrame();
-};
-  // Process frame queue - OPTIMIZED for throughput
+
+
+
+  // Process frame queue - OPTIMIZED for throughput with server ACK
   const processFrameQueue = useCallback(async () => {
     const currentRecId = recordingIdRef.current || recordingId;
     if (isProcessingRef.current || frameQueueRef.current.length === 0 || !currentRecId || !socketRef.current?.connected) {
@@ -554,24 +575,38 @@ const startFrameCapture = (
       const newQueueSize = frameQueueRef.current.length;
       setQueueSize(newQueueSize);
       
-      // Send frames without delay for maximum throughput
-      const sendPromises = framesToSend.map(async (frame) => {
-        try {
-          // Convert Blob to ArrayBuffer for proper binary transmission
-          const arrayBuffer = await frame.data.arrayBuffer();
-          socketRef.current?.emit('ui-frame', {
-            roomId,
-            recordingId: currentRecId,
-            frameBlob: arrayBuffer,
-            timestamp: frame.timestamp,
-            metadata: frame.metadata
-          });
-        } catch (err) {
-          // Silently fail individual frames
-        }
+      // Convert all frames to ArrayBuffer first
+      const framesWithBuffers = await Promise.all(
+        framesToSend.map(async (frame) => ({
+          frame,
+          arrayBuffer: await frame.data.arrayBuffer()
+        }))
+      );
+
+      // Send frames and wait for server acknowledgment
+      const sendPromises = framesWithBuffers.map(({ frame, arrayBuffer }) => {
+        return new Promise<void>((resolve) => {
+          try {
+            socketRef.current?.emit('ui-frame', {
+              roomId,
+              recordingId: currentRecId,
+              frameBlob: arrayBuffer,
+              timestamp: frame.timestamp,
+              metadata: frame.metadata
+            }, (response: IResponseObject) => {
+              if (!response?.success) {
+                addLog(`⚠️ Frame ACK failed: ${response?.error}`);
+              }
+              resolve();
+            });
+          } catch (err: unknown) {
+            if (err instanceof Error) addLog(`Frame emit error: ${err.message}`);
+            resolve();
+          }
+        });
       });
       
-      // Wait for all frames in batch to be sent
+      // Wait for all frames in batch to be acknowledged by server
       await Promise.all(sendPromises);
     } catch (error: unknown) {
       if (error instanceof Error) addLog(`Queue error: ${error.message}`);
@@ -585,6 +620,10 @@ const startFrameCapture = (
       }
     }
   }, [recordingId, roomId, addLog]);
+
+
+
+
 
   const startRecording = async () => {
     if (!isConnected) {
@@ -640,6 +679,9 @@ const startFrameCapture = (
           const recId = response.recordingId;
           setRecordingId(recId);
           recordingIdRef.current = recId;
+
+           // CRITICAL: Set shared recording start time FIRST
+          recordingStartTimeRef.current = performance.now();
           addLog(`✅ Recording ID: ${recId}`);
 
           // Reset state first
@@ -728,6 +770,9 @@ const startFrameCapture = (
     }
   };
 
+
+
+
   const stopStreams = () => {
     addLog('Stopping streams...');
     
@@ -740,6 +785,10 @@ const startFrameCapture = (
     if (animationFrameRef.current) {
       cancelAnimationFrame(animationFrameRef.current);
       animationFrameRef.current = null;
+    }
+    if (captureIntervalRef.current) {
+      clearInterval(captureIntervalRef.current);
+      captureIntervalRef.current = null;
     }
     
     // Stop audio recording
@@ -808,6 +857,7 @@ const startFrameCapture = (
     frameNumberRef.current = 0;
     audioIndexRef.current = 0;
     lastFrameSentRef.current = 0;
+    recordingStartTimeRef.current = 0; // Reset
   };
 
   const pauseRecording = () => {
@@ -881,6 +931,10 @@ const startFrameCapture = (
   if (animationFrameRef.current) {
     cancelAnimationFrame(animationFrameRef.current);
     animationFrameRef.current = null;
+  }
+  if (captureIntervalRef.current) {
+    clearInterval(captureIntervalRef.current);
+    captureIntervalRef.current = null;
   }
   
   // Stop audio recording IMMEDIATELY
@@ -1227,7 +1281,6 @@ const startFrameCapture = (
       </div>
     </div>
   );
-  3
 };
 
 export default MeetingUIRecorder;

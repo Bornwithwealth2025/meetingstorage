@@ -144,7 +144,8 @@ class RecordingManager {
         droppedFrames: 0,
         errors: 0,
         averageFPS: 0,
-        startTime: Date.now()
+        startTime: Date.now(),
+        lastAudioTimestamp: 0
       },
       frameFiles: [],
       frameTimestamps: [],
@@ -210,6 +211,9 @@ class RecordingManager {
     }
   }
 
+
+
+
   async addBulkFrames(recordingId, frames) {
     const recording = this.recordings.get(recordingId) || this.activeRecording;
     
@@ -248,7 +252,6 @@ class RecordingManager {
    const recording = this.recordings.get(recordingId) || this.activeRecording;
 
     if (!recording) {
-   
       throw new Error('No recording found');
     }
 
@@ -257,25 +260,46 @@ class RecordingManager {
     }
 
     try {
-      const audioFilename = `audio_${String(index).padStart(6, '0')}_${timestamp}.webm`;
-      const audioPath = path.join(recording.audioDir, audioFilename);
+      // Handle both base64 string and ArrayBuffer
+      let buffer;
+      if (typeof audioData === 'string') {
+        buffer = Buffer.from(audioData, 'base64');
+      } else if (audioData instanceof ArrayBuffer) {
+        buffer = Buffer.from(audioData);
+      } else if (Buffer.isBuffer(audioData)) {
+        buffer = audioData;
+      } else {
+        throw new Error(`Invalid audio data type: ${typeof audioData}`);
+      }
       
-      const buffer = Buffer.from(audioData, 'base64');
-      await fs.writeFile(audioPath, buffer);
+      if (buffer.length === 0) {
+        logger(`⚠️ Audio chunk ${index} is empty, skipping`);
+        return;
+      }
       
-      recording.audioFiles.push({
-        path: audioPath,
-        timestamp,
-        index
-      });
+      // Append to single audio file instead of creating separate files
+      const singleAudioPath = path.join(recording.audioDir, 'recording.webm');
+      await fs.appendFile(singleAudioPath, buffer);
       
       recording.stats.audioChunksReceived++;
-      logger(`🎤 Audio chunk ${index} saved (${Math.round(buffer.length / 1024)}KB) - Total: ${recording.stats.audioChunksReceived}`);
+      // Track the end of the latest audio chunk for duration alignment
+      const chunkEnd = (timestamp || 0) + 250;
+      recording.stats.lastAudioTimestamp = Math.max(recording.stats.lastAudioTimestamp || 0, chunkEnd);
+      
+      if (recording.stats.audioChunksReceived % 10 === 0) {
+        logger(`🎤 Audio chunks received: ${recording.stats.audioChunksReceived}`);
+      }
     } catch (error) {
-     
+      logger(`❌ Error adding audio chunk ${index}: ${error.message}`);
       throw error;
     }
   }
+
+
+
+
+
+
 
   async processFrame(recording, frameBuffer, timestamp, metadata) {
     try {
@@ -295,7 +319,7 @@ class RecordingManager {
       
       const frameInfo = {
         path: framePath,
-        timestamp: timestamp || Date.now(),
+        timestamp: timestamp,
         frameNumber,
         filename: frameFilename,
         size: frameBuffer.length
@@ -365,99 +389,142 @@ class RecordingManager {
     }
 
     // Calculate approximate FPS
-    let fps = recording.options.fps || 30;
-    if (frameInfos.length > 1) {
-      const durationSec = (frameInfos[frameInfos.length - 1].timestamp - frameInfos[0].timestamp) / 1000;
-      if (durationSec > 0) {
-        fps = Math.min(Math.round(frameInfos.length / durationSec), 60);
-      }
-    }
+    // let fps = recording.options.fps || 30;
+    // if (frameInfos.length > 1) {
+    //   const durationSec = (frameInfos[frameInfos.length - 1].timestamp - frameInfos[0].timestamp) / 1000;
+    //   if (durationSec > 0) {
+    //     fps = Math.min(Math.round(frameInfos.length / durationSec), 60);
+    //   }
+    // }
 
+
+    // const lines = [];
+    // for (let i = 0; i < frameInfos.length; i++) {
+    //   const curr = frameInfos[i];
+    //   const next = frameInfos[i + 1];
+
+    //   let durSec;
+    //   if (next) {
+    //     durSec = Math.max((next.timestamp - curr.timestamp) / 1000, 1 / fps);
+    //   } else {
+    //     durSec = 1 / fps;
+    //   }
+
+    //   lines.push(`file '${toPosix(curr.path)}'`);
+    //   lines.push(`duration ${durSec.toFixed(6)}`);
+    // }
+
+    const sorted = frameInfos.sort((a, b) => a.timestamp - b.timestamp);
+    
     const lines = [];
-    for (let i = 0; i < frameInfos.length; i++) {
-      const curr = frameInfos[i];
-      const next = frameInfos[i + 1];
+    for (let i = 0; i < sorted.length; i++) {
+      const curr = sorted[i];
+      const next = sorted[i + 1];
 
       let durSec;
       if (next) {
-        durSec = Math.max((next.timestamp - curr.timestamp) / 1000, 1 / fps);
+        //  Use ACTUAL timestamp difference
+        durSec = Math.max((next.timestamp - curr.timestamp) / 1000, 0.001);
       } else {
-        durSec = 1 / fps;
+        // Last frame: use target FPS
+        durSec = 1 / (recording.options.fps || 30);
       }
 
       lines.push(`file '${toPosix(curr.path)}'`);
       lines.push(`duration ${durSec.toFixed(6)}`);
     }
 
+    const fps = recording.options.fps || 30;
+    const firstTimestamp = sorted[0].timestamp;
+    const lastTimestamp = sorted[sorted.length - 1].timestamp;
+    const nominalDurationMs = Math.max(0, lastTimestamp - firstTimestamp) + (1000 / fps);
+    const targetDurationMs = Math.max(nominalDurationMs, recording.stats.lastAudioTimestamp || 0);
+    const extraTailSec = Math.max(0, (targetDurationMs - nominalDurationMs) / 1000);
+
+    if (extraTailSec > 0) {
+      const lastDurationIndex = lines.length - 1; // Last duration entry (before the required duplicate file line)
+      const currentDuration = parseFloat(lines[lastDurationIndex].replace('duration ', '')) || (1 / fps);
+      lines[lastDurationIndex] = `duration ${(currentDuration + extraTailSec).toFixed(6)}`;
+      logger(`ℹ️ Extended last frame by ${extraTailSec.toFixed(3)}s to align with audio (${(targetDurationMs / 1000).toFixed(2)}s total).`);
+    }
+
     // FFmpeg requires the last frame to appear again without duration
-    lines.push(`file '${toPosix(frameInfos[frameInfos.length - 1].path)}'`);
+    lines.push(`file '${toPosix(sorted[sorted.length - 1].path)}'`);
 
     fs.writeFileSync(concatFilePath, lines.join('\n'));
     return concatFilePath;
+
+
+
   } 
 
 
 
 
-// 3️⃣ Concatenate WAV → AAC (
-// .m4a)
-async  concatWavToAac() {
+// 3️⃣ Convert single WebM audio file → AAC (.m4a)
+async concatWavToAac() {
   const audioDir = path.join(this.activeRecording.tempDir, 'audio');
-  const concatListPath = path.join(this.activeRecording.tempDir, 'audio_webm_concat.txt');
+  const inputFile = path.join(audioDir, 'recording.webm');
   const outputFile = path.join(this.activeRecording.tempDir, 'audio.m4a');
 
-  // 1️⃣ Read and filter WebM audio files
-  const files = (await fs.readdir(audioDir))
-    .filter(f => f.endsWith('.webm'))
-    .sort();
+  // Check if audio file exists
+  const fileExists = await fs.pathExists(inputFile);
+  if (!fileExists) {
+    throw new Error('Audio recording file does not exist');
+  }
 
-  if (files.length === 0) throw new Error('No audio chunks found');
+  const stats = await fs.stat(inputFile);
+  if (stats.size === 0) {
+    throw new Error('Audio recording file is empty');
+  }
 
-  // 2️⃣ Create concat list for FFmpeg
-  const lines = files.map(f =>
-    `file '${path.join(audioDir, f).replace(/\\/g, '/')}'`
-  );
-  await fs.writeFile(concatListPath, lines.join('\n'));
-
-  logger(`🎵 Concatenating ${files.length} WebM audio chunks`);
+  logger(`🎵 Converting WebM audio (${(stats.size / 1024).toFixed(1)}KB) to AAC`);
 
   return new Promise((resolve, reject) => {
-    // 3️⃣ Spawn FFmpeg process
     const ffmpegArgs = [
-      '-f', 'concat',
-      '-safe', '0',
-      '-i', concatListPath,
+      '-i', inputFile,
       '-c:a', 'aac',
       '-ar', '48000',
       '-ac', '2',
+      '-b:a', '128k',
       '-movflags', '+faststart',
       '-y',
       outputFile
     ];
 
+    logger(`🎵 Running FFmpeg: ffmpeg ${ffmpegArgs.join(' ')}`);
     const ffmpegProcess = spawn('ffmpeg', ffmpegArgs);
 
-    ffmpegProcess.stdout.on('data', data => logger(`FFmpeg stdout: ${data}`));
-    ffmpegProcess.stderr.on('data', data => logger(`FFmpeg stderr: ${data}`));
+    let ffmpegStderr = '';
+
+    ffmpegProcess.stdout.on('data', data => {
+      logger(`FFmpeg stdout: ${data.toString().trim()}`);
+    });
+
+    ffmpegProcess.stderr.on('data', data => {
+      const msg = data.toString().trim();
+      ffmpegStderr += msg + '\n';
+    });
 
     ffmpegProcess.on('error', err => {
-      logger('❌ Audio concat failed:', err.message);
+      logger(`❌ FFmpeg process error: ${err.message}`);
       reject(err);
     });
 
     ffmpegProcess.on('close', async code => {
       if (code === 0) {
-        logger(`✅ Audio created: ${outputFile}`);
-        // Optional: clean up concat list
-        try { 
-          await fs.unlink(concatListPath); 
-
+        try {
+          const stats = await fs.stat(outputFile);
+          const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
+          logger(`✅ Audio created successfully: ${outputFile} (${sizeMB}MB)`);
+          resolve(outputFile);
         } catch (err) {
-          logger(`⚠️ Failed to delete concat list: ${err.message}`);
+          reject(err);
         }
-        resolve(outputFile);
       } else {
-        reject(new Error(`FFmpeg exited with code ${code}`));
+        const errMsg = `FFmpeg exited with code ${code}\nStderr: ${ffmpegStderr}`;
+        logger(`❌ ${errMsg}`);
+        reject(new Error(errMsg));
       }
     });
   });
@@ -624,6 +691,7 @@ async encodeFramesToVideo(recording, frameInfos) {
         '-f', 'concat', 
         '-safe', '0', 
         '-i', toPosix(allFramesListPath),
+        '-vsync', 'vfr',
         '-c:v', 'libx264', 
        // '-r', String(recording.options.fps), // FPS from the recording options
         '-pix_fmt', 'yuv420p', 
@@ -786,7 +854,8 @@ async  muxVideoAndAudio(videoPath, audioPath, outputPath) {
       '-map', '0:v:0',           // Map video from input 0 (video file)
       '-map', '1:a:0',           // Map audio from input 1 (audio file)
       '-c', 'copy',              // Copy audio and video codecs (no re-encoding)
-      //'-shortest',               // Make output as short as the shortest input (audio/video)
+      '-shortest',               // Make output as short as the shortest input (audio/video)
+      '-movflags', '+faststart',
       '-y',                      // Overwrite output file without asking
       outputPath                // Output path
     ];

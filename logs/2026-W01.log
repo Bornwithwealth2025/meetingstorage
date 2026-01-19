@@ -734,3 +734,7 @@ size=     113kB time=00:00:04.08 bitrate= 227.8kbits/s speed= 690x
 2026-01-13T13:14:46.486Z----📊 Stats: 160 frames, 27 audio chunks, 151.827s duration
 2026-01-13T13:14:46.486Z----📁 File URL: /recordings/rooms/yL2qCsf5Om5EGZbowqwNYb11/completed/ui-recording_yL2qCsf5Om5EGZbowqwNYb11_2026-01-13T13-12-14-659Z.mp4 [object Object]
 2026-01-13T13:14:46.486Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T13:49:22.199Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T13:49:22.202Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
+2026-01-13T14:41:58.891Z----🧹 Cleaning up recording manager for room yL2qCsf5Om5EGZbowqwNYb11...
+2026-01-13T14:41:58.894Z----✅ Cleanup completed for room yL2qCsf5Om5EGZbowqwNYb11
