@@ -1,0 +1,367 @@
+2026-01-23T13:36:18.855Z----🧹 Cleaning up recording manager for room sOWB98VUJ8KqHZ48EnytYmMx...
+2026-01-23T13:36:18.856Z----✅ Cleanup completed for room sOWB98VUJ8KqHZ48EnytYmMx
+2026-01-23T13:49:57.644Z----🧹 Cleaning up recording manager for room sOWB98VUJ8KqHZ48EnytYmMx...
+2026-01-23T13:49:57.646Z----✅ Cleanup completed for room sOWB98VUJ8KqHZ48EnytYmMx
+2026-01-26T15:45:19.028Z----🎥 UI Recording started in room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 9ccbd893-6eb7-4340-a5ec-445a234b4fbe
+2026-01-26T15:45:19.030Z----📊 Target FPS: 30, Audio: true
+2026-01-26T15:45:21.405Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 30 frames, 28.5KB avg, FPS: 28.46
+2026-01-26T15:45:23.460Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 60 frames, 28.5KB avg, FPS: 29.35
+2026-01-26T15:45:25.469Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 90 frames, 28.5KB avg, FPS: 29.57
+2026-01-26T15:45:27.846Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 120 frames, 28.5KB avg, FPS: 29.34
+2026-01-26T15:45:29.859Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 150 frames, 28.5KB avg, FPS: 29.53
+2026-01-26T15:45:31.804Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 180 frames, 28.5KB avg, FPS: 29.57
+2026-01-26T15:45:33.953Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 210 frames, 28.5KB avg, FPS: 29.54
+2026-01-26T15:45:36.143Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 240 frames, 28.5KB avg, FPS: 29.57
+2026-01-26T15:45:38.872Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 270 frames, 28.5KB avg, FPS: 29.65
+2026-01-26T15:45:41.276Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 300 frames, 28.5KB avg, FPS: 29.60
+2026-01-26T15:45:44.279Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 330 frames, 28.5KB avg, FPS: 29.76
+2026-01-26T15:45:46.751Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 360 frames, 28.5KB avg, FPS: 29.71
+2026-01-26T15:45:49.609Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 390 frames, 28.5KB avg, FPS: 29.77
+2026-01-26T15:45:52.342Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 420 frames, 28.5KB avg, FPS: 29.66
+2026-01-26T15:45:56.242Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 450 frames, 28.5KB avg, FPS: 29.71
+2026-01-26T15:45:59.101Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 480 frames, 28.5KB avg, FPS: 29.74
+2026-01-26T15:46:02.514Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 510 frames, 28.5KB avg, FPS: 29.82
+2026-01-26T15:46:06.355Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 540 frames, 28.5KB avg, FPS: 29.65
+2026-01-26T15:46:10.295Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 570 frames, 28.5KB avg, FPS: 29.43
+2026-01-26T15:46:13.675Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 600 frames, 28.5KB avg, FPS: 29.33
+2026-01-26T15:46:16.467Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 630 frames, 28.5KB avg, FPS: 29.27
+2026-01-26T15:46:20.520Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 660 frames, 28.5KB avg, FPS: 29.29
+2026-01-26T15:46:24.231Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 690 frames, 28.5KB avg, FPS: 29.09
+2026-01-26T15:46:28.057Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 720 frames, 28.5KB avg, FPS: 29.18
+2026-01-26T15:46:31.251Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 750 frames, 28.5KB avg, FPS: 29.14
+2026-01-26T15:46:35.283Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 780 frames, 28.5KB avg, FPS: 29.14
+2026-01-26T15:46:39.491Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 810 frames, 28.5KB avg, FPS: 29.15
+2026-01-26T15:46:42.616Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 840 frames, 28.5KB avg, FPS: 28.81
+2026-01-26T15:46:45.653Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 870 frames, 28.5KB avg, FPS: 28.74
+2026-01-26T15:46:49.818Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 900 frames, 28.5KB avg, FPS: 28.80
+2026-01-26T15:46:53.571Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 930 frames, 28.5KB avg, FPS: 28.78
+2026-01-26T15:46:56.961Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 960 frames, 28.5KB avg, FPS: 28.68
+2026-01-26T15:47:00.972Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 990 frames, 28.5KB avg, FPS: 28.71
+2026-01-26T15:47:04.445Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1020 frames, 28.5KB avg, FPS: 28.65
+2026-01-26T15:47:07.755Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1050 frames, 28.5KB avg, FPS: 28.61
+2026-01-26T15:47:11.118Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1080 frames, 28.5KB avg, FPS: 28.31
+2026-01-26T15:47:15.009Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1110 frames, 28.5KB avg, FPS: 28.30
+2026-01-26T15:47:19.439Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1140 frames, 28.5KB avg, FPS: 28.29
+2026-01-26T15:47:24.046Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1170 frames, 28.5KB avg, FPS: 28.36
+2026-01-26T15:47:27.793Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1200 frames, 28.5KB avg, FPS: 28.27
+2026-01-26T15:47:31.373Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1230 frames, 28.5KB avg, FPS: 28.16
+2026-01-26T15:47:35.343Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1260 frames, 28.5KB avg, FPS: 28.18
+2026-01-26T15:47:39.457Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1290 frames, 28.5KB avg, FPS: 28.21
+2026-01-26T15:47:43.301Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1320 frames, 28.5KB avg, FPS: 28.25
+2026-01-26T15:47:47.280Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1350 frames, 28.5KB avg, FPS: 28.08
+2026-01-26T15:47:51.158Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1380 frames, 28.5KB avg, FPS: 27.84
+2026-01-26T15:47:55.565Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1410 frames, 28.5KB avg, FPS: 27.76
+2026-01-26T15:48:00.420Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1440 frames, 28.5KB avg, FPS: 27.74
+2026-01-26T15:48:04.435Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1470 frames, 28.5KB avg, FPS: 27.74
+2026-01-26T15:48:08.406Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 1500 frames, 28.5KB avg, FPS: 27.67
+2026-01-26T15:49:30.909Z----🧹 Cleaning up recording manager for room aIGwCz0S1tazSlDhSlWsG9ug_meeting...
+2026-01-26T15:49:30.910Z----🛑 Stopping recording in room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 9ccbd893-6eb7-4340-a5ec-445a234b4fbe
+2026-01-26T15:49:54.757Z----
+✅ Video encoding complete
+2026-01-26T15:49:54.758Z----📁 Output: 0.29MB at /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/9ccbd893-6eb7-4340-a5ec-445a234b4fbe/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-45-19-024Z.mp4
+2026-01-26T15:49:54.758Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/9ccbd893-6eb7-4340-a5ec-445a234b4fbe/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-45-19-024Z.mp4
+2026-01-26T15:49:54.760Z----⚠️ Audio processing failed: Audio recording file does not exist
+2026-01-26T15:49:54.760Z----ℹ️ Continuing with video-only output
+2026-01-26T15:49:54.761Z----ℹ️ Using video-only output (no audio)
+2026-01-26T15:49:54.770Z----✅ Moved video-only to: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/completed/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-45-19-024Z.mp4
+2026-01-26T15:49:55.916Z----✅ Thumbnail generated
+2026-01-26T15:49:55.916Z----✅ Recording completed in room aIGwCz0S1tazSlDhSlWsG9ug_meeting
+2026-01-26T15:49:55.916Z----📊 Stats: 1525 frames, 0 audio chunks, 276.892s duration
+2026-01-26T15:49:55.917Z----📁 File URL: /recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/completed/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-45-19-024Z.mp4 [object Object]
+2026-01-26T15:49:55.917Z----✅ Cleanup completed for room aIGwCz0S1tazSlDhSlWsG9ug_meeting
+2026-01-26T15:51:48.571Z----🎥 UI Recording started in room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 86c96644-a9d5-4920-83a1-241350fa05fb
+2026-01-26T15:51:48.572Z----📊 Target FPS: 30, Audio: true
+2026-01-26T15:51:50.592Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 30 frames, 28.4KB avg, FPS: 26.77
+2026-01-26T15:51:52.177Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 60 frames, 28.4KB avg, FPS: 28.32
+2026-01-26T15:51:54.109Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 90 frames, 28.4KB avg, FPS: 29.03
+2026-01-26T15:51:55.880Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 120 frames, 28.4KB avg, FPS: 29.33
+2026-01-26T15:51:57.889Z----📊 Room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 150 frames, 28.4KB avg, FPS: 29.52
+2026-01-26T15:52:00.819Z----🛑 Stopping recording in room aIGwCz0S1tazSlDhSlWsG9ug_meeting: 86c96644-a9d5-4920-83a1-241350fa05fb
+2026-01-26T15:52:00.901Z----ℹ️ Extended last frame by 4.485s to align with audio (9.90s total).
+2026-01-26T15:52:04.100Z----
+✅ Video encoding complete
+2026-01-26T15:52:04.101Z----📁 Output: 0.08MB at /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4
+2026-01-26T15:52:04.101Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4
+2026-01-26T15:52:04.101Z----🎵 Converting WebM audio (3.0KB) to AAC
+2026-01-26T15:52:04.102Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/audio.m4a
+2026-01-26T15:52:04.417Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/audio.m4a (0.00MB)
+2026-01-26T15:52:04.418Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/audio.m4a
+2026-01-26T15:52:04.419Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/completed/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4
+2026-01-26T15:52:04.599Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+
+2026-01-26T15:52:04.600Z----FFmpeg stderr:   libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-26T15:52:04.633Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:05.56, start: 0.000000, bitrate: 119 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 116 kb/s, 24.10 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-26T15:52:04.642Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/temp/86c96644-a9d5-4920-83a1-241350fa05fb/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:00.18, start: 0.000000, bitrate: 167 kb/s
+
+2026-01-26T15:52:04.643Z----FFmpeg stderr:   Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 115 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-26T15:52:04.644Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/completed/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+
+2026-01-26T15:52:04.647Z----FFmpeg stderr:   Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 116 kb/s, 24.10 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 115 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-26T15:52:04.648Z----FFmpeg stderr: size=       0kB time=-00:00:00.16 bitrate=  -0.0kbits/s speed=N/A    
+2026-01-26T15:52:04.650Z----FFmpeg stderr: [mp4 @ 0x58dbd525be00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x58dbd5254780] video:34kB audio:3kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.851991%
+size=      39kB time=00:00:00.28 bitrate=1133.9kbits/s speed=64.5x    
+
+2026-01-26T15:52:04.668Z----✅ Muxing complete: 0.04MB
+2026-01-26T15:52:04.669Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/completed/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4
+2026-01-26T15:52:05.362Z----✅ Thumbnail generated
+2026-01-26T15:52:05.362Z----✅ Recording completed in room aIGwCz0S1tazSlDhSlWsG9ug_meeting
+2026-01-26T15:52:05.363Z----📊 Stats: 158 frames, 1 audio chunks, 16.793s duration
+2026-01-26T15:52:05.363Z----📁 File URL: /recordings/rooms/aIGwCz0S1tazSlDhSlWsG9ug_meeting/completed/ui-recording_aIGwCz0S1tazSlDhSlWsG9ug_meeting_2026-01-26T15-51-48-569Z.mp4 [object Object]
+2026-01-26T16:03:53.737Z----🧹 Cleaning up recording manager for room aIGwCz0S1tazSlDhSlWsG9ug_meeting...
+2026-01-26T16:03:53.738Z----✅ Cleanup completed for room aIGwCz0S1tazSlDhSlWsG9ug_meeting
+2026-01-26T16:48:36.463Z----🧹 Cleaning up recording manager for room iSR2v4ed49SJ66HrEbBQctee...
+2026-01-26T16:48:36.464Z----✅ Cleanup completed for room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T16:49:57.745Z----🧹 Cleaning up recording manager for room iSR2v4ed49SJ66HrEbBQctee...
+2026-01-26T16:49:57.746Z----✅ Cleanup completed for room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T16:52:02.135Z----🎥 UI Recording started in room iSR2v4ed49SJ66HrEbBQctee: d941c7e0-ef74-4f38-b22d-a94c31ec8f2f
+2026-01-26T16:52:02.136Z----📊 Target FPS: 30, Audio: true
+2026-01-26T16:52:14.981Z----🎤 Audio chunks received: 10
+2026-01-26T16:52:18.052Z----🎤 Audio chunks received: 20
+2026-01-26T16:52:18.171Z----🎤 Audio chunks received: 30
+2026-01-26T16:52:18.473Z----🎤 Audio chunks received: 40
+2026-01-26T16:52:24.328Z----🎤 Audio chunks received: 50
+2026-01-26T16:52:28.515Z----🎤 Audio chunks received: 60
+2026-01-26T16:52:28.517Z----🎤 Audio chunks received: 70
+2026-01-26T16:52:38.674Z----🎤 Audio chunks received: 80
+2026-01-26T16:52:39.166Z----🎤 Audio chunks received: 90
+2026-01-26T16:52:39.527Z----🎤 Audio chunks received: 100
+2026-01-26T16:52:40.262Z----🎤 Audio chunks received: 110
+2026-01-26T16:52:45.726Z----🎤 Audio chunks received: 120
+2026-01-26T16:52:55.200Z----🛑 Stopping recording in room iSR2v4ed49SJ66HrEbBQctee: d941c7e0-ef74-4f38-b22d-a94c31ec8f2f
+2026-01-26T16:52:55.229Z----ℹ️ Extended last frame by 31.599s to align with audio (33.11s total).
+2026-01-26T16:52:56.104Z----📊 Room iSR2v4ed49SJ66HrEbBQctee: 30 frames, 54.0KB avg, FPS: 19.72
+2026-01-26T16:52:56.475Z----
+✅ Video encoding complete
+2026-01-26T16:52:56.475Z----📁 Output: 0.12MB at /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4
+2026-01-26T16:52:56.475Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4
+2026-01-26T16:52:56.476Z----🎵 Converting WebM audio (519.2KB) to AAC
+2026-01-26T16:52:56.476Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/audio.m4a
+2026-01-26T16:52:57.980Z----🎤 Audio chunks received: 130
+2026-01-26T16:52:59.884Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/audio.m4a (0.56MB)
+2026-01-26T16:52:59.885Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/audio.m4a
+2026-01-26T16:52:59.885Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4
+2026-01-26T16:53:00.167Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-26T16:53:00.221Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:01.56, start: 0.000000, bitrate: 658 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 651 kb/s, 19.23 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/d941c7e0-ef74-4f38-b22d-a94c31ec8f2f/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:36.14, start: 0.000000, bitrate: 130 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-26T16:53:00.227Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 651 kb/s, 19.23 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-26T16:53:00.229Z----FFmpeg stderr: size=       0kB time=-00:00:00.08 bitrate=  -0.0kbits/s speed=N/A    
+2026-01-26T16:53:00.305Z----FFmpeg stderr: [mp4 @ 0x60e084533d00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x60e084527bc0] video:124kB audio:520kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.306726%
+size=     652kB time=00:00:33.30 bitrate= 160.4kbits/s speed= 436x    
+
+2026-01-26T16:53:00.331Z----✅ Muxing complete: 0.64MB
+2026-01-26T16:53:00.331Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4
+2026-01-26T16:53:01.253Z----✅ Thumbnail generated
+2026-01-26T16:53:01.254Z----✅ Recording completed in room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T16:53:01.254Z----📊 Stats: 29 frames, 133 audio chunks, 59.121s duration
+2026-01-26T16:53:01.254Z----📁 File URL: /recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-52-02-132Z.mp4 [object Object]
+2026-01-26T16:53:43.646Z----🧹 Cleaning up recording manager for room iSR2v4ed49SJ66HrEbBQctee...
+2026-01-26T16:53:43.646Z----✅ Cleanup completed for room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T16:54:57.799Z----🧹 Cleaning up recording manager for room iSR2v4ed49SJ66HrEbBQctee...
+2026-01-26T16:54:57.800Z----✅ Cleanup completed for room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T16:59:48.129Z----🎥 UI Recording started in room iSR2v4ed49SJ66HrEbBQctee: a7479ee3-cd5f-4af4-9121-efa4a9733dc2
+2026-01-26T16:59:48.129Z----📊 Target FPS: 30, Audio: true
+2026-01-26T16:59:52.938Z----🎤 Audio chunks received: 10
+2026-01-26T17:00:01.911Z----🎤 Audio chunks received: 20
+2026-01-26T17:00:02.158Z----🎤 Audio chunks received: 30
+2026-01-26T17:00:02.431Z----🎤 Audio chunks received: 40
+2026-01-26T17:00:02.767Z----🎤 Audio chunks received: 50
+2026-01-26T17:00:27.886Z----🎤 Audio chunks received: 60
+2026-01-26T17:00:42.119Z----📊 Room iSR2v4ed49SJ66HrEbBQctee: 30 frames, 56.1KB avg, FPS: 17.93
+2026-01-26T17:01:22.490Z----📊 Room iSR2v4ed49SJ66HrEbBQctee: 60 frames, 56.2KB avg, FPS: 15.96
+2026-01-26T17:01:47.345Z----🛑 Stopping recording in room iSR2v4ed49SJ66HrEbBQctee: a7479ee3-cd5f-4af4-9121-efa4a9733dc2
+2026-01-26T17:01:47.364Z----ℹ️ Extended last frame by 11.612s to align with audio (16.64s total).
+2026-01-26T17:01:49.431Z----
+✅ Video encoding complete
+2026-01-26T17:01:49.432Z----📁 Output: 0.17MB at /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4
+2026-01-26T17:01:49.433Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4
+2026-01-26T17:01:49.433Z----🎵 Converting WebM audio (261.6KB) to AAC
+2026-01-26T17:01:49.434Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/audio.m4a
+2026-01-26T17:01:50.572Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/audio.m4a (0.25MB)
+2026-01-26T17:01:50.572Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/audio.m4a
+2026-01-26T17:01:50.573Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4
+2026-01-26T17:01:50.773Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-01-26T17:01:50.773Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-01-26T17:01:50.791Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:05.00, start: 0.000000, bitrate: 286 kb/s
+
+2026-01-26T17:01:50.792Z----FFmpeg stderr:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 283 kb/s, 15.60 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-01-26T17:01:50.795Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/temp/a7479ee3-cd5f-4af4-9121-efa4a9733dc2/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : 
+2026-01-26T17:01:50.795Z----FFmpeg stderr: Lavf60.16.100
+  Duration: 00:00:16.38, start: 0.000000, bitrate: 127 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-26T17:01:50.796Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0
+2026-01-26T17:01:50.796Z----FFmpeg stderr: (und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 283 kb/s, 15.60 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-01-26T17:01:50.796Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-01-26T17:01:50.797Z----FFmpeg stderr: size=       0kB time=-00:00:00.08 bitrate=  -0.0kbits/s speed=N/A    
+2026-01-26T17:01:50.817Z----FFmpeg stderr: [mp4 @ 0x629345d78b00] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-01-26T17:01:50.820Z----FFmpeg stderr: [out#0/mp4 @ 0x629345d74b80] video:172kB audio:252kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.588897%
+size=     430kB time=00:00:16.36 bitrate= 215.4kbits/s speed= 764x    
+
+2026-01-26T17:01:50.831Z----✅ Muxing complete: 0.42MB
+2026-01-26T17:01:50.831Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4
+2026-01-26T17:01:51.481Z----✅ Thumbnail generated
+2026-01-26T17:01:51.481Z----✅ Recording completed in room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T17:01:51.481Z----📊 Stats: 77 frames, 63 audio chunks, 123.354s duration
+2026-01-26T17:01:51.481Z----📁 File URL: /recordings/rooms/iSR2v4ed49SJ66HrEbBQctee/completed/ui-recording_iSR2v4ed49SJ66HrEbBQctee_2026-01-26T16-59-48-127Z.mp4 [object Object]
+2026-01-26T17:19:57.746Z----🧹 Cleaning up recording manager for room aIGwCz0S1tazSlDhSlWsG9ug_meeting...
+2026-01-26T17:19:57.747Z----✅ Cleanup completed for room aIGwCz0S1tazSlDhSlWsG9ug_meeting
+2026-01-26T17:28:18.898Z----🧹 Cleaning up recording manager for room iSR2v4ed49SJ66HrEbBQctee...
+2026-01-26T17:28:18.900Z----✅ Cleanup completed for room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T17:29:55.181Z----🧹 Cleaning up recording manager for room iSR2v4ed49SJ66HrEbBQctee...
+2026-01-26T17:29:55.182Z----✅ Cleanup completed for room iSR2v4ed49SJ66HrEbBQctee
+2026-01-26T17:33:15.711Z----🧹 Cleaning up recording manager for room 3Yw2nhCGJKddxF1a5268ZNtF...
+2026-01-26T17:33:15.712Z----✅ Cleanup completed for room 3Yw2nhCGJKddxF1a5268ZNtF

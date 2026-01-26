@@ -13,11 +13,11 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 const PORT = process.env.PORT || 4000;
-
+console.log(process.env.CLIENT_URL, "CLIENT_URL")
 // CORS configuration
 app.use(cors({
   //origin: process.env.CLIENT_URL_LOCAL || '*',
-  origin: process.env.CLIENT_URL,
+  origin: process.env.CLIENT_URL || '*',
   credentials: true
 }));
 
@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true, limit: '100mb' }));
 const io = new Server(server, {
   cors: {
    // origin: process.env.CLIENT_URL || '*',
-     origin: process.env.CLIENT_URL,
+    origin: process.env.CLIENT_URL,
     methods: ['GET', 'POST']
   },
   transports: ['websocket', 'polling'],
@@ -135,7 +135,7 @@ app.use('/recordings/rooms/:encodedRoomId/:folder/:file', (req, res) => {
 app.use('/recordings', express.static(recordingsDir));
 
 // Health endpoint
-app.get('/health', (req, res) => {
+app.get('/api/v1/health', (req, res) => {
   res.json({
     status: 'ok',
     timestamp: new Date().toISOString(),
@@ -210,7 +210,7 @@ app.get('/api/v1/rooms/:roomId/recording/download', async (req, res) => {
 // Socket.IO handlers
 io.on('connection', (socket) => {
   
-
+ console.log(`Socket connected: ${socket.id}`);
   socket.on('join-recording-room', (roomId) => {
     socket.join(roomId);
     
