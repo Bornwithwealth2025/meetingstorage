@@ -1,4 +1,3 @@
-// server.js (Updated)
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
@@ -7,8 +6,24 @@ const path = require('path');
 const fs = require('fs-extra');
 const dotenv = require('dotenv');
 const RecordingManager = require('./RecordingManager');
+const { createClient } = require('redis');
+
 
 dotenv.config();
+
+
+  const redisConf =  {
+    socket: {
+      host: process.env.REDIS_HOST || 'localhost',
+      port: process.env.REDIS_PORT || 6379, 
+    },
+     ...(process.env.REDIS_USER && { username: process.env.REDIS_USER }),
+     ...(process.env.REDIS_PASSWORD && { password: process.env.REDIS_PASSWORD }),
+      retryStrategy: (times) => {
+    const delay = Math.min(times * 50, 2000);
+    return delay;
+  }
+  };
 
 const app = express();
 const server = http.createServer(app);
@@ -17,7 +32,7 @@ console.log(process.env.CLIENT_URL, "CLIENT_URL")
 // CORS configuration
 app.use(cors({
   //origin: process.env.CLIENT_URL_LOCAL || '*',
-  origin: process.env.CLIENT_URL || '*',
+ origin: process.env.CLIENT_URL,
   credentials: true
 }));
 
@@ -63,9 +78,9 @@ const checkFFmpeg = () => {
 };
 
 // Get or create room manager
-function getRoomManager(roomId, socketId='') {
+function getRoomManager(roomId, socketId='', user_id='') {
   if (!roomManagers.has(roomId)) {
-    const manager = new RecordingManager(roomId, socketId, {
+    const manager = new RecordingManager(roomId, socketId, user_id, {
       isFFmpegAvailable,
       storagePath: recordingsDir
     });
@@ -161,6 +176,31 @@ app.get('/api/v1/rooms/:roomId/recording/status', (req, res) => {
   }
 });
 
+
+ const saveRecord = async (record)=>{
+    const ONE_WEEK = 60 * 60 * 24 * 7;
+    let pubClient = null;
+      try {
+     pubClient = createClient(redisConf);
+    pubClient.on('error', (err) => console.log('Redis Client Error', err));
+    await  pubClient.connect();
+
+        await pubClient.set(
+        `${record.user_id}-${new Date().getTime()}`,
+        JSON.stringify(record),
+        { EX: ONE_WEEK }
+      );
+      console.log('Record saved to Redis for user:', record.user_id);
+      // res.status(200).json({ message: 'Record saved successfully' });
+      } catch (error) {
+        console.error('Error saving record to Redis:', error);
+      }finally{
+        if(pubClient !== null){
+          await pubClient.quit();
+        }
+        
+      }
+}
 // List all rooms with recordings
 app.get('/api/v1/rooms', (req, res) => {
   const rooms = [];
@@ -181,6 +221,66 @@ app.get('/api/v1/rooms', (req, res) => {
   }
   
   res.json({ rooms, total: rooms.length });
+});
+
+
+async function getRoomBySocketId(socketId){
+  let room = null
+   for (const [roomId, manager] of roomManagers.entries()) {
+   
+    if (manager.getSocketId() === socketId) {
+      room  = manager;
+      break;
+    }
+  }
+  return room
+}
+
+async function getAllRecords(user_id){
+ const redis = createClient(redisConf);
+  try {
+    redis.on('error', (err) => console.log('Redis Client Error', err));
+    await redis.connect() 
+      let cursor = '0';
+  const keys = [];
+
+  do {
+    const reply = await redis.scan(cursor, {
+      MATCH: `${user_id}-*`,
+      COUNT: 100
+    });
+
+    cursor = reply.cursor.toString();
+    keys.push(...reply.keys);
+  } while (cursor !== '0');
+
+  if (keys.length === 0) return [];
+
+  const values = await redis.mGet(keys);
+ 
+  return values
+    .filter(v => v !== null && v !== undefined)
+    .map(v => JSON.parse(v));
+  } catch (error) {
+    console.error('Error retrieving records from Redis:', error);
+    return [];
+  }finally{
+    await redis.quit();
+  }
+  
+
+}
+
+
+app.get('/api/v1/records/:user_id', async (req, res) => {
+  try {
+    const user_id = req.params.user_id;
+    const records = await getAllRecords(user_id);
+    res.json({ records, total: records.length });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: error.message });
+  }
 });
 
 // Download recording for a room
@@ -211,11 +311,11 @@ app.get('/api/v1/rooms/:roomId/recording/download', async (req, res) => {
 io.on('connection', (socket) => {
   
  console.log(`Socket connected: ${socket.id}`);
-  socket.on('join-recording-room', (roomId) => {
+  socket.on('join-recording-room', ({roomId, user_id}) => {
     socket.join(roomId);
     
     
-    const manager = getRoomManager(roomId, socket.id);
+    const manager = getRoomManager(roomId, socket.id, user_id);
     // Ensure manager is bound to the latest socket
     manager.setSocketId(socket.id);
     const status = manager.getStatus();
@@ -523,13 +623,36 @@ io.on('connection', (socket) => {
 
   socket.on('disconnect', async () => {
     
-    
+    console.log(`Socket disconnected: ${socket.id}`);
     for (const [roomId, manager] of roomManagers.entries()) {
-      if (manager.getSocketId() === socket.id) {
+    
+      if (manager  !== null && manager.socketId === socket.id) {
         try {
+          const status = manager?.recordings?.get(manager?.recordingId);
+        
+          if(!status) continue;
+          //  console.log(`Checking room ${roomId} for socket ${socket.id}` ,status );
+          const rec = {
+            id: status.id,
+            roomId: status.roomId,
+            user_id: status.user_id,
+            userId: status.userId,
+            type: status.type,
+            filename: status.filename,
+            fileUrl: status.fileUrl,
+            thumbnailUrl: status.thumbnailUrl,
+            startedAt: status.startedAt,
+            completedAt: status.completedAt,
+          }
+       
+
+          await saveRecord(rec);
           await manager.cleanup();
         } catch (error) {
-          
+          console.log(`Error during cleanup for socket ${socket.id}:`, error);
+        }finally{
+          roomManagers.delete(roomId);
+          await manager.cleanup();
         }
       }
     }

@@ -55,9 +55,10 @@ const logger = (...args) => {
 }
 
 class RecordingManager {
-  constructor(roomId, socketId, options = {}) {
+  constructor(roomId, socketId, user_id, options = {}) {
     this.roomId = roomId;
     this.socketId = socketId;
+    this.user_id = user_id
     this.recordingId = null;
     this.recordings = new Map();
     this.activeRecording = null;
@@ -77,6 +78,10 @@ class RecordingManager {
 
   getSocketId() {
     return this.socketId;
+  }
+  
+  getRecording() {
+    return this.activeRecording;
   }
 
   setSocketId(socketId) {
@@ -113,6 +118,7 @@ class RecordingManager {
     const recording = {
       id: recordingId,
       roomId: this.roomId,
+      user_id: this.user_id,
       userId,
       type: 'ui-screen',
       filename,
