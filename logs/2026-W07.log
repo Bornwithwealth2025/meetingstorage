@@ -1,0 +1,1890 @@
+2026-02-18T09:10:18.519Z----🎥 UI Recording started in room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 3d00a87c-751c-48f1-a06c-48c0a63a06a6
+2026-02-18T09:10:18.522Z----📊 Target FPS: 30, Audio: true
+2026-02-18T09:10:21.865Z----🎤 Audio chunks received: 10
+2026-02-18T09:10:24.723Z----🎤 Audio chunks received: 20
+2026-02-18T09:10:27.945Z----🎤 Audio chunks received: 30
+2026-02-18T09:10:29.640Z----🎤 Audio chunks received: 40
+2026-02-18T09:10:30.847Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 30 frames, 45.9KB avg, FPS: 19.44
+2026-02-18T09:10:33.019Z----🎤 Audio chunks received: 50
+2026-02-18T09:10:35.135Z----🎤 Audio chunks received: 60
+2026-02-18T09:10:37.810Z----🎤 Audio chunks received: 70
+2026-02-18T09:10:40.546Z----🎤 Audio chunks received: 80
+2026-02-18T09:10:41.854Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 60 frames, 46.0KB avg, FPS: 21.01
+2026-02-18T09:10:42.513Z----🎤 Audio chunks received: 90
+2026-02-18T09:10:44.925Z----🎤 Audio chunks received: 100
+2026-02-18T09:10:48.901Z----🎤 Audio chunks received: 110
+2026-02-18T09:10:51.878Z----🎤 Audio chunks received: 120
+2026-02-18T09:10:52.619Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 90 frames, 46.1KB avg, FPS: 21.37
+2026-02-18T09:10:54.432Z----🎤 Audio chunks received: 130
+2026-02-18T09:10:56.554Z----🎤 Audio chunks received: 140
+2026-02-18T09:10:59.391Z----🎤 Audio chunks received: 150
+2026-02-18T09:11:02.009Z----🎤 Audio chunks received: 160
+2026-02-18T09:11:02.749Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 120 frames, 46.1KB avg, FPS: 21.06
+2026-02-18T09:11:04.441Z----🎤 Audio chunks received: 170
+2026-02-18T09:11:06.655Z----🎤 Audio chunks received: 180
+2026-02-18T09:11:08.517Z----🎤 Audio chunks received: 190
+2026-02-18T09:11:12.300Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 150 frames, 46.1KB avg, FPS: 21.03
+2026-02-18T09:11:12.316Z----🎤 Audio chunks received: 200
+2026-02-18T09:11:13.900Z----🎤 Audio chunks received: 210
+2026-02-18T09:11:17.714Z----🎤 Audio chunks received: 220
+2026-02-18T09:11:21.654Z----🎤 Audio chunks received: 230
+2026-02-18T09:11:22.097Z----🎤 Audio chunks received: 240
+2026-02-18T09:11:23.867Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 180 frames, 46.1KB avg, FPS: 21.18
+2026-02-18T09:11:26.356Z----🎤 Audio chunks received: 250
+2026-02-18T09:11:29.784Z----🎤 Audio chunks received: 260
+2026-02-18T09:11:30.414Z----🎤 Audio chunks received: 270
+2026-02-18T09:11:34.078Z----🎤 Audio chunks received: 280
+2026-02-18T09:11:36.044Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 210 frames, 46.2KB avg, FPS: 21.22
+2026-02-18T09:11:37.912Z----🎤 Audio chunks received: 290
+2026-02-18T09:11:38.180Z----🎤 Audio chunks received: 300
+2026-02-18T09:11:41.700Z----🎤 Audio chunks received: 310
+2026-02-18T09:11:46.080Z----🎤 Audio chunks received: 320
+2026-02-18T09:11:46.360Z----🎤 Audio chunks received: 330
+2026-02-18T09:11:47.511Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 240 frames, 46.1KB avg, FPS: 21.28
+2026-02-18T09:11:57.866Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 270 frames, 46.1KB avg, FPS: 20.84
+2026-02-18T09:12:10.817Z----🛑 Stopping recording in room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 3d00a87c-751c-48f1-a06c-48c0a63a06a6
+2026-02-18T09:12:10.916Z----ℹ️ Extended last frame by 72.201s to align with audio (86.67s total).
+2026-02-18T09:12:17.912Z----
+✅ Video encoding complete
+2026-02-18T09:12:17.913Z----📁 Output: 0.20MB at /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4
+2026-02-18T09:12:17.913Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4
+2026-02-18T09:12:17.915Z----🎵 Converting WebM audio (1382.8KB) to AAC
+2026-02-18T09:12:17.916Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/audio.m4a
+2026-02-18T09:12:23.512Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/audio.m4a (1.31MB)
+2026-02-18T09:12:23.513Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/audio.m4a
+2026-02-18T09:12:23.515Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4
+2026-02-18T09:12:23.703Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-02-18T09:12:23.703Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-02-18T09:12:23.724Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:14.56, start: 0.000000
+2026-02-18T09:12:23.725Z----FFmpeg stderr: , bitrate: 112 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 109 kb/s, 20.54 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-02-18T09:12:23.728Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/3d00a87c-751c-48f1-a06c-48c0a63a06a6/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:01:26.32
+2026-02-18T09:12:23.729Z----FFmpeg stderr: , start: 0.000000, bitrate: 127 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-18T09:12:23.730Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 109 kb/s, 20.54 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-18T09:12:23.730Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-02-18T09:12:23.731Z----FFmpeg stderr: size=       0kB time=-00:00:00.12 bitrate=  -0.0kbits/s speed=N/A    
+2026-02-18T09:12:23.817Z----FFmpeg stderr: [mp4 @ 0x6177d90e6640] 
+2026-02-18T09:12:23.819Z----FFmpeg stderr: Starting second pass: moving the moov atom to the beginning of the file
+
+2026-02-18T09:12:23.822Z----FFmpeg stderr: [out#0/mp4 @ 0x6177d907d2c0] video:178kB audio:1327kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.714303%
+size=    1531kB time=00:01:26.29 bitrate= 145.4kbits/s speed= 950x    
+
+2026-02-18T09:12:23.835Z----✅ Muxing complete: 1.50MB
+2026-02-18T09:12:23.835Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4
+2026-02-18T09:12:24.667Z----✅ Thumbnail generated
+2026-02-18T09:12:24.668Z----✅ Recording completed in room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g
+2026-02-18T09:12:24.669Z----📊 Stats: 298 frames, 332 audio chunks, 126.152s duration
+2026-02-18T09:12:24.669Z----📁 File URL: /recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-10-18-515Z.mp4 [object Object]
+2026-02-18T09:25:11.172Z----🧹 Cleaning up recording manager for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g...
+2026-02-18T09:25:11.173Z----✅ Cleanup completed for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g
+2026-02-18T09:25:11.173Z----🧹 Cleaning up recording manager for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g...
+2026-02-18T09:25:11.173Z----✅ Cleanup completed for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g
+2026-02-18T09:29:10.193Z----🎥 UI Recording started in room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 41935130-e4ce-4145-8777-9f74e8200149
+2026-02-18T09:29:10.193Z----📊 Target FPS: 30, Audio: true
+2026-02-18T09:29:15.149Z----🎤 Audio chunks received: 10
+2026-02-18T09:29:21.772Z----🎤 Audio chunks received: 20
+2026-02-18T09:29:22.329Z----🎤 Audio chunks received: 30
+2026-02-18T09:29:22.868Z----🎤 Audio chunks received: 40
+2026-02-18T09:29:25.923Z----🎤 Audio chunks received: 50
+2026-02-18T09:29:27.703Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 30 frames, 46.8KB avg, FPS: 21.63
+2026-02-18T09:29:28.891Z----🎤 Audio chunks received: 60
+2026-02-18T09:29:29.208Z----🎤 Audio chunks received: 70
+2026-02-18T09:29:32.299Z----🎤 Audio chunks received: 80
+2026-02-18T09:29:36.111Z----🎤 Audio chunks received: 90
+2026-02-18T09:29:37.872Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 60 frames, 46.8KB avg, FPS: 22.08
+2026-02-18T09:29:39.108Z----🎤 Audio chunks received: 100
+2026-02-18T09:29:39.469Z----🎤 Audio chunks received: 110
+2026-02-18T09:29:44.092Z----🎤 Audio chunks received: 120
+2026-02-18T09:29:48.785Z----🎤 Audio chunks received: 130
+2026-02-18T09:29:49.289Z----🎤 Audio chunks received: 140
+2026-02-18T09:29:51.648Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 90 frames, 46.5KB avg, FPS: 22.28
+2026-02-18T09:29:53.975Z----🎤 Audio chunks received: 150
+2026-02-18T09:29:54.237Z----🎤 Audio chunks received: 160
+2026-02-18T09:29:58.379Z----🎤 Audio chunks received: 170
+2026-02-18T09:29:58.978Z----🎤 Audio chunks received: 180
+2026-02-18T09:30:02.753Z----🎤 Audio chunks received: 190
+2026-02-18T09:30:03.071Z----🎤 Audio chunks received: 200
+2026-02-18T09:30:04.634Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 120 frames, 47.0KB avg, FPS: 21.73
+2026-02-18T09:30:06.269Z----🎤 Audio chunks received: 210
+2026-02-18T09:30:10.511Z----🎤 Audio chunks received: 220
+2026-02-18T09:30:10.756Z----🎤 Audio chunks received: 230
+2026-02-18T09:30:13.555Z----🎤 Audio chunks received: 240
+2026-02-18T09:30:15.329Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 150 frames, 47.0KB avg, FPS: 21.85
+2026-02-18T09:30:16.427Z----🎤 Audio chunks received: 250
+2026-02-18T09:30:20.371Z----🎤 Audio chunks received: 260
+2026-02-18T09:30:23.274Z----🎤 Audio chunks received: 270
+2026-02-18T09:30:23.522Z----🎤 Audio chunks received: 280
+2026-02-18T09:30:25.354Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 180 frames, 46.6KB avg, FPS: 21.77
+2026-02-18T09:30:27.355Z----🎤 Audio chunks received: 290
+2026-02-18T09:30:31.130Z----🎤 Audio chunks received: 300
+2026-02-18T09:30:36.134Z----🎤 Audio chunks received: 310
+2026-02-18T09:30:36.488Z----🎤 Audio chunks received: 320
+2026-02-18T09:30:38.524Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 210 frames, 29.3KB avg, FPS: 21.51
+2026-02-18T09:30:40.130Z----🎤 Audio chunks received: 330
+2026-02-18T09:30:48.798Z----📊 Room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 240 frames, 28.8KB avg, FPS: 21.40
+2026-02-18T09:31:00.561Z----🛑 Stopping recording in room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g: 41935130-e4ce-4145-8777-9f74e8200149
+2026-02-18T09:31:00.645Z----ℹ️ Extended last frame by 76.188s to align with audio (88.67s total).
+2026-02-18T09:31:07.673Z----
+✅ Video encoding complete
+2026-02-18T09:31:07.674Z----📁 Output: 0.45MB at /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4
+2026-02-18T09:31:07.674Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4
+2026-02-18T09:31:07.675Z----🎵 Converting WebM audio (1420.3KB) to AAC
+2026-02-18T09:31:07.675Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/audio.m4a
+2026-02-18T09:31:16.923Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/audio.m4a (1.22MB)
+2026-02-18T09:31:16.924Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/audio.m4a
+2026-02-18T09:31:16.925Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4
+2026-02-18T09:31:17.154Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-02-18T09:31:17.173Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:12.52, start: 0.000000, bitrate: 303 kb/s
+
+2026-02-18T09:31:17.174Z----FFmpeg stderr:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 300 kb/s, 21.41 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-02-18T09:31:17.178Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/temp/41935130-e4ce-4145-8777-9f74e8200149/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 
+2026-02-18T09:31:17.178Z----FFmpeg stderr: 00:01:28.14, start: 0.000000, bitrate: 116 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 114 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-18T09:31:17.179Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : 
+2026-02-18T09:31:17.180Z----FFmpeg stderr: Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 300 kb/s, 21.41 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 114 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-18T09:31:17.180Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+size=       0kB time=-00:00:00.08 bitrate=  -0.0kbits/s speed=N/A    
+2026-02-18T09:31:17.319Z----FFmpeg stderr: [mp4 @ 0x5eaeeb7c3180] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-02-18T09:31:17.323Z----FFmpeg stderr: [out#0/mp4 @ 0x5eaeeb7c4780] video:457kB audio:1236kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.481208%
+size=    1719kB time=00:01:28.13 bitrate= 159.8kbits/s speed= 619x    
+
+2026-02-18T09:31:17.347Z----✅ Muxing complete: 1.68MB
+2026-02-18T09:31:17.347Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4
+2026-02-18T09:31:17.937Z----✅ Thumbnail generated
+2026-02-18T09:31:17.938Z----✅ Recording completed in room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g
+2026-02-18T09:31:17.938Z----📊 Stats: 267 frames, 337 audio chunks, 127.747s duration
+2026-02-18T09:31:17.938Z----📁 File URL: /recordings/rooms/Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g/completed/ui-recording_Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g_2026-02-18T09-29-10-190Z.mp4 [object Object]
+2026-02-18T09:32:00.090Z----🧹 Cleaning up recording manager for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g...
+2026-02-18T09:32:00.090Z----✅ Cleanup completed for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g
+2026-02-18T09:32:00.090Z----🧹 Cleaning up recording manager for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g...
+2026-02-18T09:32:00.090Z----✅ Cleanup completed for room Ymwin87BAonbfhXqL3jo1vqe_meeting__HzkkE3w6pc5g
+2026-02-18T09:53:56.779Z----🎥 UI Recording started in room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g: c76cec1f-401b-4e0b-927d-198569d3c693
+2026-02-18T09:53:56.780Z----📊 Target FPS: 30, Audio: true
+2026-02-18T09:53:59.948Z----🎤 Audio chunks received: 10
+2026-02-18T09:54:05.332Z----🎤 Audio chunks received: 20
+2026-02-18T09:54:05.608Z----🎤 Audio chunks received: 30
+2026-02-18T09:54:09.623Z----🎤 Audio chunks received: 40
+2026-02-18T09:54:14.344Z----🎤 Audio chunks received: 50
+2026-02-18T09:54:14.644Z----🎤 Audio chunks received: 60
+2026-02-18T09:54:16.500Z----📊 Room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g: 30 frames, 58.9KB avg, FPS: 2.18
+2026-02-18T09:54:19.740Z----🎤 Audio chunks received: 70
+2026-02-18T09:54:20.059Z----🎤 Audio chunks received: 80
+2026-02-18T09:54:24.856Z----🎤 Audio chunks received: 90
+2026-02-18T09:54:25.088Z----🎤 Audio chunks received: 100
+2026-02-18T09:54:29.195Z----🎤 Audio chunks received: 110
+2026-02-18T09:54:29.469Z----🎤 Audio chunks received: 120
+2026-02-18T09:54:31.038Z----📊 Room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g: 60 frames, 58.8KB avg, FPS: 2.10
+2026-02-18T09:54:33.563Z----🎤 Audio chunks received: 130
+2026-02-18T09:54:39.111Z----🛑 Stopping recording in room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g: c76cec1f-401b-4e0b-927d-198569d3c693
+2026-02-18T09:54:39.137Z----ℹ️ Extended last frame by 0.500s to align with audio (35.73s total).
+2026-02-18T09:54:42.133Z----
+✅ Video encoding complete
+2026-02-18T09:54:42.134Z----📁 Output: 1.21MB at /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4
+2026-02-18T09:54:42.134Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4
+2026-02-18T09:54:42.135Z----🎵 Converting WebM audio (549.3KB) to AAC
+2026-02-18T09:54:42.136Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/audio.m4a
+2026-02-18T09:54:45.282Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/audio.m4a (0.50MB)
+2026-02-18T09:54:45.282Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/audio.m4a
+2026-02-18T09:54:45.284Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/completed/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4
+2026-02-18T09:54:45.487Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-02-18T09:54:45.516Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:35.76, start: 0.000000, bitrate: 284 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 283 kb/s
+2026-02-18T09:54:45.517Z----FFmpeg stderr: , 2.09 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-02-18T09:54:45.525Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/temp/c76cec1f-401b-4e0b-927d-198569d3c693/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+2026-02-18T09:54:45.525Z----FFmpeg stderr: 
+    encoder         : Lavf60.16.100
+  Duration: 00:00:35.36, start: 0.000000, bitrate: 118 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 117 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-18T09:54:45.526Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/completed/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: 
+2026-02-18T09:54:45.526Z----FFmpeg stderr: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 283 kb/s, 2.09 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 117 kb/s
+2026-02-18T09:54:45.526Z----FFmpeg stderr:  (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-18T09:54:45.526Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-02-18T09:54:45.528Z----FFmpeg stderr: size=       0kB time=-00:00:00.96 bitrate=  -0.0kbits/s speed=N/A    
+2026-02-18T09:54:45.575Z----FFmpeg stderr: [mp4 @ 0x61ae1cd82780] 
+2026-02-18T09:54:45.577Z----FFmpeg stderr: Starting second pass: moving the moov atom to the beginning of the file
+
+2026-02-18T09:54:45.579Z----FFmpeg stderr: [out#0/mp4 @ 0x61ae1cd1f940] 
+2026-02-18T09:54:45.580Z----FFmpeg stderr: video:1219kB audio:505kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.610958%
+size=    1735kB time=00:00:35.35 bitrate= 402.0kbits/s speed= 667x    
+
+2026-02-18T09:54:45.592Z----✅ Muxing complete: 1.69MB
+2026-02-18T09:54:45.592Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/completed/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4
+2026-02-18T09:54:46.520Z----✅ Thumbnail generated
+2026-02-18T09:54:46.521Z----✅ Recording completed in room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g
+2026-02-18T09:54:46.521Z----📊 Stats: 74 frames, 136 audio chunks, 49.744s duration
+2026-02-18T09:54:46.522Z----📁 File URL: /recordings/rooms/UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g/completed/ui-recording_UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g_2026-02-18T09-53-56-776Z.mp4 [object Object]
+2026-02-18T09:56:24.239Z----🧹 Cleaning up recording manager for room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g...
+2026-02-18T09:56:24.239Z----✅ Cleanup completed for room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g
+2026-02-18T09:56:24.239Z----🧹 Cleaning up recording manager for room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g...
+2026-02-18T09:56:24.240Z----✅ Cleanup completed for room UDvNov9kmYUdjg7twJ8WOrMi_meeting__HzkkE3w6pc5g
+2026-02-23T18:43:28.247Z----🎥 UI Recording started in room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba
+2026-02-23T18:43:28.248Z----📊 Target FPS: 30, Audio: true
+2026-02-23T18:43:31.279Z----🎤 Audio chunks received: 10
+2026-02-23T18:43:34.155Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 30 frames, 34.7KB avg, FPS: 5.36
+2026-02-23T18:43:34.227Z----🎤 Audio chunks received: 20
+2026-02-23T18:43:37.221Z----🎤 Audio chunks received: 30
+2026-02-23T18:43:38.668Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 60 frames, 34.5KB avg, FPS: 5.90
+2026-02-23T18:43:40.175Z----🎤 Audio chunks received: 40
+2026-02-23T18:43:43.172Z----🎤 Audio chunks received: 50
+2026-02-23T18:43:43.518Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 90 frames, 37.7KB avg, FPS: 6.00
+2026-02-23T18:43:46.156Z----🎤 Audio chunks received: 60
+2026-02-23T18:43:48.292Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 120 frames, 43.7KB avg, FPS: 6.07
+2026-02-23T18:43:49.104Z----🎤 Audio chunks received: 70
+2026-02-23T18:43:52.048Z----🎤 Audio chunks received: 80
+2026-02-23T18:43:53.557Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 150 frames, 35.3KB avg, FPS: 5.99
+2026-02-23T18:43:55.059Z----🎤 Audio chunks received: 90
+2026-02-23T18:43:58.036Z----🎤 Audio chunks received: 100
+2026-02-23T18:43:58.268Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 180 frames, 39.1KB avg, FPS: 6.05
+2026-02-23T18:44:01.039Z----🎤 Audio chunks received: 110
+2026-02-23T18:44:02.702Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 210 frames, 39.0KB avg, FPS: 6.14
+2026-02-23T18:44:04.068Z----🎤 Audio chunks received: 120
+2026-02-23T18:44:07.032Z----🎤 Audio chunks received: 130
+2026-02-23T18:44:07.271Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 240 frames, 39.0KB avg, FPS: 6.19
+2026-02-23T18:44:10.031Z----🎤 Audio chunks received: 140
+2026-02-23T18:44:11.852Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 270 frames, 39.2KB avg, FPS: 6.23
+2026-02-23T18:44:13.044Z----🎤 Audio chunks received: 150
+2026-02-23T18:44:16.059Z----🎤 Audio chunks received: 160
+2026-02-23T18:44:16.414Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 300 frames, 39.1KB avg, FPS: 6.26
+2026-02-23T18:44:19.044Z----🎤 Audio chunks received: 170
+2026-02-23T18:44:20.970Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 330 frames, 37.8KB avg, FPS: 6.29
+2026-02-23T18:44:22.075Z----🎤 Audio chunks received: 180
+2026-02-23T18:44:25.036Z----🎤 Audio chunks received: 190
+2026-02-23T18:44:25.394Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 360 frames, 39.1KB avg, FPS: 6.33
+2026-02-23T18:44:28.028Z----🎤 Audio chunks received: 200
+2026-02-23T18:44:29.926Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 390 frames, 34.5KB avg, FPS: 6.35
+2026-02-23T18:44:31.042Z----🎤 Audio chunks received: 210
+2026-02-23T18:44:34.041Z----🎤 Audio chunks received: 220
+2026-02-23T18:44:34.513Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 420 frames, 34.2KB avg, FPS: 6.37
+2026-02-23T18:44:37.055Z----🎤 Audio chunks received: 230
+2026-02-23T18:44:39.094Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 450 frames, 39.4KB avg, FPS: 6.38
+2026-02-23T18:44:40.040Z----🎤 Audio chunks received: 240
+2026-02-23T18:44:42.992Z----🎤 Audio chunks received: 250
+2026-02-23T18:44:43.505Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 480 frames, 39.3KB avg, FPS: 6.40
+2026-02-23T18:44:45.991Z----🎤 Audio chunks received: 260
+2026-02-23T18:44:48.222Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 510 frames, 39.5KB avg, FPS: 6.40
+2026-02-23T18:44:48.995Z----🎤 Audio chunks received: 270
+2026-02-23T18:44:51.985Z----🎤 Audio chunks received: 280
+2026-02-23T18:44:52.793Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 540 frames, 35.3KB avg, FPS: 6.41
+2026-02-23T18:44:55.000Z----🎤 Audio chunks received: 290
+2026-02-23T18:44:57.283Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 570 frames, 36.1KB avg, FPS: 6.42
+2026-02-23T18:44:57.905Z----🎤 Audio chunks received: 300
+2026-02-23T18:45:00.875Z----🎤 Audio chunks received: 310
+2026-02-23T18:45:01.783Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 600 frames, 35.5KB avg, FPS: 6.43
+2026-02-23T18:45:03.873Z----🎤 Audio chunks received: 320
+2026-02-23T18:45:06.303Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 630 frames, 35.0KB avg, FPS: 6.44
+2026-02-23T18:45:06.851Z----🎤 Audio chunks received: 330
+2026-02-23T18:45:09.855Z----🎤 Audio chunks received: 340
+2026-02-23T18:45:10.818Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 660 frames, 35.1KB avg, FPS: 6.45
+2026-02-23T18:45:12.869Z----🎤 Audio chunks received: 350
+2026-02-23T18:45:15.351Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 690 frames, 35.6KB avg, FPS: 6.46
+2026-02-23T18:45:15.852Z----🎤 Audio chunks received: 360
+2026-02-23T18:45:18.863Z----🎤 Audio chunks received: 370
+2026-02-23T18:45:19.781Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 720 frames, 34.8KB avg, FPS: 6.47
+2026-02-23T18:45:21.870Z----🎤 Audio chunks received: 380
+2026-02-23T18:45:24.286Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 750 frames, 34.0KB avg, FPS: 6.48
+2026-02-23T18:45:24.865Z----🎤 Audio chunks received: 390
+2026-02-23T18:45:27.868Z----🎤 Audio chunks received: 400
+2026-02-23T18:45:29.039Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 780 frames, 52.0KB avg, FPS: 6.47
+2026-02-23T18:45:30.847Z----🎤 Audio chunks received: 410
+2026-02-23T18:45:33.532Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 810 frames, 51.9KB avg, FPS: 6.48
+2026-02-23T18:45:33.870Z----🎤 Audio chunks received: 420
+2026-02-23T18:45:36.854Z----🎤 Audio chunks received: 430
+2026-02-23T18:45:38.333Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 840 frames, 34.5KB avg, FPS: 6.47
+2026-02-23T18:45:39.849Z----🎤 Audio chunks received: 440
+2026-02-23T18:45:42.642Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 870 frames, 51.2KB avg, FPS: 6.49
+2026-02-23T18:45:42.862Z----🎤 Audio chunks received: 450
+2026-02-23T18:45:45.863Z----🎤 Audio chunks received: 460
+2026-02-23T18:45:47.264Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 900 frames, 52.0KB avg, FPS: 6.49
+2026-02-23T18:45:48.815Z----🎤 Audio chunks received: 470
+2026-02-23T18:45:51.630Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 930 frames, 34.8KB avg, FPS: 6.50
+2026-02-23T18:45:51.793Z----🎤 Audio chunks received: 480
+2026-02-23T18:45:54.801Z----🎤 Audio chunks received: 490
+2026-02-23T18:45:56.164Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 960 frames, 38.5KB avg, FPS: 6.50
+2026-02-23T18:45:57.805Z----🎤 Audio chunks received: 500
+2026-02-23T18:46:00.718Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 990 frames, 40.4KB avg, FPS: 6.50
+2026-02-23T18:46:00.809Z----🎤 Audio chunks received: 510
+2026-02-23T18:46:03.800Z----🎤 Audio chunks received: 520
+2026-02-23T18:46:05.287Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1020 frames, 40.4KB avg, FPS: 6.51
+2026-02-23T18:46:06.787Z----🎤 Audio chunks received: 530
+2026-02-23T18:46:09.766Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1050 frames, 40.2KB avg, FPS: 6.51
+2026-02-23T18:46:09.801Z----🎤 Audio chunks received: 540
+2026-02-23T18:46:12.816Z----🎤 Audio chunks received: 550
+2026-02-23T18:46:14.277Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1080 frames, 40.3KB avg, FPS: 6.52
+2026-02-23T18:46:15.788Z----🎤 Audio chunks received: 560
+2026-02-23T18:46:18.771Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1110 frames, 43.3KB avg, FPS: 6.52
+2026-02-23T18:46:18.803Z----🎤 Audio chunks received: 570
+2026-02-23T18:46:21.786Z----🎤 Audio chunks received: 580
+2026-02-23T18:46:23.260Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1140 frames, 38.6KB avg, FPS: 6.53
+2026-02-23T18:46:24.796Z----🎤 Audio chunks received: 590
+2026-02-23T18:46:27.653Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1170 frames, 39.0KB avg, FPS: 6.53
+2026-02-23T18:46:27.816Z----🎤 Audio chunks received: 600
+2026-02-23T18:46:30.808Z----🎤 Audio chunks received: 610
+2026-02-23T18:46:32.106Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1200 frames, 41.7KB avg, FPS: 6.54
+2026-02-23T18:46:33.736Z----🎤 Audio chunks received: 620
+2026-02-23T18:46:36.452Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1230 frames, 35.1KB avg, FPS: 6.54
+2026-02-23T18:46:36.736Z----🎤 Audio chunks received: 630
+2026-02-23T18:46:39.745Z----🎤 Audio chunks received: 640
+2026-02-23T18:46:40.683Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1260 frames, 36.1KB avg, FPS: 6.56
+2026-02-23T18:46:42.679Z----🎤 Audio chunks received: 650
+2026-02-23T18:46:44.916Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1290 frames, 36.5KB avg, FPS: 6.57
+2026-02-23T18:46:45.794Z----🎤 Audio chunks received: 660
+2026-02-23T18:46:48.669Z----🎤 Audio chunks received: 670
+2026-02-23T18:46:49.182Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1320 frames, 37.2KB avg, FPS: 6.58
+2026-02-23T18:46:51.623Z----🎤 Audio chunks received: 680
+2026-02-23T18:46:53.799Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1350 frames, 37.3KB avg, FPS: 6.58
+2026-02-23T18:46:54.621Z----🎤 Audio chunks received: 690
+2026-02-23T18:46:57.626Z----🎤 Audio chunks received: 700
+2026-02-23T18:46:58.251Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1380 frames, 37.3KB avg, FPS: 6.58
+2026-02-23T18:47:00.632Z----🎤 Audio chunks received: 710
+2026-02-23T18:47:02.682Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1410 frames, 37.2KB avg, FPS: 6.58
+2026-02-23T18:47:03.619Z----🎤 Audio chunks received: 720
+2026-02-23T18:47:06.551Z----🎤 Audio chunks received: 730
+2026-02-23T18:47:07.111Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1440 frames, 35.9KB avg, FPS: 6.59
+2026-02-23T18:47:09.510Z----🎤 Audio chunks received: 740
+2026-02-23T18:47:11.676Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1470 frames, 35.3KB avg, FPS: 6.59
+2026-02-23T18:47:12.520Z----🎤 Audio chunks received: 750
+2026-02-23T18:47:15.548Z----🎤 Audio chunks received: 760
+2026-02-23T18:47:16.254Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1500 frames, 35.4KB avg, FPS: 6.59
+2026-02-23T18:47:18.503Z----🎤 Audio chunks received: 770
+2026-02-23T18:47:20.699Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1530 frames, 35.2KB avg, FPS: 6.59
+2026-02-23T18:47:21.489Z----🎤 Audio chunks received: 780
+2026-02-23T18:47:24.504Z----🎤 Audio chunks received: 790
+2026-02-23T18:47:25.897Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1560 frames, 35.4KB avg, FPS: 6.57
+2026-02-23T18:47:27.502Z----🎤 Audio chunks received: 800
+2026-02-23T18:47:30.501Z----🎤 Audio chunks received: 810
+2026-02-23T18:47:30.733Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1590 frames, 35.5KB avg, FPS: 6.56
+2026-02-23T18:47:33.492Z----🎤 Audio chunks received: 820
+2026-02-23T18:47:35.387Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1620 frames, 35.0KB avg, FPS: 6.56
+2026-02-23T18:47:36.499Z----🎤 Audio chunks received: 830
+2026-02-23T18:47:39.518Z----🎤 Audio chunks received: 840
+2026-02-23T18:47:39.958Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1650 frames, 35.5KB avg, FPS: 6.56
+2026-02-23T18:47:42.502Z----🎤 Audio chunks received: 850
+2026-02-23T18:47:44.520Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1680 frames, 35.5KB avg, FPS: 6.56
+2026-02-23T18:47:45.693Z----🎤 Audio chunks received: 860
+2026-02-23T18:47:48.486Z----🎤 Audio chunks received: 870
+2026-02-23T18:47:48.942Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1710 frames, 34.7KB avg, FPS: 6.57
+2026-02-23T18:47:51.499Z----🎤 Audio chunks received: 880
+2026-02-23T18:47:53.447Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1740 frames, 34.1KB avg, FPS: 6.57
+2026-02-23T18:47:54.484Z----🎤 Audio chunks received: 890
+2026-02-23T18:47:57.456Z----🎤 Audio chunks received: 900
+2026-02-23T18:47:58.058Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1770 frames, 33.9KB avg, FPS: 6.57
+2026-02-23T18:48:00.450Z----🎤 Audio chunks received: 910
+2026-02-23T18:48:02.655Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1800 frames, 33.9KB avg, FPS: 6.57
+2026-02-23T18:48:03.435Z----🎤 Audio chunks received: 920
+2026-02-23T18:48:06.464Z----🎤 Audio chunks received: 930
+2026-02-23T18:48:07.164Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1830 frames, 33.9KB avg, FPS: 6.57
+2026-02-23T18:48:09.380Z----🎤 Audio chunks received: 940
+2026-02-23T18:48:12.314Z----🎤 Audio chunks received: 950
+2026-02-23T18:48:12.565Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1860 frames, 34.3KB avg, FPS: 6.55
+2026-02-23T18:48:15.327Z----🎤 Audio chunks received: 960
+2026-02-23T18:48:17.303Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1890 frames, 34.1KB avg, FPS: 6.54
+2026-02-23T18:48:18.259Z----🎤 Audio chunks received: 970
+2026-02-23T18:48:21.244Z----🎤 Audio chunks received: 980
+2026-02-23T18:48:21.734Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1920 frames, 33.9KB avg, FPS: 6.55
+2026-02-23T18:48:24.192Z----🎤 Audio chunks received: 990
+2026-02-23T18:48:25.980Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1950 frames, 36.3KB avg, FPS: 6.56
+2026-02-23T18:48:27.201Z----🎤 Audio chunks received: 1000
+2026-02-23T18:48:30.151Z----🎤 Audio chunks received: 1010
+2026-02-23T18:48:30.607Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 1980 frames, 44.9KB avg, FPS: 6.55
+2026-02-23T18:48:33.134Z----🎤 Audio chunks received: 1020
+2026-02-23T18:48:35.177Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2010 frames, 48.2KB avg, FPS: 6.55
+2026-02-23T18:48:36.138Z----🎤 Audio chunks received: 1030
+2026-02-23T18:48:39.090Z----🎤 Audio chunks received: 1040
+2026-02-23T18:48:39.466Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2040 frames, 34.1KB avg, FPS: 6.56
+2026-02-23T18:48:42.081Z----🎤 Audio chunks received: 1050
+2026-02-23T18:48:43.793Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2070 frames, 35.6KB avg, FPS: 6.57
+2026-02-23T18:48:45.089Z----🎤 Audio chunks received: 1060
+2026-02-23T18:48:47.966Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2100 frames, 34.5KB avg, FPS: 6.57
+2026-02-23T18:48:48.072Z----🎤 Audio chunks received: 1070
+2026-02-23T18:48:51.065Z----🎤 Audio chunks received: 1080
+2026-02-23T18:48:52.313Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2130 frames, 34.1KB avg, FPS: 6.58
+2026-02-23T18:48:54.071Z----🎤 Audio chunks received: 1090
+2026-02-23T18:48:56.482Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2160 frames, 34.2KB avg, FPS: 6.59
+2026-02-23T18:48:56.954Z----🎤 Audio chunks received: 1100
+2026-02-23T18:48:59.895Z----🎤 Audio chunks received: 1110
+2026-02-23T18:49:00.951Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2190 frames, 36.2KB avg, FPS: 6.59
+2026-02-23T18:49:02.904Z----🎤 Audio chunks received: 1120
+2026-02-23T18:49:05.106Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2220 frames, 36.4KB avg, FPS: 6.60
+2026-02-23T18:49:05.883Z----🎤 Audio chunks received: 1130
+2026-02-23T18:49:08.895Z----🎤 Audio chunks received: 1140
+2026-02-23T18:49:09.246Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2250 frames, 35.7KB avg, FPS: 6.60
+2026-02-23T18:49:11.895Z----🎤 Audio chunks received: 1150
+2026-02-23T18:49:13.598Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2280 frames, 36.2KB avg, FPS: 6.61
+2026-02-23T18:49:14.829Z----🎤 Audio chunks received: 1160
+2026-02-23T18:49:17.833Z----🎤 Audio chunks received: 1170
+2026-02-23T18:49:18.025Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2310 frames, 35.8KB avg, FPS: 6.61
+2026-02-23T18:49:20.832Z----🎤 Audio chunks received: 1180
+2026-02-23T18:49:22.470Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2340 frames, 34.1KB avg, FPS: 6.61
+2026-02-23T18:49:23.831Z----🎤 Audio chunks received: 1190
+2026-02-23T18:49:26.731Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2370 frames, 33.8KB avg, FPS: 6.62
+2026-02-23T18:49:26.829Z----🎤 Audio chunks received: 1200
+2026-02-23T18:49:29.838Z----🎤 Audio chunks received: 1210
+2026-02-23T18:49:31.390Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2400 frames, 36.3KB avg, FPS: 6.61
+2026-02-23T18:49:32.843Z----🎤 Audio chunks received: 1220
+2026-02-23T18:49:35.851Z----🎤 Audio chunks received: 1230
+2026-02-23T18:49:35.892Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2430 frames, 36.7KB avg, FPS: 6.62
+2026-02-23T18:49:38.830Z----🎤 Audio chunks received: 1240
+2026-02-23T18:49:40.221Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2460 frames, 38.1KB avg, FPS: 6.62
+2026-02-23T18:49:41.839Z----🎤 Audio chunks received: 1250
+2026-02-23T18:49:44.842Z----🎤 Audio chunks received: 1260
+2026-02-23T18:49:45.218Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2490 frames, 36.4KB avg, FPS: 6.61
+2026-02-23T18:49:47.856Z----🎤 Audio chunks received: 1270
+2026-02-23T18:49:49.968Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2520 frames, 36.7KB avg, FPS: 6.61
+2026-02-23T18:49:50.840Z----🎤 Audio chunks received: 1280
+2026-02-23T18:49:53.826Z----🎤 Audio chunks received: 1290
+2026-02-23T18:49:54.606Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2550 frames, 36.3KB avg, FPS: 6.60
+2026-02-23T18:49:56.823Z----🎤 Audio chunks received: 1300
+2026-02-23T18:49:59.396Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2580 frames, 36.4KB avg, FPS: 6.60
+2026-02-23T18:49:59.779Z----🎤 Audio chunks received: 1310
+2026-02-23T18:50:02.719Z----🎤 Audio chunks received: 1320
+2026-02-23T18:50:04.024Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2610 frames, 36.6KB avg, FPS: 6.60
+2026-02-23T18:50:05.712Z----🎤 Audio chunks received: 1330
+2026-02-23T18:50:08.706Z----🎤 Audio chunks received: 1340
+2026-02-23T18:50:08.963Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2640 frames, 46.9KB avg, FPS: 6.59
+2026-02-23T18:50:11.701Z----🎤 Audio chunks received: 1350
+2026-02-23T18:50:13.990Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2670 frames, 46.0KB avg, FPS: 6.59
+2026-02-23T18:50:14.699Z----🎤 Audio chunks received: 1360
+2026-02-23T18:50:17.769Z----🎤 Audio chunks received: 1370
+2026-02-23T18:50:19.923Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2700 frames, 49.9KB avg, FPS: 6.57
+2026-02-23T18:50:20.792Z----🎤 Audio chunks received: 1380
+2026-02-23T18:50:23.701Z----🎤 Audio chunks received: 1390
+2026-02-23T18:50:25.822Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2730 frames, 44.9KB avg, FPS: 6.54
+2026-02-23T18:50:26.664Z----🎤 Audio chunks received: 1400
+2026-02-23T18:50:29.648Z----🎤 Audio chunks received: 1410
+2026-02-23T18:50:31.230Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2760 frames, 44.7KB avg, FPS: 6.53
+2026-02-23T18:50:32.646Z----🎤 Audio chunks received: 1420
+2026-02-23T18:50:35.665Z----🎤 Audio chunks received: 1430
+2026-02-23T18:50:37.886Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2790 frames, 57.3KB avg, FPS: 6.50
+2026-02-23T18:50:38.569Z----🎤 Audio chunks received: 1440
+2026-02-23T18:50:41.542Z----🎤 Audio chunks received: 1450
+2026-02-23T18:50:43.859Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2820 frames, 44.8KB avg, FPS: 6.48
+2026-02-23T18:50:44.532Z----🎤 Audio chunks received: 1460
+2026-02-23T18:50:47.530Z----🎤 Audio chunks received: 1470
+2026-02-23T18:50:49.046Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2850 frames, 45.1KB avg, FPS: 6.47
+2026-02-23T18:50:50.545Z----🎤 Audio chunks received: 1480
+2026-02-23T18:50:53.529Z----🎤 Audio chunks received: 1490
+2026-02-23T18:50:53.615Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2880 frames, 39.7KB avg, FPS: 6.47
+2026-02-23T18:50:56.526Z----🎤 Audio chunks received: 1500
+2026-02-23T18:50:58.787Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2910 frames, 46.7KB avg, FPS: 6.46
+2026-02-23T18:50:59.535Z----🎤 Audio chunks received: 1510
+2026-02-23T18:51:02.538Z----🎤 Audio chunks received: 1520
+2026-02-23T18:51:03.977Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2940 frames, 44.5KB avg, FPS: 6.45
+2026-02-23T18:51:05.545Z----🎤 Audio chunks received: 1530
+2026-02-23T18:51:08.457Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 2970 frames, 35.0KB avg, FPS: 6.46
+2026-02-23T18:51:08.538Z----🎤 Audio chunks received: 1540
+2026-02-23T18:51:11.541Z----🎤 Audio chunks received: 1550
+2026-02-23T18:51:12.976Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3000 frames, 35.3KB avg, FPS: 6.46
+2026-02-23T18:51:14.554Z----🎤 Audio chunks received: 1560
+2026-02-23T18:51:17.483Z----🎤 Audio chunks received: 1570
+2026-02-23T18:51:17.568Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3030 frames, 36.2KB avg, FPS: 6.46
+2026-02-23T18:51:20.401Z----🎤 Audio chunks received: 1580
+2026-02-23T18:51:22.353Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3060 frames, 36.0KB avg, FPS: 6.46
+2026-02-23T18:51:23.424Z----🎤 Audio chunks received: 1590
+2026-02-23T18:51:26.423Z----🎤 Audio chunks received: 1600
+2026-02-23T18:51:27.267Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3090 frames, 36.2KB avg, FPS: 6.45
+2026-02-23T18:51:29.418Z----🎤 Audio chunks received: 1610
+2026-02-23T18:51:32.054Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3120 frames, 35.9KB avg, FPS: 6.45
+2026-02-23T18:51:32.437Z----🎤 Audio chunks received: 1620
+2026-02-23T18:51:35.364Z----🎤 Audio chunks received: 1630
+2026-02-23T18:51:36.809Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3150 frames, 56.6KB avg, FPS: 6.45
+2026-02-23T18:51:38.353Z----🎤 Audio chunks received: 1640
+2026-02-23T18:51:41.346Z----🎤 Audio chunks received: 1650
+2026-02-23T18:51:41.582Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3180 frames, 57.3KB avg, FPS: 6.45
+2026-02-23T18:51:44.351Z----🎤 Audio chunks received: 1660
+2026-02-23T18:51:46.547Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3210 frames, 57.6KB avg, FPS: 6.45
+2026-02-23T18:51:47.374Z----🎤 Audio chunks received: 1670
+2026-02-23T18:51:50.368Z----🎤 Audio chunks received: 1680
+2026-02-23T18:51:51.387Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3240 frames, 57.0KB avg, FPS: 6.44
+2026-02-23T18:51:53.232Z----🎤 Audio chunks received: 1690
+2026-02-23T18:51:56.222Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3270 frames, 56.9KB avg, FPS: 6.44
+2026-02-23T18:51:56.234Z----🎤 Audio chunks received: 1700
+2026-02-23T18:51:59.248Z----🎤 Audio chunks received: 1710
+2026-02-23T18:52:00.789Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3300 frames, 46.0KB avg, FPS: 6.44
+2026-02-23T18:52:02.228Z----🎤 Audio chunks received: 1720
+2026-02-23T18:52:05.204Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3330 frames, 45.2KB avg, FPS: 6.45
+2026-02-23T18:52:05.237Z----🎤 Audio chunks received: 1730
+2026-02-23T18:52:08.225Z----🎤 Audio chunks received: 1740
+2026-02-23T18:52:10.194Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3360 frames, 45.2KB avg, FPS: 6.44
+2026-02-23T18:52:11.229Z----🎤 Audio chunks received: 1750
+2026-02-23T18:52:14.238Z----🎤 Audio chunks received: 1760
+2026-02-23T18:52:14.759Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3390 frames, 47.1KB avg, FPS: 6.44
+2026-02-23T18:52:17.254Z----🎤 Audio chunks received: 1770
+2026-02-23T18:52:19.427Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3420 frames, 55.8KB avg, FPS: 6.44
+2026-02-23T18:52:20.235Z----🎤 Audio chunks received: 1780
+2026-02-23T18:52:23.225Z----🎤 Audio chunks received: 1790
+2026-02-23T18:52:24.126Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3450 frames, 56.4KB avg, FPS: 6.44
+2026-02-23T18:52:26.254Z----🎤 Audio chunks received: 1800
+2026-02-23T18:52:28.605Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3480 frames, 51.2KB avg, FPS: 6.44
+2026-02-23T18:52:29.224Z----🎤 Audio chunks received: 1810
+2026-02-23T18:52:32.221Z----🎤 Audio chunks received: 1820
+2026-02-23T18:52:33.418Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3510 frames, 34.8KB avg, FPS: 6.44
+2026-02-23T18:52:35.219Z----🎤 Audio chunks received: 1830
+2026-02-23T18:52:37.897Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3540 frames, 36.1KB avg, FPS: 6.44
+2026-02-23T18:52:38.190Z----🎤 Audio chunks received: 1840
+2026-02-23T18:52:41.184Z----🎤 Audio chunks received: 1850
+2026-02-23T18:52:42.507Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3570 frames, 42.7KB avg, FPS: 6.44
+2026-02-23T18:52:44.200Z----🎤 Audio chunks received: 1860
+2026-02-23T18:52:47.180Z----🎤 Audio chunks received: 1870
+2026-02-23T18:52:47.583Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3600 frames, 51.3KB avg, FPS: 6.44
+2026-02-23T18:52:50.179Z----🎤 Audio chunks received: 1880
+2026-02-23T18:52:52.087Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3630 frames, 54.6KB avg, FPS: 6.44
+2026-02-23T18:52:53.187Z----🎤 Audio chunks received: 1890
+2026-02-23T18:52:56.181Z----🎤 Audio chunks received: 1900
+2026-02-23T18:52:56.943Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3660 frames, 55.9KB avg, FPS: 6.44
+2026-02-23T18:52:59.165Z----🎤 Audio chunks received: 1910
+2026-02-23T18:53:02.199Z----🎤 Audio chunks received: 1920
+2026-02-23T18:53:02.337Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3690 frames, 57.0KB avg, FPS: 6.43
+2026-02-23T18:53:05.162Z----🎤 Audio chunks received: 1930
+2026-02-23T18:53:07.277Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3720 frames, 55.9KB avg, FPS: 6.43
+2026-02-23T18:53:08.176Z----🎤 Audio chunks received: 1940
+2026-02-23T18:53:11.160Z----🎤 Audio chunks received: 1950
+2026-02-23T18:53:12.202Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3750 frames, 55.9KB avg, FPS: 6.42
+2026-02-23T18:53:14.193Z----🎤 Audio chunks received: 1960
+2026-02-23T18:53:17.186Z----🎤 Audio chunks received: 1970
+2026-02-23T18:53:17.221Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3780 frames, 55.9KB avg, FPS: 6.42
+2026-02-23T18:53:20.182Z----🎤 Audio chunks received: 1980
+2026-02-23T18:53:22.129Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3810 frames, 55.9KB avg, FPS: 6.42
+2026-02-23T18:53:23.164Z----🎤 Audio chunks received: 1990
+2026-02-23T18:53:26.111Z----🎤 Audio chunks received: 2000
+2026-02-23T18:53:26.994Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3840 frames, 55.9KB avg, FPS: 6.42
+2026-02-23T18:53:29.108Z----🎤 Audio chunks received: 2010
+2026-02-23T18:53:31.671Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3870 frames, 52.9KB avg, FPS: 6.42
+2026-02-23T18:53:32.149Z----🎤 Audio chunks received: 2020
+2026-02-23T18:53:35.107Z----🎤 Audio chunks received: 2030
+2026-02-23T18:53:36.390Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3900 frames, 54.1KB avg, FPS: 6.42
+2026-02-23T18:53:38.105Z----🎤 Audio chunks received: 2040
+2026-02-23T18:53:41.103Z----🎤 Audio chunks received: 2050
+2026-02-23T18:53:41.301Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3930 frames, 54.2KB avg, FPS: 6.41
+2026-02-23T18:53:44.116Z----🎤 Audio chunks received: 2060
+2026-02-23T18:53:46.800Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3960 frames, 55.9KB avg, FPS: 6.41
+2026-02-23T18:53:47.105Z----🎤 Audio chunks received: 2070
+2026-02-23T18:53:50.103Z----🎤 Audio chunks received: 2080
+2026-02-23T18:53:51.600Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 3990 frames, 56.4KB avg, FPS: 6.40
+2026-02-23T18:53:53.102Z----🎤 Audio chunks received: 2090
+2026-02-23T18:53:56.154Z----🎤 Audio chunks received: 2100
+2026-02-23T18:53:56.285Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4020 frames, 53.0KB avg, FPS: 6.40
+2026-02-23T18:53:59.120Z----🎤 Audio chunks received: 2110
+2026-02-23T18:54:01.095Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4050 frames, 51.3KB avg, FPS: 6.40
+2026-02-23T18:54:02.100Z----🎤 Audio chunks received: 2120
+2026-02-23T18:54:05.122Z----🎤 Audio chunks received: 2130
+2026-02-23T18:54:06.292Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4080 frames, 51.2KB avg, FPS: 6.40
+2026-02-23T18:54:08.131Z----🎤 Audio chunks received: 2140
+2026-02-23T18:54:11.032Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4110 frames, 55.7KB avg, FPS: 6.40
+2026-02-23T18:54:11.106Z----🎤 Audio chunks received: 2150
+2026-02-23T18:54:14.049Z----🎤 Audio chunks received: 2160
+2026-02-23T18:54:15.798Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4140 frames, 55.8KB avg, FPS: 6.40
+2026-02-23T18:54:17.048Z----🎤 Audio chunks received: 2170
+2026-02-23T18:54:20.067Z----🎤 Audio chunks received: 2180
+2026-02-23T18:54:20.618Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4170 frames, 55.6KB avg, FPS: 6.39
+2026-02-23T18:54:23.065Z----🎤 Audio chunks received: 2190
+2026-02-23T18:54:25.829Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4200 frames, 54.5KB avg, FPS: 6.39
+2026-02-23T18:54:26.065Z----🎤 Audio chunks received: 2200
+2026-02-23T18:54:29.132Z----🎤 Audio chunks received: 2210
+2026-02-23T18:54:30.966Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4230 frames, 55.1KB avg, FPS: 6.39
+2026-02-23T18:54:32.046Z----🎤 Audio chunks received: 2220
+2026-02-23T18:54:35.045Z----🎤 Audio chunks received: 2230
+2026-02-23T18:54:35.973Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4260 frames, 55.5KB avg, FPS: 6.38
+2026-02-23T18:54:38.044Z----🎤 Audio chunks received: 2240
+2026-02-23T18:54:40.822Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4290 frames, 55.1KB avg, FPS: 6.38
+2026-02-23T18:54:41.043Z----🎤 Audio chunks received: 2250
+2026-02-23T18:54:44.057Z----🎤 Audio chunks received: 2260
+2026-02-23T18:54:45.688Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4320 frames, 56.2KB avg, FPS: 6.38
+2026-02-23T18:54:47.056Z----🎤 Audio chunks received: 2270
+2026-02-23T18:54:50.074Z----🎤 Audio chunks received: 2280
+2026-02-23T18:54:50.517Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4350 frames, 55.5KB avg, FPS: 6.38
+2026-02-23T18:54:53.043Z----🎤 Audio chunks received: 2290
+2026-02-23T18:54:55.314Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4380 frames, 55.4KB avg, FPS: 6.38
+2026-02-23T18:54:56.053Z----🎤 Audio chunks received: 2300
+2026-02-23T18:54:59.049Z----🎤 Audio chunks received: 2310
+2026-02-23T18:55:00.204Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4410 frames, 45.0KB avg, FPS: 6.38
+2026-02-23T18:55:01.990Z----🎤 Audio chunks received: 2320
+2026-02-23T18:55:04.919Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4440 frames, 44.9KB avg, FPS: 6.38
+2026-02-23T18:55:04.988Z----🎤 Audio chunks received: 2330
+2026-02-23T18:55:07.986Z----🎤 Audio chunks received: 2340
+2026-02-23T18:55:09.576Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4470 frames, 45.0KB avg, FPS: 6.38
+2026-02-23T18:55:10.992Z----🎤 Audio chunks received: 2350
+2026-02-23T18:55:13.936Z----🎤 Audio chunks received: 2360
+2026-02-23T18:55:14.174Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4500 frames, 44.9KB avg, FPS: 6.38
+2026-02-23T18:55:16.807Z----🎤 Audio chunks received: 2370
+2026-02-23T18:55:19.018Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4530 frames, 44.8KB avg, FPS: 6.38
+2026-02-23T18:55:19.801Z----🎤 Audio chunks received: 2380
+2026-02-23T18:55:22.810Z----🎤 Audio chunks received: 2390
+2026-02-23T18:55:23.877Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4560 frames, 54.4KB avg, FPS: 6.37
+2026-02-23T18:55:25.814Z----🎤 Audio chunks received: 2400
+2026-02-23T18:55:28.798Z----🎤 Audio chunks received: 2410
+2026-02-23T18:55:28.937Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4590 frames, 55.7KB avg, FPS: 6.37
+2026-02-23T18:55:31.876Z----🎤 Audio chunks received: 2420
+2026-02-23T18:55:33.774Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4620 frames, 55.4KB avg, FPS: 6.37
+2026-02-23T18:55:34.749Z----🎤 Audio chunks received: 2430
+2026-02-23T18:55:37.712Z----🎤 Audio chunks received: 2440
+2026-02-23T18:55:38.672Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4650 frames, 55.2KB avg, FPS: 6.37
+2026-02-23T18:55:40.683Z----🎤 Audio chunks received: 2450
+2026-02-23T18:55:43.399Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4680 frames, 55.2KB avg, FPS: 6.37
+2026-02-23T18:55:43.684Z----🎤 Audio chunks received: 2460
+2026-02-23T18:55:46.629Z----🎤 Audio chunks received: 2470
+2026-02-23T18:55:48.134Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4710 frames, 45.2KB avg, FPS: 6.37
+2026-02-23T18:55:49.638Z----🎤 Audio chunks received: 2480
+2026-02-23T18:55:52.626Z----🎤 Audio chunks received: 2490
+2026-02-23T18:55:53.254Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4740 frames, 36.9KB avg, FPS: 6.36
+2026-02-23T18:55:55.630Z----🎤 Audio chunks received: 2500
+2026-02-23T18:55:58.225Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4770 frames, 36.9KB avg, FPS: 6.36
+2026-02-23T18:55:58.630Z----🎤 Audio chunks received: 2510
+2026-02-23T18:56:01.640Z----🎤 Audio chunks received: 2520
+2026-02-23T18:56:02.677Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4800 frames, 36.5KB avg, FPS: 6.36
+2026-02-23T18:56:04.638Z----🎤 Audio chunks received: 2530
+2026-02-23T18:56:07.258Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4830 frames, 36.6KB avg, FPS: 6.37
+2026-02-23T18:56:07.633Z----🎤 Audio chunks received: 2540
+2026-02-23T18:56:10.627Z----🎤 Audio chunks received: 2550
+2026-02-23T18:56:11.632Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4860 frames, 35.3KB avg, FPS: 6.37
+2026-02-23T18:56:13.657Z----🎤 Audio chunks received: 2560
+2026-02-23T18:56:16.281Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4890 frames, 35.4KB avg, FPS: 6.37
+2026-02-23T18:56:16.621Z----🎤 Audio chunks received: 2570
+2026-02-23T18:56:19.625Z----🎤 Audio chunks received: 2580
+2026-02-23T18:56:20.984Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4920 frames, 35.4KB avg, FPS: 6.37
+2026-02-23T18:56:22.629Z----🎤 Audio chunks received: 2590
+2026-02-23T18:56:25.642Z----🎤 Audio chunks received: 2600
+2026-02-23T18:56:25.645Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4950 frames, 35.5KB avg, FPS: 6.37
+2026-02-23T18:56:28.646Z----🎤 Audio chunks received: 2610
+2026-02-23T18:56:30.084Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 4980 frames, 35.2KB avg, FPS: 6.37
+2026-02-23T18:56:31.643Z----🎤 Audio chunks received: 2620
+2026-02-23T18:56:34.569Z----🎤 Audio chunks received: 2630
+2026-02-23T18:56:34.983Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5010 frames, 35.1KB avg, FPS: 6.37
+2026-02-23T18:56:37.567Z----🎤 Audio chunks received: 2640
+2026-02-23T18:56:39.817Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5040 frames, 34.8KB avg, FPS: 6.37
+2026-02-23T18:56:40.566Z----🎤 Audio chunks received: 2650
+2026-02-23T18:56:43.570Z----🎤 Audio chunks received: 2660
+2026-02-23T18:56:44.542Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5070 frames, 34.9KB avg, FPS: 6.37
+2026-02-23T18:56:46.585Z----🎤 Audio chunks received: 2670
+2026-02-23T18:56:49.225Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5100 frames, 34.9KB avg, FPS: 6.37
+2026-02-23T18:56:49.563Z----🎤 Audio chunks received: 2680
+2026-02-23T18:56:52.582Z----🎤 Audio chunks received: 2690
+2026-02-23T18:56:53.596Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5130 frames, 34.9KB avg, FPS: 6.37
+2026-02-23T18:56:55.566Z----🎤 Audio chunks received: 2700
+2026-02-23T18:56:58.214Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5160 frames, 34.8KB avg, FPS: 6.37
+2026-02-23T18:56:58.559Z----🎤 Audio chunks received: 2710
+2026-02-23T18:57:01.573Z----🎤 Audio chunks received: 2720
+2026-02-23T18:57:02.450Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5190 frames, 34.8KB avg, FPS: 6.38
+2026-02-23T18:57:04.593Z----🎤 Audio chunks received: 2730
+2026-02-23T18:57:07.415Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5220 frames, 34.9KB avg, FPS: 6.37
+2026-02-23T18:57:07.578Z----🎤 Audio chunks received: 2740
+2026-02-23T18:57:10.561Z----🎤 Audio chunks received: 2750
+2026-02-23T18:57:11.961Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5250 frames, 34.8KB avg, FPS: 6.38
+2026-02-23T18:57:13.563Z----🎤 Audio chunks received: 2760
+2026-02-23T18:57:16.554Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5280 frames, 34.9KB avg, FPS: 6.38
+2026-02-23T18:57:16.558Z----🎤 Audio chunks received: 2770
+2026-02-23T18:57:19.562Z----🎤 Audio chunks received: 2780
+2026-02-23T18:57:21.145Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5310 frames, 34.8KB avg, FPS: 6.38
+2026-02-23T18:57:22.509Z----🎤 Audio chunks received: 2790
+2026-02-23T18:57:25.542Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5340 frames, 34.9KB avg, FPS: 6.38
+2026-02-23T18:57:25.550Z----🎤 Audio chunks received: 2800
+2026-02-23T18:57:28.514Z----🎤 Audio chunks received: 2810
+2026-02-23T18:57:29.980Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5370 frames, 38.6KB avg, FPS: 6.38
+2026-02-23T18:57:31.526Z----🎤 Audio chunks received: 2820
+2026-02-23T18:57:34.510Z----🎤 Audio chunks received: 2830
+2026-02-23T18:57:34.655Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5400 frames, 21.3KB avg, FPS: 6.38
+2026-02-23T18:57:37.523Z----🎤 Audio chunks received: 2840
+2026-02-23T18:57:38.475Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5430 frames, 21.3KB avg, FPS: 6.39
+2026-02-23T18:57:40.517Z----🎤 Audio chunks received: 2850
+2026-02-23T18:57:42.311Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5460 frames, 21.3KB avg, FPS: 6.39
+2026-02-23T18:57:43.526Z----🎤 Audio chunks received: 2860
+2026-02-23T18:57:46.056Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5490 frames, 21.3KB avg, FPS: 6.40
+2026-02-23T18:57:46.516Z----🎤 Audio chunks received: 2870
+2026-02-23T18:57:49.514Z----🎤 Audio chunks received: 2880
+2026-02-23T18:57:50.049Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5520 frames, 21.3KB avg, FPS: 6.41
+2026-02-23T18:57:52.502Z----🎤 Audio chunks received: 2890
+2026-02-23T18:57:53.797Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5550 frames, 21.3KB avg, FPS: 6.41
+2026-02-23T18:57:55.599Z----🎤 Audio chunks received: 2900
+2026-02-23T18:57:57.494Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5580 frames, 21.3KB avg, FPS: 6.42
+2026-02-23T18:57:58.500Z----🎤 Audio chunks received: 2910
+2026-02-23T18:58:01.320Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5610 frames, 21.3KB avg, FPS: 6.43
+2026-02-23T18:58:01.501Z----🎤 Audio chunks received: 2920
+2026-02-23T18:58:04.504Z----🎤 Audio chunks received: 2930
+2026-02-23T18:58:05.083Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5640 frames, 21.3KB avg, FPS: 6.43
+2026-02-23T18:58:07.507Z----🎤 Audio chunks received: 2940
+2026-02-23T18:58:08.945Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5670 frames, 21.3KB avg, FPS: 6.44
+2026-02-23T18:58:10.444Z----🎤 Audio chunks received: 2950
+2026-02-23T18:58:12.855Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5700 frames, 21.3KB avg, FPS: 6.45
+2026-02-23T18:58:13.449Z----🎤 Audio chunks received: 2960
+2026-02-23T18:58:16.447Z----🎤 Audio chunks received: 2970
+2026-02-23T18:58:17.114Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5730 frames, 21.3KB avg, FPS: 6.45
+2026-02-23T18:58:19.446Z----🎤 Audio chunks received: 2980
+2026-02-23T18:58:21.103Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5760 frames, 20.4KB avg, FPS: 6.45
+2026-02-23T18:58:22.446Z----🎤 Audio chunks received: 2990
+2026-02-23T18:58:25.182Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5790 frames, 2.1KB avg, FPS: 6.46
+2026-02-23T18:58:25.637Z----🎤 Audio chunks received: 3000
+2026-02-23T18:58:28.443Z----🎤 Audio chunks received: 3010
+2026-02-23T18:58:28.800Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5820 frames, 2.1KB avg, FPS: 6.46
+2026-02-23T18:58:31.468Z----🎤 Audio chunks received: 3020
+2026-02-23T18:58:32.101Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5850 frames, 2.1KB avg, FPS: 6.47
+2026-02-23T18:58:34.444Z----🎤 Audio chunks received: 3030
+2026-02-23T18:58:35.741Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5880 frames, 2.1KB avg, FPS: 6.48
+2026-02-23T18:58:37.449Z----🎤 Audio chunks received: 3040
+2026-02-23T18:58:38.982Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5910 frames, 2.1KB avg, FPS: 6.49
+2026-02-23T18:58:40.458Z----🎤 Audio chunks received: 3050
+2026-02-23T18:58:42.382Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5940 frames, 2.1KB avg, FPS: 6.50
+2026-02-23T18:58:43.439Z----🎤 Audio chunks received: 3060
+2026-02-23T18:58:45.367Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 5970 frames, 2.1KB avg, FPS: 6.51
+2026-02-23T18:58:46.455Z----🎤 Audio chunks received: 3070
+2026-02-23T18:58:48.516Z----📊 Room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: 6000 frames, 2.1KB avg, FPS: 6.52
+2026-02-23T18:58:49.438Z----🎤 Audio chunks received: 3080
+2026-02-23T18:58:49.998Z----🧹 Cleaning up recording manager for room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq...
+2026-02-23T18:58:49.998Z----🛑 Stopping recording in room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq: b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba
+2026-02-23T18:58:52.146Z----ℹ️ Extended last frame by 0.268s to align with audio (921.67s total).
+2026-02-23T19:01:24.666Z----
+✅ Video encoding complete
+2026-02-23T19:01:24.669Z----📁 Output: 18.59MB at /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4
+2026-02-23T19:01:24.669Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4
+2026-02-23T19:01:24.670Z----🎵 Converting WebM audio (14537.2KB) to AAC
+2026-02-23T19:01:24.675Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/audio.m4a
+2026-02-23T19:02:23.089Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/audio.m4a (14.35MB)
+2026-02-23T19:02:23.090Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/audio.m4a
+2026-02-23T19:02:23.091Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/completed/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4
+2026-02-23T19:02:23.444Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-02-23T19:02:23.493Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4':
+  Metadata:
+
+2026-02-23T19:02:23.495Z----FFmpeg stderr:     major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:15:21.72, start: 0.000000, bitrate: 169 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 168 kb/s, 6.52 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-02-23T19:02:23.507Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/temp/b48c9c9b-c6b7-4d02-80f9-ca1f2acd8cba/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+
+2026-02-23T19:02:23.508Z----FFmpeg stderr:   Duration: 00:15:21.36, start: 0.000000, bitrate: 130 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 129 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-23T19:02:23.508Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/completed/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 
+2026-02-23T19:02:23.509Z----FFmpeg stderr: 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 168 kb/s, 6.52 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng)
+2026-02-23T19:02:23.509Z----FFmpeg stderr: : Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 129 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-02-23T19:02:23.509Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+2026-02-23T19:02:23.509Z----FFmpeg stderr: 
+Press [q] to stop, [?] for help
+
+2026-02-23T19:02:23.512Z----FFmpeg stderr: size=       0kB time=-00:00:00.52 bitrate=  -0.0kbits/s speed=N/A    
+2026-02-23T19:02:24.010Z----FFmpeg stderr: size=    7936kB time=00:03:16.36 bitrate= 331.1kbits/s speed= 393x    
+2026-02-23T19:02:24.510Z----FFmpeg stderr: size=   17920kB time=00:07:54.16 bitrate= 309.6kbits/s speed= 474x    
+2026-02-23T19:02:25.011Z----FFmpeg stderr: size=   30464kB time=00:13:05.08 bitrate= 317.9kbits/s speed= 523x    
+2026-02-23T19:02:25.274Z----FFmpeg stderr: [mp4 @ 0x5df62ed51300] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-02-23T19:02:25.314Z----FFmpeg stderr: [out#0/mp4 @ 0x5df62ed9ae00] video:18931kB audio:14522kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.151703%
+size=   33838kB time=00:15:21.34 bitrate= 300.9kbits/s speed= 511x    
+
+2026-02-23T19:02:25.329Z----✅ Muxing complete: 33.05MB
+2026-02-23T19:02:25.329Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/completed/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4
+2026-02-23T19:02:27.117Z----✅ Thumbnail generated
+2026-02-23T19:02:27.117Z----✅ Recording completed in room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq
+2026-02-23T19:02:27.118Z----📊 Stats: 6014 frames, 3081 audio chunks, 1138.872s duration
+2026-02-23T19:02:27.118Z----📁 File URL: /recordings/rooms/uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq/completed/ui-recording_uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq_2026-02-23T18-43-28-244Z.mp4 [object Object]
+2026-02-23T19:02:27.118Z----✅ Cleanup completed for room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq
+2026-02-23T19:02:27.118Z----🧹 Cleaning up recording manager for room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq...
+2026-02-23T19:02:27.118Z----✅ Cleanup completed for room uxDFGB5KwgwJG0rotYyxN2q0_schedule__J9SPDEAU9noq
+2026-03-06T14:26:29.960Z----🎥 UI Recording started in room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: d54707a0-8819-45ab-9caf-27817c7e4638
+2026-03-06T14:26:29.966Z----📊 Target FPS: 30, Audio: true
+2026-03-06T14:26:33.106Z----🎤 Audio chunks received: 10
+2026-03-06T14:26:36.225Z----🎤 Audio chunks received: 20
+2026-03-06T14:26:38.966Z----🎤 Audio chunks received: 30
+2026-03-06T14:26:42.049Z----🎤 Audio chunks received: 40
+2026-03-06T14:26:44.880Z----🎤 Audio chunks received: 50
+2026-03-06T14:26:46.582Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 30 frames, 49.2KB avg, FPS: 1.92
+2026-03-06T14:26:57.148Z----🎤 Audio chunks received: 60
+2026-03-06T14:27:05.596Z----🎤 Audio chunks received: 70
+2026-03-06T14:27:13.577Z----🎤 Audio chunks received: 80
+2026-03-06T14:27:17.597Z----🎤 Audio chunks received: 90
+2026-03-06T14:27:20.518Z----🎤 Audio chunks received: 100
+2026-03-06T14:27:22.732Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 60 frames, 57.9KB avg, FPS: 1.15
+2026-03-06T14:27:23.531Z----🎤 Audio chunks received: 110
+2026-03-06T14:27:29.505Z----🎤 Audio chunks received: 120
+2026-03-06T14:27:32.305Z----🎤 Audio chunks received: 130
+2026-03-06T14:27:37.826Z----🎤 Audio chunks received: 140
+2026-03-06T14:27:40.389Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 90 frames, 39.7KB avg, FPS: 1.29
+2026-03-06T14:27:40.798Z----🎤 Audio chunks received: 150
+2026-03-06T14:27:43.751Z----🎤 Audio chunks received: 160
+2026-03-06T14:27:46.632Z----🎤 Audio chunks received: 170
+2026-03-06T14:27:49.085Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 120 frames, 52.5KB avg, FPS: 1.53
+2026-03-06T14:27:49.630Z----🎤 Audio chunks received: 180
+2026-03-06T14:27:52.670Z----🎤 Audio chunks received: 190
+2026-03-06T14:27:55.555Z----🎤 Audio chunks received: 200
+2026-03-06T14:27:57.933Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 150 frames, 57.9KB avg, FPS: 1.71
+2026-03-06T14:27:58.386Z----🎤 Audio chunks received: 210
+2026-03-06T14:28:01.386Z----🎤 Audio chunks received: 220
+2026-03-06T14:28:04.371Z----🎤 Audio chunks received: 230
+2026-03-06T14:28:05.218Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 180 frames, 44.3KB avg, FPS: 1.90
+2026-03-06T14:28:07.370Z----🎤 Audio chunks received: 240
+2026-03-06T14:28:10.389Z----🎤 Audio chunks received: 250
+2026-03-06T14:28:12.994Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 210 frames, 54.9KB avg, FPS: 2.05
+2026-03-06T14:28:13.365Z----🎤 Audio chunks received: 260
+2026-03-06T14:28:16.313Z----🎤 Audio chunks received: 270
+2026-03-06T14:28:19.302Z----🎤 Audio chunks received: 280
+2026-03-06T14:28:19.867Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 240 frames, 53.1KB avg, FPS: 2.19
+2026-03-06T14:28:22.323Z----🎤 Audio chunks received: 290
+2026-03-06T14:28:25.316Z----🎤 Audio chunks received: 300
+2026-03-06T14:28:26.256Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 270 frames, 53.1KB avg, FPS: 2.33
+2026-03-06T14:28:28.315Z----🎤 Audio chunks received: 310
+2026-03-06T14:28:31.317Z----🎤 Audio chunks received: 320
+2026-03-06T14:28:32.426Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 300 frames, 53.1KB avg, FPS: 2.46
+2026-03-06T14:28:34.297Z----🎤 Audio chunks received: 330
+2026-03-06T14:28:37.317Z----🎤 Audio chunks received: 340
+2026-03-06T14:28:40.430Z----🎤 Audio chunks received: 350
+2026-03-06T14:28:43.015Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 330 frames, 60.6KB avg, FPS: 2.49
+2026-03-06T14:28:43.382Z----🎤 Audio chunks received: 360
+2026-03-06T14:28:46.289Z----🎤 Audio chunks received: 370
+2026-03-06T14:28:49.322Z----🎤 Audio chunks received: 380
+2026-03-06T14:28:50.540Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 360 frames, 69.6KB avg, FPS: 2.57
+2026-03-06T14:28:52.264Z----🎤 Audio chunks received: 390
+2026-03-06T14:28:55.240Z----🎤 Audio chunks received: 400
+2026-03-06T14:28:58.261Z----🎤 Audio chunks received: 410
+2026-03-06T14:28:59.668Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 390 frames, 53.5KB avg, FPS: 2.61
+2026-03-06T14:29:01.261Z----🎤 Audio chunks received: 420
+2026-03-06T14:29:04.234Z----🎤 Audio chunks received: 430
+2026-03-06T14:29:06.938Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 420 frames, 53.3KB avg, FPS: 2.68
+2026-03-06T14:29:07.258Z----🎤 Audio chunks received: 440
+2026-03-06T14:29:10.274Z----🎤 Audio chunks received: 450
+2026-03-06T14:29:13.249Z----🎤 Audio chunks received: 460
+2026-03-06T14:29:13.914Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 450 frames, 53.2KB avg, FPS: 2.75
+2026-03-06T14:29:16.194Z----🎤 Audio chunks received: 470
+2026-03-06T14:29:19.203Z----🎤 Audio chunks received: 480
+2026-03-06T14:29:20.624Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 480 frames, 53.3KB avg, FPS: 2.82
+2026-03-06T14:29:22.115Z----🎤 Audio chunks received: 490
+2026-03-06T14:29:25.137Z----🎤 Audio chunks received: 500
+2026-03-06T14:29:27.588Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 510 frames, 53.1KB avg, FPS: 2.88
+2026-03-06T14:29:28.156Z----🎤 Audio chunks received: 510
+2026-03-06T14:29:31.093Z----🎤 Audio chunks received: 520
+2026-03-06T14:29:34.074Z----🎤 Audio chunks received: 530
+2026-03-06T14:29:34.423Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 540 frames, 53.0KB avg, FPS: 2.93
+2026-03-06T14:29:36.971Z----🎤 Audio chunks received: 540
+2026-03-06T14:29:39.946Z----🎤 Audio chunks received: 550
+2026-03-06T14:29:40.920Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 570 frames, 25.5KB avg, FPS: 2.99
+2026-03-06T14:29:42.960Z----🎤 Audio chunks received: 560
+2026-03-06T14:29:45.965Z----🎤 Audio chunks received: 570
+2026-03-06T14:29:47.602Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 600 frames, 55.6KB avg, FPS: 3.04
+2026-03-06T14:29:48.953Z----🎤 Audio chunks received: 580
+2026-03-06T14:29:51.967Z----🎤 Audio chunks received: 590
+2026-03-06T14:29:54.392Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 630 frames, 56.8KB avg, FPS: 3.09
+2026-03-06T14:29:54.968Z----🎤 Audio chunks received: 600
+2026-03-06T14:29:57.826Z----🎤 Audio chunks received: 610
+2026-03-06T14:30:00.836Z----🎤 Audio chunks received: 620
+2026-03-06T14:30:02.395Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 660 frames, 52.3KB avg, FPS: 3.11
+2026-03-06T14:30:03.851Z----🎤 Audio chunks received: 630
+2026-03-06T14:30:06.847Z----🎤 Audio chunks received: 640
+2026-03-06T14:30:09.619Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 690 frames, 53.6KB avg, FPS: 3.15
+2026-03-06T14:30:09.773Z----🎤 Audio chunks received: 650
+2026-03-06T14:30:12.779Z----🎤 Audio chunks received: 660
+2026-03-06T14:30:15.778Z----🎤 Audio chunks received: 670
+2026-03-06T14:30:17.017Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 720 frames, 51.8KB avg, FPS: 3.18
+2026-03-06T14:30:18.779Z----🎤 Audio chunks received: 680
+2026-03-06T14:30:21.763Z----🎤 Audio chunks received: 690
+2026-03-06T14:30:23.685Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 750 frames, 51.2KB avg, FPS: 3.21
+2026-03-06T14:30:24.768Z----🎤 Audio chunks received: 700
+2026-03-06T14:30:27.777Z----🎤 Audio chunks received: 710
+2026-03-06T14:30:30.253Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 780 frames, 52.4KB avg, FPS: 3.25
+2026-03-06T14:30:30.751Z----🎤 Audio chunks received: 720
+2026-03-06T14:30:33.774Z----🎤 Audio chunks received: 730
+2026-03-06T14:30:36.605Z----🎤 Audio chunks received: 740
+2026-03-06T14:30:37.542Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 810 frames, 57.0KB avg, FPS: 3.28
+2026-03-06T14:30:39.606Z----🎤 Audio chunks received: 750
+2026-03-06T14:30:42.603Z----🎤 Audio chunks received: 760
+2026-03-06T14:30:44.457Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 840 frames, 56.4KB avg, FPS: 3.31
+2026-03-06T14:30:45.903Z----🎤 Audio chunks received: 770
+2026-03-06T14:30:48.597Z----🎤 Audio chunks received: 780
+2026-03-06T14:30:51.584Z----🎤 Audio chunks received: 790
+2026-03-06T14:30:52.555Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 870 frames, 56.8KB avg, FPS: 3.32
+2026-03-06T14:30:54.600Z----🎤 Audio chunks received: 800
+2026-03-06T14:30:57.514Z----🎤 Audio chunks received: 810
+2026-03-06T14:31:00.514Z----🎤 Audio chunks received: 820
+2026-03-06T14:31:00.597Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 900 frames, 56.3KB avg, FPS: 3.33
+2026-03-06T14:31:03.554Z----🎤 Audio chunks received: 830
+2026-03-06T14:31:06.515Z----🎤 Audio chunks received: 840
+2026-03-06T14:31:08.805Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 930 frames, 41.6KB avg, FPS: 3.34
+2026-03-06T14:31:09.370Z----🎤 Audio chunks received: 850
+2026-03-06T14:31:12.336Z----🎤 Audio chunks received: 860
+2026-03-06T14:31:15.233Z----🎤 Audio chunks received: 870
+2026-03-06T14:31:17.033Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 960 frames, 41.0KB avg, FPS: 3.35
+2026-03-06T14:31:17.994Z----🎤 Audio chunks received: 880
+2026-03-06T14:31:20.995Z----🎤 Audio chunks received: 890
+2026-03-06T14:31:24.030Z----🎤 Audio chunks received: 900
+2026-03-06T14:31:24.443Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 990 frames, 42.3KB avg, FPS: 3.37
+2026-03-06T14:31:26.993Z----🎤 Audio chunks received: 910
+2026-03-06T14:31:29.938Z----🎤 Audio chunks received: 920
+2026-03-06T14:31:30.543Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1020 frames, 43.8KB avg, FPS: 3.40
+2026-03-06T14:31:32.870Z----🎤 Audio chunks received: 930
+2026-03-06T14:31:36.016Z----🎤 Audio chunks received: 940
+2026-03-06T14:31:36.278Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1050 frames, 53.8KB avg, FPS: 3.43
+2026-03-06T14:31:38.807Z----🎤 Audio chunks received: 950
+2026-03-06T14:31:41.805Z----🎤 Audio chunks received: 960
+2026-03-06T14:31:42.522Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1080 frames, 55.5KB avg, FPS: 3.46
+2026-03-06T14:31:44.695Z----🎤 Audio chunks received: 970
+2026-03-06T14:31:47.702Z----🎤 Audio chunks received: 980
+2026-03-06T14:31:48.673Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1110 frames, 58.2KB avg, FPS: 3.49
+2026-03-06T14:31:50.588Z----🎤 Audio chunks received: 990
+2026-03-06T14:31:53.568Z----🎤 Audio chunks received: 1000
+2026-03-06T14:31:54.539Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1140 frames, 57.9KB avg, FPS: 3.52
+2026-03-06T14:31:56.569Z----🎤 Audio chunks received: 1010
+2026-03-06T14:31:59.564Z----🎤 Audio chunks received: 1020
+2026-03-06T14:32:00.633Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1170 frames, 57.1KB avg, FPS: 3.54
+2026-03-06T14:32:02.587Z----🎤 Audio chunks received: 1030
+2026-03-06T14:32:05.583Z----🎤 Audio chunks received: 1040
+2026-03-06T14:32:06.311Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1200 frames, 57.1KB avg, FPS: 3.57
+2026-03-06T14:32:08.578Z----🎤 Audio chunks received: 1050
+2026-03-06T14:32:11.572Z----🎤 Audio chunks received: 1060
+2026-03-06T14:32:12.479Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1230 frames, 57.8KB avg, FPS: 3.59
+2026-03-06T14:32:14.471Z----🎤 Audio chunks received: 1070
+2026-03-06T14:32:17.450Z----🎤 Audio chunks received: 1080
+2026-03-06T14:32:19.913Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1260 frames, 53.2KB avg, FPS: 3.60
+2026-03-06T14:32:20.490Z----🎤 Audio chunks received: 1090
+2026-03-06T14:32:23.453Z----🎤 Audio chunks received: 1100
+2026-03-06T14:32:26.450Z----🎤 Audio chunks received: 1110
+2026-03-06T14:32:27.511Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1290 frames, 58.0KB avg, FPS: 3.61
+2026-03-06T14:32:29.361Z----🎤 Audio chunks received: 1120
+2026-03-06T14:32:32.357Z----🎤 Audio chunks received: 1130
+2026-03-06T14:32:35.287Z----🎤 Audio chunks received: 1140
+2026-03-06T14:32:36.413Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1320 frames, 57.0KB avg, FPS: 3.61
+2026-03-06T14:32:38.228Z----🎤 Audio chunks received: 1150
+2026-03-06T14:32:41.096Z----🎤 Audio chunks received: 1160
+2026-03-06T14:32:44.105Z----🎤 Audio chunks received: 1170
+2026-03-06T14:32:44.781Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1350 frames, 53.7KB avg, FPS: 3.61
+2026-03-06T14:32:47.084Z----🎤 Audio chunks received: 1180
+2026-03-06T14:32:49.908Z----🎤 Audio chunks received: 1190
+2026-03-06T14:32:50.285Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1380 frames, 57.2KB avg, FPS: 3.63
+2026-03-06T14:32:52.839Z----🎤 Audio chunks received: 1200
+2026-03-06T14:32:55.836Z----🎤 Audio chunks received: 1210
+2026-03-06T14:32:56.513Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1410 frames, 57.3KB avg, FPS: 3.65
+2026-03-06T14:32:58.850Z----🎤 Audio chunks received: 1220
+2026-03-06T14:33:01.859Z----🎤 Audio chunks received: 1230
+2026-03-06T14:33:02.005Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1440 frames, 57.8KB avg, FPS: 3.68
+2026-03-06T14:33:04.849Z----🎤 Audio chunks received: 1240
+2026-03-06T14:33:07.529Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1470 frames, 53.0KB avg, FPS: 3.70
+2026-03-06T14:33:07.843Z----🎤 Audio chunks received: 1250
+2026-03-06T14:33:10.854Z----🎤 Audio chunks received: 1260
+2026-03-06T14:33:13.218Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1500 frames, 55.6KB avg, FPS: 3.72
+2026-03-06T14:33:13.847Z----🎤 Audio chunks received: 1270
+2026-03-06T14:33:16.799Z----🎤 Audio chunks received: 1280
+2026-03-06T14:33:19.384Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1530 frames, 57.3KB avg, FPS: 3.74
+2026-03-06T14:33:19.806Z----🎤 Audio chunks received: 1290
+2026-03-06T14:33:22.791Z----🎤 Audio chunks received: 1300
+2026-03-06T14:33:24.752Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1560 frames, 58.0KB avg, FPS: 3.76
+2026-03-06T14:33:25.783Z----🎤 Audio chunks received: 1310
+2026-03-06T14:33:28.750Z----🎤 Audio chunks received: 1320
+2026-03-06T14:33:30.546Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1590 frames, 58.3KB avg, FPS: 3.78
+2026-03-06T14:33:31.750Z----🎤 Audio chunks received: 1330
+2026-03-06T14:33:34.681Z----🎤 Audio chunks received: 1340
+2026-03-06T14:33:36.404Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1620 frames, 55.6KB avg, FPS: 3.80
+2026-03-06T14:33:37.681Z----🎤 Audio chunks received: 1350
+2026-03-06T14:33:40.678Z----🎤 Audio chunks received: 1360
+2026-03-06T14:33:42.430Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1650 frames, 58.6KB avg, FPS: 3.82
+2026-03-06T14:33:43.633Z----🎤 Audio chunks received: 1370
+2026-03-06T14:33:46.635Z----🎤 Audio chunks received: 1380
+2026-03-06T14:33:49.180Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1680 frames, 55.6KB avg, FPS: 3.83
+2026-03-06T14:33:49.561Z----🎤 Audio chunks received: 1390
+2026-03-06T14:33:52.569Z----🎤 Audio chunks received: 1400
+2026-03-06T14:33:55.018Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1710 frames, 57.9KB avg, FPS: 3.85
+2026-03-06T14:33:55.427Z----🎤 Audio chunks received: 1410
+2026-03-06T14:33:58.429Z----🎤 Audio chunks received: 1420
+2026-03-06T14:34:01.336Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1740 frames, 57.7KB avg, FPS: 3.86
+2026-03-06T14:34:01.458Z----🎤 Audio chunks received: 1430
+2026-03-06T14:34:04.357Z----🎤 Audio chunks received: 1440
+2026-03-06T14:34:07.300Z----🎤 Audio chunks received: 1450
+2026-03-06T14:34:09.588Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1770 frames, 58.3KB avg, FPS: 3.86
+2026-03-06T14:34:10.309Z----🎤 Audio chunks received: 1460
+2026-03-06T14:34:13.306Z----🎤 Audio chunks received: 1470
+2026-03-06T14:34:16.202Z----🎤 Audio chunks received: 1480
+2026-03-06T14:34:17.595Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1800 frames, 59.1KB avg, FPS: 3.85
+2026-03-06T14:34:19.204Z----🎤 Audio chunks received: 1490
+2026-03-06T14:34:22.207Z----🎤 Audio chunks received: 1500
+2026-03-06T14:34:23.456Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1830 frames, 59.1KB avg, FPS: 3.87
+2026-03-06T14:34:25.196Z----🎤 Audio chunks received: 1510
+2026-03-06T14:34:28.203Z----🎤 Audio chunks received: 1520
+2026-03-06T14:34:29.333Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1860 frames, 59.2KB avg, FPS: 3.88
+2026-03-06T14:34:31.170Z----🎤 Audio chunks received: 1530
+2026-03-06T14:34:34.089Z----🎤 Audio chunks received: 1540
+2026-03-06T14:34:35.401Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1890 frames, 59.5KB avg, FPS: 3.90
+2026-03-06T14:34:37.090Z----🎤 Audio chunks received: 1550
+2026-03-06T14:34:40.089Z----🎤 Audio chunks received: 1560
+2026-03-06T14:34:41.962Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1920 frames, 59.0KB avg, FPS: 3.91
+2026-03-06T14:34:43.067Z----🎤 Audio chunks received: 1570
+2026-03-06T14:34:46.103Z----🎤 Audio chunks received: 1580
+2026-03-06T14:34:47.829Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1950 frames, 59.1KB avg, FPS: 3.92
+2026-03-06T14:34:49.081Z----🎤 Audio chunks received: 1590
+2026-03-06T14:34:52.077Z----🎤 Audio chunks received: 1600
+2026-03-06T14:34:53.469Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 1980 frames, 54.5KB avg, FPS: 3.94
+2026-03-06T14:34:55.079Z----🎤 Audio chunks received: 1610
+2026-03-06T14:34:58.150Z----🎤 Audio chunks received: 1620
+2026-03-06T14:34:59.528Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2010 frames, 56.7KB avg, FPS: 3.95
+2026-03-06T14:35:01.063Z----🎤 Audio chunks received: 1630
+2026-03-06T14:35:03.960Z----🎤 Audio chunks received: 1640
+2026-03-06T14:35:05.409Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2040 frames, 56.5KB avg, FPS: 3.96
+2026-03-06T14:35:07.009Z----🎤 Audio chunks received: 1650
+2026-03-06T14:35:09.957Z----🎤 Audio chunks received: 1660
+2026-03-06T14:35:11.406Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2070 frames, 56.6KB avg, FPS: 3.97
+2026-03-06T14:35:12.937Z----🎤 Audio chunks received: 1670
+2026-03-06T14:35:16.133Z----🎤 Audio chunks received: 1680
+2026-03-06T14:35:16.839Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2100 frames, 56.8KB avg, FPS: 3.99
+2026-03-06T14:35:18.874Z----🎤 Audio chunks received: 1690
+2026-03-06T14:35:21.920Z----🎤 Audio chunks received: 1700
+2026-03-06T14:35:22.657Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2130 frames, 56.9KB avg, FPS: 4.00
+2026-03-06T14:35:24.771Z----🎤 Audio chunks received: 1710
+2026-03-06T14:35:27.707Z----🎤 Audio chunks received: 1720
+2026-03-06T14:35:28.878Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2160 frames, 56.4KB avg, FPS: 4.01
+2026-03-06T14:35:30.707Z----🎤 Audio chunks received: 1730
+2026-03-06T14:35:33.726Z----🎤 Audio chunks received: 1740
+2026-03-06T14:35:34.407Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2190 frames, 57.1KB avg, FPS: 4.03
+2026-03-06T14:35:36.770Z----🎤 Audio chunks received: 1750
+2026-03-06T14:35:39.632Z----🎤 Audio chunks received: 1760
+2026-03-06T14:35:39.935Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2220 frames, 57.3KB avg, FPS: 4.04
+2026-03-06T14:35:42.587Z----🎤 Audio chunks received: 1770
+2026-03-06T14:35:46.104Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2250 frames, 53.0KB avg, FPS: 4.05
+2026-03-06T14:35:46.105Z----🎤 Audio chunks received: 1780
+2026-03-06T14:35:48.601Z----🎤 Audio chunks received: 1790
+2026-03-06T14:35:51.608Z----🎤 Audio chunks received: 1800
+2026-03-06T14:35:51.844Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2280 frames, 49.1KB avg, FPS: 4.06
+2026-03-06T14:35:54.587Z----🎤 Audio chunks received: 1810
+2026-03-06T14:35:57.400Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2310 frames, 56.3KB avg, FPS: 4.07
+2026-03-06T14:35:57.599Z----🎤 Audio chunks received: 1820
+2026-03-06T14:36:00.550Z----🎤 Audio chunks received: 1830
+2026-03-06T14:36:02.765Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2340 frames, 48.8KB avg, FPS: 4.09
+2026-03-06T14:36:03.557Z----🎤 Audio chunks received: 1840
+2026-03-06T14:36:06.482Z----🎤 Audio chunks received: 1850
+2026-03-06T14:36:08.339Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2370 frames, 48.9KB avg, FPS: 4.10
+2026-03-06T14:36:09.483Z----🎤 Audio chunks received: 1860
+2026-03-06T14:36:12.429Z----🎤 Audio chunks received: 1870
+2026-03-06T14:36:13.637Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2400 frames, 47.0KB avg, FPS: 4.11
+2026-03-06T14:36:15.340Z----🎤 Audio chunks received: 1880
+2026-03-06T14:36:18.356Z----🎤 Audio chunks received: 1890
+2026-03-06T14:36:19.134Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2430 frames, 46.0KB avg, FPS: 4.13
+2026-03-06T14:36:21.341Z----🎤 Audio chunks received: 1900
+2026-03-06T14:36:24.353Z----🎤 Audio chunks received: 1910
+2026-03-06T14:36:24.582Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2460 frames, 46.0KB avg, FPS: 4.14
+2026-03-06T14:36:27.357Z----🎤 Audio chunks received: 1920
+2026-03-06T14:36:29.635Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2490 frames, 47.6KB avg, FPS: 4.15
+2026-03-06T14:36:30.360Z----🎤 Audio chunks received: 1930
+2026-03-06T14:36:33.340Z----🎤 Audio chunks received: 1940
+2026-03-06T14:36:36.055Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2520 frames, 48.0KB avg, FPS: 4.16
+2026-03-06T14:36:36.287Z----🎤 Audio chunks received: 1950
+2026-03-06T14:36:39.286Z----🎤 Audio chunks received: 1960
+2026-03-06T14:36:41.625Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2550 frames, 51.3KB avg, FPS: 4.17
+2026-03-06T14:36:42.217Z----🎤 Audio chunks received: 1970
+2026-03-06T14:36:45.033Z----🎤 Audio chunks received: 1980
+2026-03-06T14:36:47.141Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2580 frames, 50.2KB avg, FPS: 4.18
+2026-03-06T14:36:47.937Z----🎤 Audio chunks received: 1990
+2026-03-06T14:36:50.870Z----🎤 Audio chunks received: 2000
+2026-03-06T14:36:53.086Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2610 frames, 76.7KB avg, FPS: 4.19
+2026-03-06T14:36:53.851Z----🎤 Audio chunks received: 2010
+2026-03-06T14:36:56.853Z----🎤 Audio chunks received: 2020
+2026-03-06T14:36:59.880Z----🎤 Audio chunks received: 2030
+2026-03-06T14:37:00.123Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2640 frames, 45.0KB avg, FPS: 4.19
+2026-03-06T14:37:02.865Z----🎤 Audio chunks received: 2040
+2026-03-06T14:37:06.051Z----🎤 Audio chunks received: 2050
+2026-03-06T14:37:06.651Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2670 frames, 44.8KB avg, FPS: 4.20
+2026-03-06T14:37:08.850Z----🎤 Audio chunks received: 2060
+2026-03-06T14:37:11.865Z----🎤 Audio chunks received: 2070
+2026-03-06T14:37:13.041Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2700 frames, 53.8KB avg, FPS: 4.20
+2026-03-06T14:37:14.855Z----🎤 Audio chunks received: 2080
+2026-03-06T14:37:17.843Z----🎤 Audio chunks received: 2090
+2026-03-06T14:37:19.219Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2730 frames, 62.8KB avg, FPS: 4.21
+2026-03-06T14:37:20.848Z----🎤 Audio chunks received: 2100
+2026-03-06T14:37:23.863Z----🎤 Audio chunks received: 2110
+2026-03-06T14:37:25.280Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2760 frames, 62.7KB avg, FPS: 4.21
+2026-03-06T14:37:26.859Z----🎤 Audio chunks received: 2120
+2026-03-06T14:37:29.768Z----🎤 Audio chunks received: 2130
+2026-03-06T14:37:32.008Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2790 frames, 61.2KB avg, FPS: 4.22
+2026-03-06T14:37:32.772Z----🎤 Audio chunks received: 2140
+2026-03-06T14:37:35.775Z----🎤 Audio chunks received: 2150
+2026-03-06T14:37:38.726Z----🎤 Audio chunks received: 2160
+2026-03-06T14:37:39.493Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2820 frames, 52.7KB avg, FPS: 4.21
+2026-03-06T14:37:41.757Z----🎤 Audio chunks received: 2170
+2026-03-06T14:37:44.647Z----🎤 Audio chunks received: 2180
+2026-03-06T14:37:47.610Z----🎤 Audio chunks received: 2190
+2026-03-06T14:37:49.972Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2850 frames, 53.2KB avg, FPS: 4.20
+2026-03-06T14:37:50.449Z----🎤 Audio chunks received: 2200
+2026-03-06T14:37:53.390Z----🎤 Audio chunks received: 2210
+2026-03-06T14:37:56.411Z----🎤 Audio chunks received: 2220
+2026-03-06T14:37:59.089Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2880 frames, 43.8KB avg, FPS: 4.18
+2026-03-06T14:37:59.396Z----🎤 Audio chunks received: 2230
+2026-03-06T14:38:02.235Z----🎤 Audio chunks received: 2240
+2026-03-06T14:38:05.149Z----🎤 Audio chunks received: 2250
+2026-03-06T14:38:06.342Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2910 frames, 42.6KB avg, FPS: 4.18
+2026-03-06T14:38:08.119Z----🎤 Audio chunks received: 2260
+2026-03-06T14:38:11.090Z----🎤 Audio chunks received: 2270
+2026-03-06T14:38:12.038Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2940 frames, 42.7KB avg, FPS: 4.19
+2026-03-06T14:38:14.105Z----🎤 Audio chunks received: 2280
+2026-03-06T14:38:17.067Z----🎤 Audio chunks received: 2290
+2026-03-06T14:38:18.593Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 2970 frames, 42.9KB avg, FPS: 4.19
+2026-03-06T14:38:19.954Z----🎤 Audio chunks received: 2300
+2026-03-06T14:38:22.935Z----🎤 Audio chunks received: 2310
+2026-03-06T14:38:24.963Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3000 frames, 43.0KB avg, FPS: 4.20
+2026-03-06T14:38:25.833Z----🎤 Audio chunks received: 2320
+2026-03-06T14:38:28.785Z----🎤 Audio chunks received: 2330
+2026-03-06T14:38:30.561Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3030 frames, 43.1KB avg, FPS: 4.21
+2026-03-06T14:38:31.766Z----🎤 Audio chunks received: 2340
+2026-03-06T14:38:34.787Z----🎤 Audio chunks received: 2350
+2026-03-06T14:38:36.035Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3060 frames, 43.4KB avg, FPS: 4.22
+2026-03-06T14:38:37.763Z----🎤 Audio chunks received: 2360
+2026-03-06T14:38:40.783Z----🎤 Audio chunks received: 2370
+2026-03-06T14:38:41.854Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3090 frames, 43.5KB avg, FPS: 4.22
+2026-03-06T14:38:43.780Z----🎤 Audio chunks received: 2380
+2026-03-06T14:38:46.763Z----🎤 Audio chunks received: 2390
+2026-03-06T14:38:47.998Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3120 frames, 43.4KB avg, FPS: 4.23
+2026-03-06T14:38:49.763Z----🎤 Audio chunks received: 2400
+2026-03-06T14:38:52.777Z----🎤 Audio chunks received: 2410
+2026-03-06T14:38:55.082Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3150 frames, 52.9KB avg, FPS: 4.23
+2026-03-06T14:38:55.959Z----🎤 Audio chunks received: 2420
+2026-03-06T14:38:58.730Z----🎤 Audio chunks received: 2430
+2026-03-06T14:39:01.716Z----🎤 Audio chunks received: 2440
+2026-03-06T14:39:02.342Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3180 frames, 56.4KB avg, FPS: 4.23
+2026-03-06T14:39:04.706Z----🎤 Audio chunks received: 2450
+2026-03-06T14:39:07.706Z----🎤 Audio chunks received: 2460
+2026-03-06T14:39:08.525Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3210 frames, 58.1KB avg, FPS: 4.23
+2026-03-06T14:39:10.720Z----🎤 Audio chunks received: 2470
+2026-03-06T14:39:13.725Z----🎤 Audio chunks received: 2480
+2026-03-06T14:39:14.447Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3240 frames, 43.5KB avg, FPS: 4.24
+2026-03-06T14:39:16.708Z----🎤 Audio chunks received: 2490
+2026-03-06T14:39:19.683Z----🎤 Audio chunks received: 2500
+2026-03-06T14:39:20.044Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3270 frames, 34.1KB avg, FPS: 4.25
+2026-03-06T14:39:22.656Z----🎤 Audio chunks received: 2510
+2026-03-06T14:39:25.827Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3300 frames, 33.7KB avg, FPS: 4.26
+2026-03-06T14:39:25.828Z----🎤 Audio chunks received: 2520
+2026-03-06T14:39:28.630Z----🎤 Audio chunks received: 2530
+2026-03-06T14:39:31.095Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3330 frames, 35.1KB avg, FPS: 4.27
+2026-03-06T14:39:31.651Z----🎤 Audio chunks received: 2540
+2026-03-06T14:39:34.643Z----🎤 Audio chunks received: 2550
+2026-03-06T14:39:37.114Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3360 frames, 61.1KB avg, FPS: 4.27
+2026-03-06T14:39:37.631Z----🎤 Audio chunks received: 2560
+2026-03-06T14:39:40.631Z----🎤 Audio chunks received: 2570
+2026-03-06T14:39:42.836Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3390 frames, 62.0KB avg, FPS: 4.28
+2026-03-06T14:39:43.577Z----🎤 Audio chunks received: 2580
+2026-03-06T14:39:46.565Z----🎤 Audio chunks received: 2590
+2026-03-06T14:39:48.666Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3420 frames, 61.7KB avg, FPS: 4.28
+2026-03-06T14:39:49.550Z----🎤 Audio chunks received: 2600
+2026-03-06T14:39:52.549Z----🎤 Audio chunks received: 2610
+2026-03-06T14:39:54.571Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3450 frames, 61.8KB avg, FPS: 4.29
+2026-03-06T14:39:55.551Z----🎤 Audio chunks received: 2620
+2026-03-06T14:39:58.549Z----🎤 Audio chunks received: 2630
+2026-03-06T14:40:01.120Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3480 frames, 61.8KB avg, FPS: 4.29
+2026-03-06T14:40:01.556Z----🎤 Audio chunks received: 2640
+2026-03-06T14:40:04.523Z----🎤 Audio chunks received: 2650
+2026-03-06T14:40:06.901Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3510 frames, 61.5KB avg, FPS: 4.30
+2026-03-06T14:40:07.535Z----🎤 Audio chunks received: 2660
+2026-03-06T14:40:10.500Z----🎤 Audio chunks received: 2670
+2026-03-06T14:40:12.801Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3540 frames, 61.3KB avg, FPS: 4.30
+2026-03-06T14:40:13.413Z----🎤 Audio chunks received: 2680
+2026-03-06T14:40:16.410Z----🎤 Audio chunks received: 2690
+2026-03-06T14:40:18.745Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3570 frames, 61.3KB avg, FPS: 4.31
+2026-03-06T14:40:19.412Z----🎤 Audio chunks received: 2700
+2026-03-06T14:40:22.410Z----🎤 Audio chunks received: 2710
+2026-03-06T14:40:24.642Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3600 frames, 50.8KB avg, FPS: 4.31
+2026-03-06T14:40:25.406Z----🎤 Audio chunks received: 2720
+2026-03-06T14:40:28.440Z----🎤 Audio chunks received: 2730
+2026-03-06T14:40:30.177Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3630 frames, 56.7KB avg, FPS: 4.32
+2026-03-06T14:40:31.411Z----🎤 Audio chunks received: 2740
+2026-03-06T14:40:34.406Z----🎤 Audio chunks received: 2750
+2026-03-06T14:40:36.012Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3660 frames, 57.2KB avg, FPS: 4.33
+2026-03-06T14:40:37.408Z----🎤 Audio chunks received: 2760
+2026-03-06T14:40:40.357Z----🎤 Audio chunks received: 2770
+2026-03-06T14:40:42.176Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3690 frames, 58.0KB avg, FPS: 4.33
+2026-03-06T14:40:43.370Z----🎤 Audio chunks received: 2780
+2026-03-06T14:40:46.341Z----🎤 Audio chunks received: 2790
+2026-03-06T14:40:48.358Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3720 frames, 59.8KB avg, FPS: 4.34
+2026-03-06T14:40:49.380Z----🎤 Audio chunks received: 2800
+2026-03-06T14:40:52.350Z----🎤 Audio chunks received: 2810
+2026-03-06T14:40:54.257Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3750 frames, 60.0KB avg, FPS: 4.34
+2026-03-06T14:40:55.337Z----🎤 Audio chunks received: 2820
+2026-03-06T14:40:58.301Z----🎤 Audio chunks received: 2830
+2026-03-06T14:41:00.371Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3780 frames, 62.0KB avg, FPS: 4.34
+2026-03-06T14:41:01.304Z----🎤 Audio chunks received: 2840
+2026-03-06T14:41:04.344Z----🎤 Audio chunks received: 2850
+2026-03-06T14:41:06.572Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3810 frames, 62.0KB avg, FPS: 4.35
+2026-03-06T14:41:07.258Z----🎤 Audio chunks received: 2860
+2026-03-06T14:41:10.233Z----🎤 Audio chunks received: 2870
+2026-03-06T14:41:12.743Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3840 frames, 62.5KB avg, FPS: 4.35
+2026-03-06T14:41:13.252Z----🎤 Audio chunks received: 2880
+2026-03-06T14:41:16.229Z----🎤 Audio chunks received: 2890
+2026-03-06T14:41:18.871Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3870 frames, 64.0KB avg, FPS: 4.36
+2026-03-06T14:41:19.229Z----🎤 Audio chunks received: 2900
+2026-03-06T14:41:22.230Z----🎤 Audio chunks received: 2910
+2026-03-06T14:41:25.238Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3900 frames, 64.0KB avg, FPS: 4.36
+2026-03-06T14:41:25.255Z----🎤 Audio chunks received: 2920
+2026-03-06T14:41:28.239Z----🎤 Audio chunks received: 2930
+2026-03-06T14:41:31.243Z----🎤 Audio chunks received: 2940
+2026-03-06T14:41:31.527Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3930 frames, 55.1KB avg, FPS: 4.36
+2026-03-06T14:41:34.242Z----🎤 Audio chunks received: 2950
+2026-03-06T14:41:37.238Z----🎤 Audio chunks received: 2960
+2026-03-06T14:41:37.836Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3960 frames, 55.2KB avg, FPS: 4.36
+2026-03-06T14:41:40.106Z----🎤 Audio chunks received: 2970
+2026-03-06T14:41:43.122Z----🎤 Audio chunks received: 2980
+2026-03-06T14:41:43.876Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 3990 frames, 55.5KB avg, FPS: 4.37
+2026-03-06T14:41:46.107Z----🎤 Audio chunks received: 2990
+2026-03-06T14:41:49.121Z----🎤 Audio chunks received: 3000
+2026-03-06T14:41:50.161Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4020 frames, 55.3KB avg, FPS: 4.37
+2026-03-06T14:41:52.121Z----🎤 Audio chunks received: 3010
+2026-03-06T14:41:55.133Z----🎤 Audio chunks received: 3020
+2026-03-06T14:41:56.518Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4050 frames, 55.4KB avg, FPS: 4.37
+2026-03-06T14:41:58.067Z----🎤 Audio chunks received: 3030
+2026-03-06T14:42:00.935Z----🎤 Audio chunks received: 3040
+2026-03-06T14:42:03.151Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4080 frames, 56.1KB avg, FPS: 4.37
+2026-03-06T14:42:03.817Z----🎤 Audio chunks received: 3050
+2026-03-06T14:42:06.818Z----🎤 Audio chunks received: 3060
+2026-03-06T14:42:09.810Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4110 frames, 55.8KB avg, FPS: 4.37
+2026-03-06T14:42:09.819Z----🎤 Audio chunks received: 3070
+2026-03-06T14:42:12.837Z----🎤 Audio chunks received: 3080
+2026-03-06T14:42:15.802Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4140 frames, 55.9KB avg, FPS: 4.38
+2026-03-06T14:42:15.820Z----🎤 Audio chunks received: 3090
+2026-03-06T14:42:18.834Z----🎤 Audio chunks received: 3100
+2026-03-06T14:42:21.823Z----🎤 Audio chunks received: 3110
+2026-03-06T14:42:22.154Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4170 frames, 58.1KB avg, FPS: 4.38
+2026-03-06T14:42:24.804Z----🎤 Audio chunks received: 3120
+2026-03-06T14:42:27.822Z----🎤 Audio chunks received: 3130
+2026-03-06T14:42:28.734Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4200 frames, 58.6KB avg, FPS: 4.38
+2026-03-06T14:42:30.799Z----🎤 Audio chunks received: 3140
+2026-03-06T14:42:33.817Z----🎤 Audio chunks received: 3150
+2026-03-06T14:42:36.832Z----🎤 Audio chunks received: 3160
+2026-03-06T14:42:36.997Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4230 frames, 58.3KB avg, FPS: 4.38
+2026-03-06T14:42:39.817Z----🎤 Audio chunks received: 3170
+2026-03-06T14:42:42.694Z----🎤 Audio chunks received: 3180
+2026-03-06T14:42:45.917Z----🎤 Audio chunks received: 3190
+2026-03-06T14:42:47.172Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4260 frames, 58.3KB avg, FPS: 4.36
+2026-03-06T14:42:48.519Z----🎤 Audio chunks received: 3200
+2026-03-06T14:42:51.359Z----🎤 Audio chunks received: 3210
+2026-03-06T14:42:54.358Z----🎤 Audio chunks received: 3220
+2026-03-06T14:42:57.346Z----🎤 Audio chunks received: 3230
+2026-03-06T14:42:58.625Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4290 frames, 58.2KB avg, FPS: 4.34
+2026-03-06T14:43:00.352Z----🎤 Audio chunks received: 3240
+2026-03-06T14:43:03.359Z----🎤 Audio chunks received: 3250
+2026-03-06T14:43:06.155Z----🎤 Audio chunks received: 3260
+2026-03-06T14:43:09.110Z----🎤 Audio chunks received: 3270
+2026-03-06T14:43:09.696Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4320 frames, 56.1KB avg, FPS: 4.32
+2026-03-06T14:43:11.983Z----🎤 Audio chunks received: 3280
+2026-03-06T14:43:14.968Z----🎤 Audio chunks received: 3290
+2026-03-06T14:43:17.956Z----🎤 Audio chunks received: 3300
+2026-03-06T14:43:18.653Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4350 frames, 56.0KB avg, FPS: 4.31
+2026-03-06T14:43:20.971Z----🎤 Audio chunks received: 3310
+2026-03-06T14:43:23.926Z----🎤 Audio chunks received: 3320
+2026-03-06T14:43:26.856Z----🎤 Audio chunks received: 3330
+2026-03-06T14:43:27.060Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4380 frames, 56.0KB avg, FPS: 4.31
+2026-03-06T14:43:29.866Z----🎤 Audio chunks received: 3340
+2026-03-06T14:43:32.886Z----🎤 Audio chunks received: 3350
+2026-03-06T14:43:34.682Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4410 frames, 56.1KB avg, FPS: 4.31
+2026-03-06T14:43:35.961Z----🎤 Audio chunks received: 3360
+2026-03-06T14:43:38.806Z----🎤 Audio chunks received: 3370
+2026-03-06T14:43:41.759Z----🎤 Audio chunks received: 3380
+2026-03-06T14:43:42.402Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4440 frames, 57.5KB avg, FPS: 4.30
+2026-03-06T14:43:43.513Z----🧹 Cleaning up recording manager for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq...
+2026-03-06T14:43:43.514Z----🛑 Stopping recording in room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: d54707a0-8819-45ab-9caf-27817c7e4638
+2026-03-06T14:43:44.504Z----ℹ️ Extended last frame by 0.423s to align with audio (1033.42s total).
+2026-03-06T14:43:46.528Z----🎤 Audio chunks received: 3390
+2026-03-06T14:43:49.597Z----🎤 Audio chunks received: 3400
+2026-03-06T14:43:51.394Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4470 frames, 58.2KB avg, FPS: 4.29
+2026-03-06T14:43:52.550Z----🎤 Audio chunks received: 3410
+2026-03-06T14:43:55.480Z----🎤 Audio chunks received: 3420
+2026-03-06T14:43:57.896Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4500 frames, 56.9KB avg, FPS: 4.30
+2026-03-06T14:43:58.481Z----🎤 Audio chunks received: 3430
+2026-03-06T14:44:01.489Z----🎤 Audio chunks received: 3440
+2026-03-06T14:44:04.505Z----🎤 Audio chunks received: 3450
+2026-03-06T14:44:04.931Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4530 frames, 56.9KB avg, FPS: 4.30
+2026-03-06T14:44:07.460Z----🎤 Audio chunks received: 3460
+2026-03-06T14:44:10.487Z----🎤 Audio chunks received: 3470
+2026-03-06T14:44:11.865Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4560 frames, 56.9KB avg, FPS: 4.30
+2026-03-06T14:44:13.484Z----🎤 Audio chunks received: 3480
+2026-03-06T14:44:16.481Z----🎤 Audio chunks received: 3490
+2026-03-06T14:44:18.989Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4590 frames, 56.9KB avg, FPS: 4.30
+2026-03-06T14:44:19.478Z----🎤 Audio chunks received: 3500
+2026-03-06T14:44:22.479Z----🎤 Audio chunks received: 3510
+2026-03-06T14:44:25.379Z----🎤 Audio chunks received: 3520
+2026-03-06T14:44:26.853Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4620 frames, 56.9KB avg, FPS: 4.29
+2026-03-06T14:44:28.320Z----🎤 Audio chunks received: 3530
+2026-03-06T14:44:31.319Z----🎤 Audio chunks received: 3540
+2026-03-06T14:44:34.308Z----🎤 Audio chunks received: 3550
+2026-03-06T14:44:34.812Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4650 frames, 56.9KB avg, FPS: 4.29
+2026-03-06T14:44:37.310Z----🎤 Audio chunks received: 3560
+2026-03-06T14:44:40.314Z----🎤 Audio chunks received: 3570
+2026-03-06T14:44:43.228Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4680 frames, 56.9KB avg, FPS: 4.28
+2026-03-06T14:44:43.247Z----🎤 Audio chunks received: 3580
+2026-03-06T14:44:46.121Z----🎤 Audio chunks received: 3590
+2026-03-06T14:44:49.119Z----🎤 Audio chunks received: 3600
+2026-03-06T14:44:51.306Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4710 frames, 56.9KB avg, FPS: 4.28
+2026-03-06T14:44:52.079Z----🎤 Audio chunks received: 3610
+2026-03-06T14:44:55.076Z----🎤 Audio chunks received: 3620
+2026-03-06T14:44:57.959Z----🎤 Audio chunks received: 3630
+2026-03-06T14:44:59.500Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4740 frames, 56.9KB avg, FPS: 4.27
+2026-03-06T14:45:00.887Z----🎤 Audio chunks received: 3640
+2026-03-06T14:45:03.887Z----🎤 Audio chunks received: 3650
+2026-03-06T14:45:06.860Z----🎤 Audio chunks received: 3660
+2026-03-06T14:45:08.964Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4770 frames, 56.9KB avg, FPS: 4.26
+2026-03-06T14:45:09.863Z----🎤 Audio chunks received: 3670
+2026-03-06T14:45:12.886Z----🎤 Audio chunks received: 3680
+2026-03-06T14:45:15.884Z----🎤 Audio chunks received: 3690
+2026-03-06T14:45:17.496Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4800 frames, 56.9KB avg, FPS: 4.26
+2026-03-06T14:45:18.886Z----🎤 Audio chunks received: 3700
+2026-03-06T14:45:21.813Z----🎤 Audio chunks received: 3710
+2026-03-06T14:45:24.761Z----🎤 Audio chunks received: 3720
+2026-03-06T14:45:25.789Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4830 frames, 57.4KB avg, FPS: 4.25
+2026-03-06T14:45:27.761Z----🎤 Audio chunks received: 3730
+2026-03-06T14:45:30.771Z----🎤 Audio chunks received: 3740
+2026-03-06T14:45:33.772Z----🎤 Audio chunks received: 3750
+2026-03-06T14:45:33.819Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4860 frames, 57.4KB avg, FPS: 4.25
+2026-03-06T14:45:36.760Z----🎤 Audio chunks received: 3760
+2026-03-06T14:45:39.776Z----🎤 Audio chunks received: 3770
+2026-03-06T14:45:42.747Z----🎤 Audio chunks received: 3780
+2026-03-06T14:45:43.580Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4890 frames, 57.5KB avg, FPS: 4.24
+2026-03-06T14:45:45.755Z----🎤 Audio chunks received: 3790
+2026-03-06T14:45:48.785Z----🎤 Audio chunks received: 3800
+2026-03-06T14:45:51.753Z----🎤 Audio chunks received: 3810
+2026-03-06T14:45:52.491Z----
+✅ Video encoding complete
+2026-03-06T14:45:52.492Z----📁 Output: 27.20MB at /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4
+2026-03-06T14:45:52.492Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4
+2026-03-06T14:45:52.493Z----🎵 Converting WebM audio (18293.6KB) to AAC
+2026-03-06T14:45:52.494Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/audio.m4a
+2026-03-06T14:45:52.771Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4920 frames, 57.4KB avg, FPS: 4.23
+2026-03-06T14:45:54.751Z----🎤 Audio chunks received: 3820
+2026-03-06T14:45:57.750Z----🎤 Audio chunks received: 3830
+2026-03-06T14:45:59.102Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4950 frames, 57.4KB avg, FPS: 4.24
+2026-03-06T14:46:00.733Z----🎤 Audio chunks received: 3840
+2026-03-06T14:46:03.765Z----🎤 Audio chunks received: 3850
+2026-03-06T14:46:05.325Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 4980 frames, 57.4KB avg, FPS: 4.24
+2026-03-06T14:46:06.652Z----🎤 Audio chunks received: 3860
+2026-03-06T14:46:09.677Z----🎤 Audio chunks received: 3870
+2026-03-06T14:46:11.746Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5010 frames, 57.4KB avg, FPS: 4.24
+2026-03-06T14:46:12.637Z----🎤 Audio chunks received: 3880
+2026-03-06T14:46:15.519Z----🎤 Audio chunks received: 3890
+2026-03-06T14:46:18.419Z----🎤 Audio chunks received: 3900
+2026-03-06T14:46:20.635Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5040 frames, 57.4KB avg, FPS: 4.23
+2026-03-06T14:46:21.351Z----🎤 Audio chunks received: 3910
+2026-03-06T14:46:24.326Z----🎤 Audio chunks received: 3920
+2026-03-06T14:46:27.356Z----🎤 Audio chunks received: 3930
+2026-03-06T14:46:28.992Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5070 frames, 57.4KB avg, FPS: 4.23
+2026-03-06T14:46:30.358Z----🎤 Audio chunks received: 3940
+2026-03-06T14:46:33.410Z----🎤 Audio chunks received: 3950
+2026-03-06T14:46:36.350Z----🎤 Audio chunks received: 3960
+2026-03-06T14:46:37.072Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5100 frames, 57.5KB avg, FPS: 4.23
+2026-03-06T14:46:39.349Z----🎤 Audio chunks received: 3970
+2026-03-06T14:46:42.358Z----🎤 Audio chunks received: 3980
+2026-03-06T14:46:45.233Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5130 frames, 57.4KB avg, FPS: 4.22
+2026-03-06T14:46:45.353Z----🎤 Audio chunks received: 3990
+2026-03-06T14:46:48.318Z----🎤 Audio chunks received: 4000
+2026-03-06T14:46:51.174Z----🎤 Audio chunks received: 4010
+2026-03-06T14:46:52.700Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5160 frames, 33.5KB avg, FPS: 4.22
+2026-03-06T14:46:54.154Z----🎤 Audio chunks received: 4020
+2026-03-06T14:46:56.991Z----🎤 Audio chunks received: 4030
+2026-03-06T14:46:58.083Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/audio.m4a (19.15MB)
+2026-03-06T14:46:58.083Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/audio.m4a
+2026-03-06T14:46:58.084Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/completed/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4
+2026-03-06T14:46:58.330Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-03-06T14:46:58.358Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:17:13.32, start: 0.000000, bitrate: 220 kb/s
+
+2026-03-06T14:46:58.358Z----FFmpeg stderr:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 220 kb/s, 4.30 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-03-06T14:46:58.380Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/temp/d54707a0-8819-45ab-9caf-27817c7e4638/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:20:27.74
+2026-03-06T14:46:58.381Z----FFmpeg stderr: , start: 0.000000, bitrate: 130 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 129 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-03-06T14:46:58.381Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/completed/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 
+2026-03-06T14:46:58.382Z----FFmpeg stderr: 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 220 kb/s, 4.30 fps, 25 tbr, 12800 tbn (default)
+
+2026-03-06T14:46:58.382Z----FFmpeg stderr:     Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 129 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-03-06T14:46:58.388Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-03-06T14:46:58.389Z----FFmpeg stderr: size=       0kB time=-00:00:00.60 bitrate=  -0.0kbits/s speed=N/A    
+2026-03-06T14:46:58.883Z----FFmpeg stderr: size=   16384kB time=00:06:01.24 bitrate= 371.5kbits/s speed= 722x    
+2026-03-06T14:46:59.383Z----FFmpeg stderr: size=   33024kB time=00:12:09.80 bitrate= 370.7kbits/s speed= 730x    
+2026-03-06T14:46:59.813Z----FFmpeg stderr: [mp4 @ 0x651972da7100] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-03-06T14:46:59.862Z----FFmpeg stderr: [out#0/mp4 @ 0x651972d9b6c0] video:27778kB audio:16340kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.787404%
+size=   44465kB time=00:17:15.26 bitrate= 351.9kbits/s speed= 700x    
+
+2026-03-06T14:46:59.876Z----📊 Room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq: 5190 frames, 34.1KB avg, FPS: 4.22
+2026-03-06T14:46:59.881Z----✅ Muxing complete: 43.42MB
+2026-03-06T14:46:59.881Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/completed/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4
+2026-03-06T14:47:01.039Z----🎤 Audio chunks received: 4040
+2026-03-06T14:47:02.326Z----✅ Thumbnail generated
+2026-03-06T14:47:02.326Z----✅ Recording completed in room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq
+2026-03-06T14:47:02.326Z----📊 Stats: 4444 frames, 4047 audio chunks, 1232.373s duration
+2026-03-06T14:47:02.326Z----📁 File URL: /recordings/rooms/PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq/completed/ui-recording_PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq_2026-03-06T14-26-29-953Z.mp4 [object Object]
+2026-03-06T14:47:02.327Z----✅ Cleanup completed for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq
+2026-03-06T14:47:02.327Z----🧹 Cleaning up recording manager for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq...
+2026-03-06T14:47:02.327Z----✅ Cleanup completed for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq
+2026-03-06T14:55:38.801Z----   - total recordings: 0 0
+2026-03-06T14:55:38.802Z----❌ No active recording found for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq
+2026-03-06T14:55:38.802Z----   Total recordings in map: 0
+2026-03-06T15:14:54.564Z----🧹 Cleaning up recording manager for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq...
+2026-03-06T15:14:54.565Z----✅ Cleanup completed for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq
+2026-03-06T15:44:54.565Z----🧹 Cleaning up recording manager for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq...
+2026-03-06T15:44:54.567Z----✅ Cleanup completed for room PdiAfR2UzvqIX7MBfScQkv40_schedule__J9SPDEAU9noq
+2026-03-11T17:17:07.436Z----🎥 UI Recording started in room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq: f77dd109-5675-469a-812c-cc8d69021c93
+2026-03-11T17:17:07.438Z----📊 Target FPS: 30, Audio: true
+2026-03-11T17:17:13.140Z----🎤 Audio chunks received: 10
+2026-03-11T17:17:17.719Z----🎤 Audio chunks received: 20
+2026-03-11T17:17:20.824Z----🎤 Audio chunks received: 30
+2026-03-11T17:17:25.844Z----🎤 Audio chunks received: 40
+2026-03-11T17:17:29.050Z----🎤 Audio chunks received: 50
+2026-03-11T17:17:33.185Z----🎤 Audio chunks received: 60
+2026-03-11T17:17:35.965Z----🎤 Audio chunks received: 70
+2026-03-11T17:17:39.599Z----🎤 Audio chunks received: 80
+2026-03-11T17:17:42.843Z----🎤 Audio chunks received: 90
+2026-03-11T17:17:47.248Z----🎤 Audio chunks received: 100
+2026-03-11T17:17:50.045Z----🎤 Audio chunks received: 110
+2026-03-11T17:17:54.922Z----🎤 Audio chunks received: 120
+2026-03-11T17:17:58.348Z----🎤 Audio chunks received: 130
+2026-03-11T17:18:01.191Z----🎤 Audio chunks received: 140
+2026-03-11T17:18:07.265Z----🛑 Stopping recording in room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq: f77dd109-5675-469a-812c-cc8d69021c93
+2026-03-11T17:18:07.271Z----ℹ️ Extended last frame by 6.433s to align with audio (54.02s total).
+2026-03-11T17:18:08.327Z----
+✅ Video encoding complete
+2026-03-11T17:18:08.328Z----📁 Output: 0.46MB at /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4
+2026-03-11T17:18:08.328Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4
+2026-03-11T17:18:08.329Z----🎵 Converting WebM audio (847.1KB) to AAC
+2026-03-11T17:18:08.330Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/audio.m4a
+2026-03-11T17:18:11.224Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/audio.m4a (0.84MB)
+2026-03-11T17:18:11.225Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/audio.m4a
+2026-03-11T17:18:11.225Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/completed/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4
+2026-03-11T17:18:11.421Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-03-11T17:18:11.459Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4':
+  Metadata:
+
+2026-03-11T17:18:11.460Z----FFmpeg stderr:     major_brand     : isom
+    minor_version   : 512
+
+2026-03-11T17:18:11.460Z----FFmpeg stderr:     compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:00:52.96, start: 0.000000, bitrate: 73 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 73 kb/s, 0.28 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+
+2026-03-11T17:18:11.461Z----FFmpeg stderr:       handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-03-11T17:18:11.465Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/temp/f77dd109-5675-469a-812c-cc8d69021c93/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf60.16.100
+  Duration: 00:00:53.52, start: 0.000000, bitrate: 131 kb/s
+
+2026-03-11T17:18:11.465Z----FFmpeg stderr:   Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 130 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-03-11T17:18:11.465Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/completed/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 73 kb/s, 0.28 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 130 kb/s
+2026-03-11T17:18:11.466Z----FFmpeg stderr:  (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-03-11T17:18:11.466Z----FFmpeg stderr: Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-03-11T17:18:11.466Z----FFmpeg stderr: size=       0kB time=-00:00:07.36 bitrate=  -0.0kbits/s speed=N/A    
+2026-03-11T17:18:11.530Z----FFmpeg stderr: [mp4 @ 0x5d3ea1a69fc0] Starting second pass: moving the moov atom to the beginning of the file
+
+2026-03-11T17:18:11.531Z----FFmpeg stderr: [out#0/mp4 @ 0x5d3ea197fb40] 
+2026-03-11T17:18:11.531Z----FFmpeg stderr: video:472kB audio:850kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.885770%
+
+2026-03-11T17:18:11.532Z----FFmpeg stderr: size=    1334kB time=00:00:53.50 bitrate= 204.2kbits/s speed= 812x    
+
+2026-03-11T17:18:11.543Z----✅ Muxing complete: 1.30MB
+2026-03-11T17:18:11.543Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/completed/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4
+2026-03-11T17:18:11.687Z----🧹 Cleaning up recording manager for room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq...
+2026-03-11T17:18:11.687Z----✅ Cleanup completed for room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq
+2026-03-11T17:18:11.688Z----🧹 Cleaning up recording manager for room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq...
+2026-03-11T17:18:11.688Z----✅ Cleanup completed for room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq
+2026-03-11T17:18:12.187Z----✅ Thumbnail generated
+2026-03-11T17:18:12.188Z----✅ Recording completed in room 6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq
+2026-03-11T17:18:12.188Z----📊 Stats: 14 frames, 142 audio chunks, 64.754s duration
+2026-03-11T17:18:12.188Z----📁 File URL: /recordings/rooms/6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq/completed/ui-recording_6ZnDRIVk8Ru72u6P3Dlvoy65_schedule__J9SPDEAU9noq_2026-03-11T17-17-07-433Z.mp4 [object Object]
+2026-03-16T02:23:36.650Z----🎥 UI Recording started in room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 3cf5a895-9423-4c89-be33-78c027b096d8
+2026-03-16T02:23:36.652Z----📊 Target FPS: 30, Audio: true
+2026-03-16T02:23:40.621Z----🎤 Audio chunks received: 10
+2026-03-16T02:23:43.719Z----🎤 Audio chunks received: 20
+2026-03-16T02:23:46.819Z----🎤 Audio chunks received: 30
+2026-03-16T02:23:47.941Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 30 frames, 61.0KB avg, FPS: 2.91
+2026-03-16T02:23:49.748Z----🎤 Audio chunks received: 40
+2026-03-16T02:23:52.606Z----🎤 Audio chunks received: 50
+2026-03-16T02:23:55.666Z----🎤 Audio chunks received: 60
+2026-03-16T02:23:57.721Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 60 frames, 62.0KB avg, FPS: 3.00
+2026-03-16T02:23:58.728Z----🎤 Audio chunks received: 70
+2026-03-16T02:24:01.427Z----🎤 Audio chunks received: 80
+2026-03-16T02:24:04.537Z----🎤 Audio chunks received: 90
+2026-03-16T02:24:06.705Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 90 frames, 36.2KB avg, FPS: 3.10
+2026-03-16T02:24:07.498Z----🎤 Audio chunks received: 100
+2026-03-16T02:24:10.570Z----🎤 Audio chunks received: 110
+2026-03-16T02:24:13.607Z----🎤 Audio chunks received: 120
+2026-03-16T02:24:16.475Z----🎤 Audio chunks received: 130
+2026-03-16T02:24:17.925Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 120 frames, 36.2KB avg, FPS: 2.97
+2026-03-16T02:24:19.795Z----🎤 Audio chunks received: 140
+2026-03-16T02:24:22.686Z----🎤 Audio chunks received: 150
+2026-03-16T02:24:25.653Z----🎤 Audio chunks received: 160
+2026-03-16T02:24:27.680Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 150 frames, 35.9KB avg, FPS: 2.99
+2026-03-16T02:24:28.488Z----🎤 Audio chunks received: 170
+2026-03-16T02:24:31.659Z----🎤 Audio chunks received: 180
+2026-03-16T02:24:34.448Z----🎤 Audio chunks received: 190
+2026-03-16T02:24:35.912Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 180 frames, 35.7KB avg, FPS: 3.09
+2026-03-16T02:24:37.417Z----🎤 Audio chunks received: 200
+2026-03-16T02:24:40.206Z----🎤 Audio chunks received: 210
+2026-03-16T02:24:43.085Z----🎤 Audio chunks received: 220
+2026-03-16T02:24:44.613Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 210 frames, 35.8KB avg, FPS: 3.14
+2026-03-16T02:24:46.009Z----🎤 Audio chunks received: 230
+2026-03-16T02:24:49.036Z----🎤 Audio chunks received: 240
+2026-03-16T02:24:52.202Z----🎤 Audio chunks received: 250
+2026-03-16T02:24:53.232Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 240 frames, 36.1KB avg, FPS: 3.17
+2026-03-16T02:24:55.123Z----🎤 Audio chunks received: 260
+2026-03-16T02:24:57.986Z----🎤 Audio chunks received: 270
+2026-03-16T02:25:00.960Z----🎤 Audio chunks received: 280
+2026-03-16T02:25:01.997Z----📊 Room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 270 frames, 36.3KB avg, FPS: 3.21
+2026-03-16T02:25:03.973Z----🎤 Audio chunks received: 290
+2026-03-16T02:25:06.989Z----🎤 Audio chunks received: 300
+2026-03-16T02:25:12.347Z----🛑 Stopping recording in room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn: 3cf5a895-9423-4c89-be33-78c027b096d8
+2026-03-16T02:25:12.447Z----ℹ️ Extended last frame by 0.531s to align with audio (92.67s total).
+2026-03-16T02:25:22.682Z----
+✅ Video encoding complete
+2026-03-16T02:25:22.684Z----📁 Output: 2.71MB at /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4
+2026-03-16T02:25:22.684Z----✅ Video created: /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4
+2026-03-16T02:25:22.686Z----🎵 Converting WebM audio (1456.9KB) to AAC
+2026-03-16T02:25:22.687Z----🎵 Running FFmpeg: ffmpeg -i /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/audio/recording.webm -c:a aac -ar 48000 -ac 2 -b:a 128k -movflags +faststart -y /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/audio.m4a
+2026-03-16T02:25:27.234Z----✅ Audio created successfully: /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/audio.m4a (1.45MB)
+2026-03-16T02:25:27.235Z----✅ Audio created: /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/audio.m4a
+2026-03-16T02:25:27.237Z----🎬 Muxing video and audio to: /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/completed/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4
+2026-03-16T02:25:27.433Z----FFmpeg stderr: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 13 (Ubuntu 13.2.0-23ubuntu3)
+  configuration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+
+2026-03-16T02:25:27.434Z----FFmpeg stderr:   libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+2026-03-16T02:25:27.460Z----FFmpeg stderr: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Duration: 00:01:32.72, start: 0.000000, bitrate: 244 kb/s
+  Stream #0:0[0x1]
+2026-03-16T02:25:27.461Z----FFmpeg stderr: (und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, 244 kb/s, 3.19 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+
+2026-03-16T02:25:27.464Z----FFmpeg stderr: Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/temp/3cf5a895-9423-4c89-be33-78c027b096d8/audio.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+2026-03-16T02:25:27.464Z----FFmpeg stderr: 
+    encoder         : Lavf60.16.100
+  Duration: 00:01:32.34, start: 0.000000, bitrate: 131 kb/s
+  Stream #1:0[0x1](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+      vendor_id       : [0][0][0][0]
+
+2026-03-16T02:25:27.465Z----FFmpeg stderr: Output #0, mp4, to '/home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/completed/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+
+2026-03-16T02:25:27.465Z----FFmpeg stderr:     compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf60.16.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1280x720, q=2-31, 244 kb/s, 3.19 fps, 25 tbr, 12800 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      vendor_id       : [0][0][0][0]
+      encoder         : Lavc60.31.102 libx264
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+
+2026-03-16T02:25:27.465Z----FFmpeg stderr:       vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #1:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+
+2026-03-16T02:25:27.467Z----FFmpeg stderr: size=       0kB time=-00:00:00.88 bitrate=  -0.0kbits/s speed=N/A    
+2026-03-16T02:25:27.605Z----FFmpeg stderr: [mp4 @ 0x62ad61703dc0] 
+2026-03-16T02:25:27.606Z----FFmpeg stderr: Starting second pass: moving the moov atom to the beginning of the file
+
+2026-03-16T02:25:27.612Z----FFmpeg stderr: [out#0/mp4 @ 0x62ad616f0080] video:2766kB audio:1447kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.226290%
+size=    4265kB time=00:01:32.33 bitrate= 378.4kbits/s speed= 629x    
+
+2026-03-16T02:25:27.626Z----✅ Muxing complete: 4.16MB
+2026-03-16T02:25:27.627Z----✅ Final video with audio: /home/recording-app/app/ui-recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/completed/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4
+2026-03-16T02:25:27.791Z----🧹 Cleaning up recording manager for room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn...
+2026-03-16T02:25:27.791Z----✅ Cleanup completed for room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn
+2026-03-16T02:25:27.792Z----🧹 Cleaning up recording manager for room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn...
+2026-03-16T02:25:27.792Z----✅ Cleanup completed for room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn
+2026-03-16T02:25:28.357Z----✅ Thumbnail generated
+2026-03-16T02:25:28.358Z----✅ Recording completed in room ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn
+2026-03-16T02:25:28.358Z----📊 Stats: 295 frames, 309 audio chunks, 111.712s duration
+2026-03-16T02:25:28.359Z----📁 File URL: /recordings/rooms/ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn/completed/ui-recording_ZBNWlVKyznfAZYkQTX4PXuuV_meeting__E2VXYOS3o6tn_2026-03-16T02-23-36-645Z.mp4 [object Object]

@@ -6,29 +6,35 @@ const path = require('path');
 const fs = require('fs-extra');
 const dotenv = require('dotenv');
 const RecordingManager = require('./RecordingManager');
-const { createClient } = require('redis');
+const recordRepository = require('./repository/recordRepository');
 
 
 dotenv.config();
-
-
-  const redisConf =  {
-    socket: {
-      host: process.env.REDIS_HOST || 'localhost',
-      port: process.env.REDIS_PORT || 6379, 
-    },
-     ...(process.env.REDIS_USER && { username: process.env.REDIS_USER }),
-     ...(process.env.REDIS_PASSWORD && { password: process.env.REDIS_PASSWORD }),
-      retryStrategy: (times) => {
-    const delay = Math.min(times * 50, 2000);
-    return delay;
-  }
-  };
 
 const app = express();
 const server = http.createServer(app);
 const PORT = process.env.PORT || 4000;
 console.log(process.env.CLIENT_URL, "CLIENT_URL")
+
+function serializeRecording(recording) {
+  if (!recording) {
+    return null;
+  }
+
+  return {
+    id: recording.id,
+    roomId: recording.roomId,
+    user_id: recording.user_id,
+    userId: recording.userId,
+    type: recording.type,
+    filename: recording.filename,
+    fileUrl: recording.fileUrl,
+    thumbnailUrl: recording.thumbnailUrl,
+    startedAt: recording.startedAt,
+    completedAt: recording.completedAt,
+  };
+}
+
 // CORS configuration
 app.use(cors({
   //origin: process.env.CLIENT_URL_LOCAL || '*',
@@ -147,7 +153,7 @@ app.use('/recordings/rooms/:encodedRoomId/:folder/:file', (req, res) => {
 });
 
 // Fallback static serve for other paths
-app.use('/recordings', express.static(recordingsDir));
+app.use('', express.static(recordingsDir));
 
 // Health endpoint
 app.get('/api/v1/health', (req, res) => {
@@ -177,30 +183,14 @@ app.get('/api/v1/rooms/:roomId/recording/status', (req, res) => {
 });
 
 
- const saveRecord = async (record)=>{
-    const ONE_WEEK = 60 * 60 * 24 * 7;
-    let pubClient = null;
-      try {
-     pubClient = createClient(redisConf);
-    pubClient.on('error', (err) => console.log('Redis Client Error', err));
-    await  pubClient.connect();
-
-        await pubClient.set(
-        `${record.user_id}-${new Date().getTime()}`,
-        JSON.stringify(record),
-        { EX: ONE_WEEK }
-      );
-      console.log('Record saved to Redis for user:', record.user_id);
-      // res.status(200).json({ message: 'Record saved successfully' });
-      } catch (error) {
-        console.error('Error saving record to Redis:', error);
-      }finally{
-        if(pubClient !== null){
-          await pubClient.quit();
-        }
-        
-      }
-}
+const saveRecord = async (record) => {
+  try {
+    await recordRepository.saveRecord(record);
+    console.log('Record saved to database for user:', record.user_id || record.userId);
+  } catch (error) {
+    console.error('Error saving record to database:', error);
+  }
+};
 // List all rooms with recordings
 app.get('/api/v1/rooms', (req, res) => {
   const rooms = [];
@@ -236,39 +226,13 @@ async function getRoomBySocketId(socketId){
   return room
 }
 
-async function getAllRecords(user_id){
- const redis = createClient(redisConf);
+async function getAllRecords(user_id) {
   try {
-    redis.on('error', (err) => console.log('Redis Client Error', err));
-    await redis.connect() 
-      let cursor = '0';
-  const keys = [];
-
-  do {
-    const reply = await redis.scan(cursor, {
-      MATCH: `${user_id}-*`,
-      COUNT: 100
-    });
-
-    cursor = reply.cursor.toString();
-    keys.push(...reply.keys);
-  } while (cursor !== '0');
-
-  if (keys.length === 0) return [];
-
-  const values = await redis.mGet(keys);
- 
-  return values
-    .filter(v => v !== null && v !== undefined)
-    .map(v => JSON.parse(v));
+    return await recordRepository.getRecordsByUserId(user_id);
   } catch (error) {
-    console.error('Error retrieving records from Redis:', error);
+    console.error('Error retrieving records from database:', error);
     return [];
-  }finally{
-    await redis.quit();
   }
-  
-
 }
 
 
@@ -277,6 +241,22 @@ app.get('/api/v1/records/:user_id', async (req, res) => {
     const user_id = req.params.user_id;
     const records = await getAllRecords(user_id);
     res.json({ records, total: records.length });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/v1/records/:user_id/:record_id', async (req, res) => {
+  try {
+    const { user_id, record_id } = req.params;
+    const record = await recordRepository.getRecordByUserAndRecordId(user_id, record_id);
+
+    if (!record) {
+      return res.status(404).json({ error: 'Record not found' });
+    }
+
+    res.json({ record });
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: error.message });
@@ -561,6 +541,8 @@ io.on('connection', (socket) => {
 
       const manager = getRoomManager(roomId);
       const recording = await manager.stopRecording(withAudio);
+      const record = serializeRecording(recording);
+      await saveRecord(record);
      // console.log("Recording stopped:", recording);
       socket.to(roomId).emit('recording-stopped', {  
         recordingId: recording.id,
@@ -631,22 +613,17 @@ io.on('connection', (socket) => {
           const status = manager?.recordings?.get(manager?.recordingId);
         
           if(!status) continue;
-          //  console.log(`Checking room ${roomId} for socket ${socket.id}` ,status );
-          const rec = {
-            id: status.id,
-            roomId: status.roomId,
-            user_id: status.user_id,
-            userId: status.userId,
-            type: status.type,
-            filename: status.filename,
-            fileUrl: status.fileUrl,
-            thumbnailUrl: status.thumbnailUrl,
-            startedAt: status.startedAt,
-            completedAt: status.completedAt,
-          }
-       
 
-          await saveRecord(rec);
+          let recordToSave = status;
+          if (status.status === 'recording' || status.status === 'paused') {
+            recordToSave = await manager.stopRecording(false);
+          }
+
+          const rec = serializeRecording(recordToSave);
+          if (rec?.fileUrl) {
+            await saveRecord(rec);
+          }
+
           await manager.cleanup();
         } catch (error) {
           console.log(`Error during cleanup for socket ${socket.id}:`, error);
@@ -660,8 +637,14 @@ io.on('connection', (socket) => {
 });
 
 // Initialize FFmpeg and start server
-checkFFmpeg().then((available) => {
+checkFFmpeg().then(async (available) => {
   isFFmpegAvailable = available;
+  try {
+    await recordRepository.initialize();
+    console.log('Record repository initialized successfully');
+  } catch (error) {
+    console.error('Record repository initialization failed:', error);
+  }
   
   server.listen(PORT, () => {
     
@@ -679,6 +662,7 @@ process.on('SIGINT', async () => {
     
     io.close();
     server.close();
+    await recordRepository.close();
     
     
     process.exit(0);

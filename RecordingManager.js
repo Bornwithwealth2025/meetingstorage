@@ -899,7 +899,7 @@ async  muxVideoAndAudio(videoPath, audioPath, outputPath) {
         try {
           const stats = await fs.stat(outputPath);
           const sizeMB = (stats.size / (1024 * 1024)).toFixed(2);
-           fs.rm(path.dirname(this.activeRecording.tempDir), { recursive: true }).catch(() => {});
+          fs.rm(path.dirname(this.activeRecording.tempDir), { recursive: true }).catch(() => {});
           logger(`✅ Muxing complete: ${sizeMB}MB`);
           resolve();
         } catch (error) {

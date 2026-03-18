@@ -705,3 +705,78 @@ size=     367kB time=00:00:17.67 bitrate= 170.3kbits/s speed= 330x
 2026-01-29T01:55:24.537Z----✅ Cleanup completed for room 9nSrY6DpL32VT9oXfSwB6Uxi
 2026-01-29T01:55:24.537Z----🧹 Cleaning up recording manager for room 9nSrY6DpL32VT9oXfSwB6Uxi...
 2026-01-29T01:55:24.538Z----✅ Cleanup completed for room 9nSrY6DpL32VT9oXfSwB6Uxi
+2026-02-03T03:33:19.539Z----🧹 Cleaning up recording manager for room 88uYqojOFEXMbNbD6qZaX9eM_meeting...
+2026-02-03T03:33:19.542Z----✅ Cleanup completed for room 88uYqojOFEXMbNbD6qZaX9eM_meeting
+2026-02-04T14:37:28.124Z----🎥 UI Recording started in room tW3lRTbQh9ndQ2TzGNFzmX4W_schedule: f745b9f8-47d8-4b86-8a07-e6deee8936ce
+2026-02-04T14:37:28.125Z----📊 Target FPS: 30, Audio: true
+2026-02-04T14:37:31.116Z----🎤 Audio chunks received: 10
+2026-02-04T14:37:33.977Z----🎤 Audio chunks received: 20
+2026-02-04T14:37:36.851Z----🎤 Audio chunks received: 30
+2026-02-04T14:37:40.484Z----🎤 Audio chunks received: 40
+2026-02-04T14:37:43.337Z----🎤 Audio chunks received: 50
+2026-02-04T14:37:45.947Z----🎤 Audio chunks received: 60
+2026-02-04T14:37:48.972Z----🎤 Audio chunks received: 70
+2026-02-04T14:37:52.061Z----🎤 Audio chunks received: 80
+2026-02-04T14:37:56.030Z----🎤 Audio chunks received: 90
+2026-02-04T14:37:59.249Z----🎤 Audio chunks received: 100
+2026-02-04T14:38:02.813Z----🎤 Audio chunks received: 110
+2026-02-04T14:38:05.573Z----🎤 Audio chunks received: 120
+2026-02-04T14:38:09.446Z----🎤 Audio chunks received: 130
+2026-02-04T14:38:12.806Z----🎤 Audio chunks received: 140
+2026-02-04T14:38:16.717Z----🎤 Audio chunks received: 150
+2026-02-04T14:38:19.253Z----🎤 Audio chunks received: 160
+2026-02-04T14:38:22.271Z----🎤 Audio chunks received: 170
+2026-02-04T14:38:25.648Z----🎤 Audio chunks received: 180
+2026-02-04T14:38:29.161Z----🎤 Audio chunks received: 190
+2026-02-04T14:38:33.181Z----🎤 Audio chunks received: 200
+2026-02-04T14:38:36.843Z----🎤 Audio chunks received: 210
+2026-02-04T14:38:40.440Z----🎤 Audio chunks received: 220
+2026-02-04T14:38:43.358Z----🎤 Audio chunks received: 230
+2026-02-04T14:38:48.038Z----🎤 Audio chunks received: 240
+2026-02-04T14:39:03.359Z----🎤 Audio chunks received: 250
+2026-02-04T14:39:06.159Z----🎤 Audio chunks received: 260
+2026-02-04T14:39:08.916Z----🎤 Audio chunks received: 270
+2026-02-04T14:39:11.724Z----🎤 Audio chunks received: 280
+2026-02-04T14:39:14.624Z----🎤 Audio chunks received: 290
+2026-02-04T14:39:17.209Z----🛑 Stopping recording in room tW3lRTbQh9ndQ2TzGNFzmX4W_schedule: f745b9f8-47d8-4b86-8a07-e6deee8936ce
+2026-02-04T14:39:17.210Z----❌ Error stopping recording: Error: No valid frame files found
+2026-02-04T14:42:17.888Z----🧹 Cleaning up recording manager for room tW3lRTbQh9ndQ2TzGNFzmX4W_schedule...
+2026-02-04T14:42:17.889Z----✅ Cleanup completed for room tW3lRTbQh9ndQ2TzGNFzmX4W_schedule
+2026-02-04T14:42:17.889Z----🧹 Cleaning up recording manager for room tW3lRTbQh9ndQ2TzGNFzmX4W_schedule...
+2026-02-04T14:42:17.889Z----✅ Cleanup completed for room tW3lRTbQh9ndQ2TzGNFzmX4W_schedule
+2026-02-04T15:06:08.174Z----🎥 UI Recording started in room gOvHC5YYcoRyn8wzE5SUcEfx_meeting: 28afb59c-6ca0-4bce-a27a-78c518433c11
+2026-02-04T15:06:08.175Z----📊 Target FPS: 30, Audio: true
+2026-02-04T15:06:11.086Z----🎤 Audio chunks received: 10
+2026-02-04T15:06:14.014Z----🎤 Audio chunks received: 20
+2026-02-04T15:06:16.904Z----🎤 Audio chunks received: 30
+2026-02-04T15:06:19.831Z----🎤 Audio chunks received: 40
+2026-02-04T15:06:22.734Z----🎤 Audio chunks received: 50
+2026-02-04T15:06:25.647Z----🎤 Audio chunks received: 60
+2026-02-04T15:06:28.555Z----🎤 Audio chunks received: 70
+2026-02-04T15:06:31.417Z----🎤 Audio chunks received: 80
+2026-02-04T15:06:34.456Z----🎤 Audio chunks received: 90
+2026-02-04T15:06:37.531Z----🎤 Audio chunks received: 100
+2026-02-04T15:06:40.893Z----🎤 Audio chunks received: 110
+2026-02-04T15:06:44.699Z----🎤 Audio chunks received: 120
+2026-02-04T15:06:47.957Z----🎤 Audio chunks received: 130
+2026-02-04T15:06:51.093Z----🎤 Audio chunks received: 140
+2026-02-04T15:06:55.754Z----🎤 Audio chunks received: 150
+2026-02-04T15:07:03.583Z----🎤 Audio chunks received: 160
+2026-02-04T15:07:07.863Z----🎤 Audio chunks received: 170
+2026-02-04T15:07:10.182Z----🎤 Audio chunks received: 180
+2026-02-04T15:07:14.295Z----🎤 Audio chunks received: 190
+2026-02-04T15:07:17.367Z----🎤 Audio chunks received: 200
+2026-02-04T15:07:22.118Z----🎤 Audio chunks received: 210
+2026-02-04T15:07:30.051Z----🎤 Audio chunks received: 220
+2026-02-04T15:07:30.343Z----🎤 Audio chunks received: 230
+2026-02-04T15:07:31.600Z----🎤 Audio chunks received: 240
+2026-02-04T15:07:35.681Z----🎤 Audio chunks received: 250
+2026-02-04T15:07:37.693Z----🎤 Audio chunks received: 260
+2026-02-04T15:07:40.954Z----🎤 Audio chunks received: 270
+2026-02-04T15:07:44.115Z----🎤 Audio chunks received: 280
+2026-02-04T15:07:53.989Z----🧹 Cleaning up recording manager for room gOvHC5YYcoRyn8wzE5SUcEfx_meeting...
+2026-02-04T15:07:53.989Z----🛑 Stopping recording in room gOvHC5YYcoRyn8wzE5SUcEfx_meeting: 28afb59c-6ca0-4bce-a27a-78c518433c11
+2026-02-04T15:07:53.990Z----❌ Error stopping recording: Error: No valid frame files found
+2026-02-04T15:07:53.990Z----Error stopping recording: Error: No valid frame files found
+2026-02-04T15:07:54.004Z----🧹 Cleaning up recording manager for room gOvHC5YYcoRyn8wzE5SUcEfx_meeting...
+2026-02-04T15:07:54.005Z----✅ Cleanup completed for room gOvHC5YYcoRyn8wzE5SUcEfx_meeting
