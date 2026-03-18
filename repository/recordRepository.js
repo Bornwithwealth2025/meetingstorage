@@ -202,6 +202,62 @@ async function getRecordByUserAndRecordId(userId, recordId) {
   return hydrateRecord(rows[0]);
 }
 
+async function getExpiredRecords(retentionDays = 7) {
+  const days = Number(retentionDays);
+  const safeDays = Number.isFinite(days) && days > 0 ? Math.floor(days) : 7;
+
+  const query = `
+    SELECT
+      \`user_id\`,
+      \`record_id\`,
+      \`room_id\`,
+      \`record\`,
+      \`type\`,
+      \`filename\`,
+      \`file_url\`,
+      \`thumbnail_url\`,
+      \`started_at\`,
+      \`completed_at\`,
+      \`created_at\`
+    FROM \`${TABLE_NAME}\`
+    WHERE COALESCE(\`completed_at\`, \`started_at\`, \`created_at\`) < DATE_SUB(NOW(), INTERVAL ? DAY)
+    ORDER BY \`created_at\` ASC
+  `;
+
+  const [rows] = await pool.execute(query, [safeDays]);
+  return rows.map(hydrateRecord);
+}
+
+async function deleteRecordByUserAndRecordId(userId, recordId) {
+  if (!userId || !recordId) {
+    return false;
+  }
+
+  const query = `
+    DELETE FROM \`${TABLE_NAME}\`
+    WHERE \`user_id\` = ? AND \`record_id\` = ?
+    LIMIT 1
+  `;
+
+  const [result] = await pool.execute(query, [String(userId), String(recordId)]);
+  return result.affectedRows > 0;
+}
+
+async function countRecordsByRoomId(roomId) {
+  if (!roomId) {
+    return 0;
+  }
+
+  const query = `
+    SELECT COUNT(*) AS \`count\`
+    FROM \`${TABLE_NAME}\`
+    WHERE \`room_id\` = ?
+  `;
+
+  const [rows] = await pool.execute(query, [String(roomId)]);
+  return Number(rows?.[0]?.count || 0);
+}
+
 async function close() {
   await pool.end();
 }
@@ -211,5 +267,8 @@ module.exports = {
   saveRecord,
   getRecordsByUserId,
   getRecordByUserAndRecordId,
+  getExpiredRecords,
+  deleteRecordByUserAndRecordId,
+  countRecordsByRoomId,
   close,
 };

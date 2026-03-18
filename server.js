@@ -4,6 +4,7 @@ const { Server } = require('socket.io');
 const cors = require('cors');
 const path = require('path');
 const fs = require('fs-extra');
+const cron = require('node-cron');
 const dotenv = require('dotenv');
 const RecordingManager = require('./RecordingManager');
 const recordRepository = require('./repository/recordRepository');
@@ -14,7 +15,13 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 const PORT = process.env.PORT || 4000;
-console.log(process.env.CLIENT_URL, "CLIENT_URL")
+const RECORD_RETENTION_DAYS = Number(process.env.RECORD_RETENTION_DAYS) || 7;
+const RECORD_CLEANUP_CRON = process.env.RECORD_CLEANUP_CRON || '0 0 * * *';
+const RECORD_CLEANUP_TZ = process.env.RECORD_CLEANUP_TZ || process.env.TZ;
+
+
+
+
 
 function serializeRecording(recording) {
   if (!recording) {
@@ -34,6 +41,161 @@ function serializeRecording(recording) {
     completedAt: recording.completedAt,
   };
 }
+
+function extractRoomIdFromRecord(record) {
+  if (record?.roomId) {
+    return String(record.roomId);
+  }
+
+  const candidateUrls = [record?.fileUrl, record?.thumbnailUrl];
+  for (const candidate of candidateUrls) {
+    if (!candidate || typeof candidate !== 'string') {
+      continue;
+    }
+
+    const urlPath = candidate.split('?')[0];
+    const match = urlPath.match(/\/rooms\/([^/]+)\//);
+    if (match?.[1]) {
+      return decodeURIComponent(match[1]);
+    }
+  }
+
+  return null;
+}
+
+function resolveAssetPath(assetUrl) {
+  if (!assetUrl || typeof assetUrl !== 'string') {
+    return null;
+  }
+
+  let pathname = assetUrl.trim();
+  try {
+    if (/^https?:\/\//i.test(pathname)) {
+      pathname = new URL(pathname).pathname;
+    }
+  } catch {
+    return null;
+  }
+
+  pathname = pathname.split('?')[0];
+  const absoluteRecordingsDir = path.resolve(recordingsDir);
+
+  if (path.isAbsolute(pathname) && !pathname.startsWith('/recordings/')) {
+    const absolutePath = path.resolve(pathname);
+    return absolutePath.startsWith(absoluteRecordingsDir) ? absolutePath : null;
+  }
+
+  let relativePath = null;
+  if (pathname.startsWith('/recordings/')) {
+    relativePath = pathname.slice('/recordings/'.length);
+  } else if (pathname.startsWith('/rooms/')) {
+    relativePath = pathname.slice(1);
+  } else if (pathname.startsWith('rooms/')) {
+    relativePath = pathname;
+  }
+
+  if (!relativePath) {
+    return null;
+  }
+
+  const absolutePath = path.resolve(recordingsDir, relativePath);
+  return absolutePath.startsWith(absoluteRecordingsDir) ? absolutePath : null;
+}
+
+async function deleteRecordAssets(record) {
+  const targets = [
+    resolveAssetPath(record?.fileUrl),
+    resolveAssetPath(record?.thumbnailUrl),
+  ].filter(Boolean);
+
+  for (const targetPath of targets) {
+    try {
+      if (await fs.pathExists(targetPath)) {
+        await fs.remove(targetPath);
+      }
+    } catch (error) {
+      console.error(`Failed to remove record asset: ${targetPath}`, error);
+    }
+  }
+}
+
+async function runExpiredRecordCleanup() {
+  try {
+    const expiredRecords = await recordRepository.getExpiredRecords(RECORD_RETENTION_DAYS);
+    if (!expiredRecords.length) {
+      console.log('Record cleanup: no expired records found');
+      return;
+    }
+
+    const affectedRooms = new Set();
+    let deletedRows = 0;
+
+    for (const record of expiredRecords) {
+      const userId = record?.user_id || record?.userId;
+      const recordId = record?.id || record?.recordId;
+      if (!userId || !recordId) {
+        continue;
+      }
+
+      await deleteRecordAssets(record);
+
+      const roomId = extractRoomIdFromRecord(record);
+      if (roomId) {
+        affectedRooms.add(roomId);
+      }
+
+      const deleted = await recordRepository.deleteRecordByUserAndRecordId(userId, recordId);
+      if (deleted) {
+        deletedRows += 1;
+      }
+    }
+
+    const absoluteRecordingsDir = path.resolve(recordingsDir);
+    for (const roomId of affectedRooms) {
+      const remainingCount = await recordRepository.countRecordsByRoomId(roomId);
+      if (remainingCount > 0) {
+        continue;
+      }
+
+      const roomFolderPath = path.resolve(recordingsDir, 'rooms', roomId);
+      if (!roomFolderPath.startsWith(absoluteRecordingsDir)) {
+        continue;
+      }
+
+      if (await fs.pathExists(roomFolderPath)) {
+        await fs.remove(roomFolderPath);
+      }
+    }
+
+    console.log(`Record cleanup completed. Deleted rows: ${deletedRows}`);
+  } catch (error) {
+    console.error('Record cleanup failed:', error);
+  }
+}
+
+function startRecordCleanupCron() {
+  if (!cron.validate(RECORD_CLEANUP_CRON)) {
+    console.error(`Invalid cleanup cron expression: ${RECORD_CLEANUP_CRON}`);
+    return;
+  }
+
+  const options = RECORD_CLEANUP_TZ ? { timezone: RECORD_CLEANUP_TZ } : undefined;
+  recordCleanupTask = cron.schedule(RECORD_CLEANUP_CRON, () => {
+    runExpiredRecordCleanup();
+  }, options);
+
+  console.log(`Record cleanup cron started: ${RECORD_CLEANUP_CRON}`);
+}
+
+
+
+
+
+
+
+/**
+ * App implemtation started
+ */
 
 // CORS configuration
 app.use(cors({
@@ -61,6 +223,7 @@ const io = new Server(server, {
 // Room Managers Map
 const roomManagers = new Map();
 const recordingsDir = process.env.RECORDING_DIR || './ui-recordings';
+let recordCleanupTask = null;
 
 // Ensure base directories exist
 fs.ensureDirSync(recordingsDir);
@@ -642,6 +805,7 @@ checkFFmpeg().then(async (available) => {
   try {
     await recordRepository.initialize();
     console.log('Record repository initialized successfully');
+    startRecordCleanupCron();
   } catch (error) {
     console.error('Record repository initialization failed:', error);
   }
@@ -662,6 +826,9 @@ process.on('SIGINT', async () => {
     
     io.close();
     server.close();
+    if (recordCleanupTask) {
+      recordCleanupTask.stop();
+    }
     await recordRepository.close();
     
     
